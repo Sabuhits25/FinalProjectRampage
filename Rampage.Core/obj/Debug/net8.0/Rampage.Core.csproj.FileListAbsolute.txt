@@ -1,0 +1,11 @@
+C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage.Core\bin\Debug\net8.0\Rampage.Core.deps.json
+C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage.Core\bin\Debug\net8.0\Rampage.Core.dll
+C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage.Core\bin\Debug\net8.0\Rampage.Core.pdb
+C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage.Core\obj\Debug\net8.0\Rampage.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage.Core\obj\Debug\net8.0\Rampage.Core.AssemblyInfoInputs.cache
+C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage.Core\obj\Debug\net8.0\Rampage.Core.AssemblyInfo.cs
+C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage.Core\obj\Debug\net8.0\Rampage.Core.csproj.CoreCompileInputs.cache
+C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage.Core\obj\Debug\net8.0\Rampage.Core.dll
+C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage.Core\obj\Debug\net8.0\refint\Rampage.Core.dll
+C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage.Core\obj\Debug\net8.0\Rampage.Core.pdb
+C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage.Core\obj\Debug\net8.0\ref\Rampage.Core.dll
