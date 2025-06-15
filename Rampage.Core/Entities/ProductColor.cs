@@ -1,11 +1,15 @@
 ﻿using Rampage.Core.Entities.Commons;
+using Rampage.Core.Models;
 
 namespace Rampage.Core.Entities
 {
-    public class Color : BaseEntity, IAuditedEntity
+    public class ProductColor : BaseEntity, IAuditedEntity
     {
-        public ICollection<ProductColor>? Products { get; set; }
-        public ICollection<ColorTranslation>? Translations { get; set; }
+        public int ProductId { get; set; }
+        public Product Product { get; set; }
+        public int ColorId { get; set; }
+        public Color Color { get; set; }
+
         public string CreatedBy { get; set; }
         public DateTime CreatedOn { get; set; }
         public string UpdatedBy { get; set; }

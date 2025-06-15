@@ -2,10 +2,9 @@
 
 namespace Rampage.Core.Entities
 {
-    public class Color : BaseEntity, IAuditedEntity
+    public class Subscription : BaseEntity, IAuditedEntity
     {
-        public ICollection<ProductColor>? Products { get; set; }
-        public ICollection<ColorTranslation>? Translations { get; set; }
+        public string Email { get; set; }
         public string CreatedBy { get; set; }
         public DateTime CreatedOn { get; set; }
         public string UpdatedBy { get; set; }

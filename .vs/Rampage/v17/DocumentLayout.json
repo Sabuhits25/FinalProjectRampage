@@ -3,32 +3,92 @@
   "WorkspaceRootPath": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.core\\entities\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|solutionrelative:rampage.core\\entities\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.core\\enums\\elanguage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|solutionrelative:rampage.core\\enums\\elanguage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.core\\entities\\color.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|solutionrelative:rampage.core\\entities\\color.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CEA095DC-F9BF-4379-AA7C-98000607EBC7}|Rampage.DAL\\Rampage.DAL.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.dal\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEA095DC-F9BF-4379-AA7C-98000607EBC7}|Rampage.DAL\\Rampage.DAL.csproj|solutionrelative:rampage.dal\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.core\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|solutionrelative:rampage.core\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.core\\entities\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|solutionrelative:rampage.core\\entities\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.core\\entities\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|solutionrelative:rampage.core\\entities\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.core\\entities\\blogtranslation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|solutionrelative:rampage.core\\entities\\blogtranslation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.core\\entities\\commons\\iauditedentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|solutionrelative:rampage.core\\entities\\commons\\iauditedentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CEA095DC-F9BF-4379-AA7C-98000607EBC7}|Rampage.DAL\\Rampage.DAL.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.dal\\rampage.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CEA095DC-F9BF-4379-AA7C-98000607EBC7}|Rampage.DAL\\Rampage.DAL.csproj|solutionrelative:rampage.dal\\rampage.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.core\\entities\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|solutionrelative:rampage.core\\entities\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.core\\entities\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|solutionrelative:rampage.core\\entities\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.core\\entities\\productcolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|solutionrelative:rampage.core\\entities\\productcolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.core\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|solutionrelative:rampage.core\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.core\\entities\\producttranslation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|solutionrelative:rampage.core\\entities\\producttranslation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.core\\entities\\productsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|solutionrelative:rampage.core\\entities\\productsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.core\\entities\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|solutionrelative:rampage.core\\entities\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.core\\entities\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|solutionrelative:rampage.core\\entities\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.core\\entities\\color.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|solutionrelative:rampage.core\\entities\\color.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.core\\entities\\colortranslation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|solutionrelative:rampage.core\\entities\\colortranslation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.core\\entities\\categorytranslation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|solutionrelative:rampage.core\\entities\\categorytranslation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.core\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|solutionrelative:rampage.core\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.core\\entities\\basket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|solutionrelative:rampage.core\\entities\\basket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.core\\entities\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|solutionrelative:rampage.core\\entities\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.core\\entities\\identity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|solutionrelative:rampage.core\\entities\\identity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.core\\entities\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|solutionrelative:rampage.core\\entities\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.core\\entities\\commons\\iauditedentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|solutionrelative:rampage.core\\entities\\commons\\iauditedentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.core\\entities\\commons\\paginatedqueryable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,10 +97,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.core\\entities\\commons\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|solutionrelative:rampage.core\\entities\\commons\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.core\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E403C0D-282C-40FF-A7EE-C7734F9838B6}|Rampage.Core\\Rampage.Core.csproj|solutionrelative:rampage.core\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D78C7640-DB06-4D6C-9017-8AF8F6932BC0}|Rampage\\Rampage.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,7 +110,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,44 +142,188 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Setting.cs",
-              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\Setting.cs",
-              "RelativeDocumentMoniker": "Rampage.Core\\Entities\\Setting.cs",
-              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\Setting.cs",
-              "RelativeToolTip": "Rampage.Core\\Entities\\Setting.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "BlogTranslation.cs",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\BlogTranslation.cs",
+              "RelativeDocumentMoniker": "Rampage.Core\\Entities\\BlogTranslation.cs",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\BlogTranslation.cs",
+              "RelativeToolTip": "Rampage.Core\\Entities\\BlogTranslation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T10:11:23.327Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-13T11:28:53.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Blog.cs",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\Blog.cs",
+              "RelativeDocumentMoniker": "Rampage.Core\\Entities\\Blog.cs",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\Blog.cs",
+              "RelativeToolTip": "Rampage.Core\\Entities\\Blog.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAA/wBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T11:28:19.306Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Color.cs",
-              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\Color.cs",
-              "RelativeDocumentMoniker": "Rampage.Core\\Entities\\Color.cs",
-              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\Color.cs",
-              "RelativeToolTip": "Rampage.Core\\Entities\\Color.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Rampage.DAL\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "Rampage.DAL\\Context\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T10:10:57.323Z"
+              "WhenOpened": "2025-06-13T11:24:51.07Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "Rampage.DAL.csproj",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Rampage.DAL.csproj",
+              "RelativeDocumentMoniker": "Rampage.DAL\\Rampage.DAL.csproj",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Rampage.DAL.csproj",
+              "RelativeToolTip": "Rampage.DAL\\Rampage.DAL.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-13T11:24:14.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductTranslation.cs",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\ProductTranslation.cs",
+              "RelativeDocumentMoniker": "Rampage.Core\\Entities\\ProductTranslation.cs",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\ProductTranslation.cs",
+              "RelativeToolTip": "Rampage.Core\\Entities\\ProductTranslation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T11:22:18.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ELanguage.cs",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Enums\\ELanguage.cs",
+              "RelativeDocumentMoniker": "Rampage.Core\\Enums\\ELanguage.cs",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Enums\\ELanguage.cs",
+              "RelativeToolTip": "Rampage.Core\\Enums\\ELanguage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T10:54:12.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductSetting.cs",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\ProductSetting.cs",
+              "RelativeDocumentMoniker": "Rampage.Core\\Entities\\ProductSetting.cs",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\ProductSetting.cs",
+              "RelativeToolTip": "Rampage.Core\\Entities\\ProductSetting.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T11:21:43.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Comment.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\Comment.cs",
               "RelativeDocumentMoniker": "Rampage.Core\\Entities\\Comment.cs",
               "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\Comment.cs",
               "RelativeToolTip": "Rampage.Core\\Entities\\Comment.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA1wAsAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-13T10:09:23.417Z"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "Rampage.Core\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\Product.cs",
+              "RelativeToolTip": "Rampage.Core\\Entities\\Product.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAswBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T09:40:50.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductColor.cs",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\ProductColor.cs",
+              "RelativeDocumentMoniker": "Rampage.Core\\Entities\\ProductColor.cs",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\ProductColor.cs",
+              "RelativeToolTip": "Rampage.Core\\Entities\\ProductColor.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAABEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T10:52:38.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Subscription.cs",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\Subscription.cs",
+              "RelativeDocumentMoniker": "Rampage.Core\\Entities\\Subscription.cs",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\Subscription.cs",
+              "RelativeToolTip": "Rampage.Core\\Entities\\Subscription.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T10:50:20.725Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\Transaction.cs",
+              "RelativeDocumentMoniker": "Rampage.Core\\Entities\\Transaction.cs",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\Transaction.cs",
+              "RelativeToolTip": "Rampage.Core\\Entities\\Transaction.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAuwA0AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T10:50:50.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Color.cs",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\Color.cs",
+              "RelativeDocumentMoniker": "Rampage.Core\\Entities\\Color.cs",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\Color.cs",
+              "RelativeToolTip": "Rampage.Core\\Entities\\Color.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAcAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T10:10:57.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ColorTranslation.cs",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\ColorTranslation.cs",
+              "RelativeDocumentMoniker": "Rampage.Core\\Entities\\ColorTranslation.cs",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\ColorTranslation.cs",
+              "RelativeToolTip": "Rampage.Core\\Entities\\ColorTranslation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T11:19:12.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CategoryTranslation.cs",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\CategoryTranslation.cs",
+              "RelativeDocumentMoniker": "Rampage.Core\\Entities\\CategoryTranslation.cs",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\CategoryTranslation.cs",
+              "RelativeToolTip": "Rampage.Core\\Entities\\CategoryTranslation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T10:56:58.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Contact.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\Contact.cs",
               "RelativeDocumentMoniker": "Rampage.Core\\Entities\\Contact.cs",
@@ -135,55 +335,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\Identity\\User.cs",
-              "RelativeDocumentMoniker": "Rampage.Core\\Entities\\Identity\\User.cs",
-              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\Identity\\User.cs",
-              "RelativeToolTip": "Rampage.Core\\Entities\\Identity\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAYAAAA",
+              "DocumentIndex": 17,
+              "Title": "Basket.cs",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\Basket.cs",
+              "RelativeDocumentMoniker": "Rampage.Core\\Entities\\Basket.cs",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\Basket.cs",
+              "RelativeToolTip": "Rampage.Core\\Entities\\Basket.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T09:48:40.742Z"
+              "WhenOpened": "2025-06-13T10:51:44.367Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PaginatedQueryable.cs",
-              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\Commons\\PaginatedQueryable.cs",
-              "RelativeDocumentMoniker": "Rampage.Core\\Entities\\Commons\\PaginatedQueryable.cs",
-              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\Commons\\PaginatedQueryable.cs",
-              "RelativeToolTip": "Rampage.Core\\Entities\\Commons\\PaginatedQueryable.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "DocumentIndex": 18,
+              "Title": "ProductImage.cs",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\ProductImage.cs",
+              "RelativeDocumentMoniker": "Rampage.Core\\Entities\\ProductImage.cs",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\ProductImage.cs",
+              "RelativeToolTip": "Rampage.Core\\Entities\\ProductImage.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAABAAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T09:48:19.86Z"
+              "WhenOpened": "2025-06-13T10:52:16.093Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IAuditedEntity.cs",
-              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\Commons\\IAuditedEntity.cs",
-              "RelativeDocumentMoniker": "Rampage.Core\\Entities\\Commons\\IAuditedEntity.cs",
-              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\Commons\\IAuditedEntity.cs",
-              "RelativeToolTip": "Rampage.Core\\Entities\\Commons\\IAuditedEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T09:47:41.221Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BaseEntity.cs",
-              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\Commons\\BaseEntity.cs",
-              "RelativeDocumentMoniker": "Rampage.Core\\Entities\\Commons\\BaseEntity.cs",
-              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\Commons\\BaseEntity.cs",
-              "RelativeToolTip": "Rampage.Core\\Entities\\Commons\\BaseEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T09:46:54.122Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 16,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\Category.cs",
               "RelativeDocumentMoniker": "Rampage.Core\\Entities\\Category.cs",
@@ -195,19 +371,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "Rampage.Core\\Entities\\Product.cs",
-              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\Product.cs",
-              "RelativeToolTip": "Rampage.Core\\Entities\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "DocumentIndex": 20,
+              "Title": "Setting.cs",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\Setting.cs",
+              "RelativeDocumentMoniker": "Rampage.Core\\Entities\\Setting.cs",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\Setting.cs",
+              "RelativeToolTip": "Rampage.Core\\Entities\\Setting.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwBkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T09:40:50.266Z"
+              "WhenOpened": "2025-06-13T10:11:23.327Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 19,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\Identity\\User.cs",
+              "RelativeDocumentMoniker": "Rampage.Core\\Entities\\Identity\\User.cs",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\Identity\\User.cs",
+              "RelativeToolTip": "Rampage.Core\\Entities\\Identity\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T09:48:40.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PaginatedQueryable.cs",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\Commons\\PaginatedQueryable.cs",
+              "RelativeDocumentMoniker": "Rampage.Core\\Entities\\Commons\\PaginatedQueryable.cs",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\Commons\\PaginatedQueryable.cs",
+              "RelativeToolTip": "Rampage.Core\\Entities\\Commons\\PaginatedQueryable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T09:48:19.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IAuditedEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\Commons\\IAuditedEntity.cs",
+              "RelativeDocumentMoniker": "Rampage.Core\\Entities\\Commons\\IAuditedEntity.cs",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\Commons\\IAuditedEntity.cs",
+              "RelativeToolTip": "Rampage.Core\\Entities\\Commons\\IAuditedEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T09:47:41.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\Commons\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Rampage.Core\\Entities\\Commons\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\Commons\\BaseEntity.cs",
+              "RelativeToolTip": "Rampage.Core\\Entities\\Commons\\BaseEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T09:46:54.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Rampage\\Controllers\\HomeController.cs",

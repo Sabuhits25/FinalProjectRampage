@@ -1,16 +1,15 @@
 ﻿using Rampage.Core.Entities.Commons;
 using Rampage.Core.Enums;
+using Rampage.Core.Models;
 
 namespace Rampage.Core.Entities
 {
-    public class Comment : BaseEntity, IAuditedEntity
+    public class CategoryTranslation : BaseEntity, IAuditedEntity
     {
-        public float Star { get; set; }
         public string Name { get; set; }
-        public string Author { get; set; }
-        public string Message { get; set; }
         public ELanguage Language { get; set; }
-        public string ImageUrl { get; set; }
+        public int CategoryId { get; set; }
+        public Category Category { get; set; }
 
         public string CreatedBy { get; set; }
         public DateTime CreatedOn { get; set; }

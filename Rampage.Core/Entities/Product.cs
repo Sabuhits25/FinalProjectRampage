@@ -1,4 +1,6 @@
-﻿namespace Rampage.Core.Models
+﻿using Rampage.Core.Entities;
+
+namespace Rampage.Core.Models
 {
     public class Product
     {
@@ -8,5 +10,11 @@
         public decimal Price { get; set; }
         public int CategoryId { get; set; }
         public Category Category { get; set; }
+
+        public ICollection<ProductColor>? Colors { get; set; }
+        public ICollection<Comment>? Comments { get; set; }
+        public ICollection<ProductImage>? Images { get; set; }
+        public ICollection<ProductSetting>? Settings { get; set; }
+        public ICollection<ProductTranslation>? Translations { get; set; }
     }
 }

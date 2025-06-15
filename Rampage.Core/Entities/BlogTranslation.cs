@@ -3,14 +3,13 @@ using Rampage.Core.Enums;
 
 namespace Rampage.Core.Entities
 {
-    public class Comment : BaseEntity, IAuditedEntity
+    public class BlogTranslation : BaseEntity, IAuditedEntity
     {
-        public float Star { get; set; }
-        public string Name { get; set; }
-        public string Author { get; set; }
-        public string Message { get; set; }
+        public string Title { get; set; }
+        public string Description { get; set; }
         public ELanguage Language { get; set; }
-        public string ImageUrl { get; set; }
+        public int BlogId { get; set; }
+        public Blog Blog { get; set; }
 
         public string CreatedBy { get; set; }
         public DateTime CreatedOn { get; set; }
