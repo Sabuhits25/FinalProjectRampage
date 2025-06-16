@@ -11,5 +11,7 @@ namespace Rampage.Core.Entities.Identity
         public int? ConfirmationNumber { get; set; }
         public bool IsDeleted { get; set; }
 
+        public ICollection<Basket> Baskets { get; set; }
+        public ICollection<Transaction>? Transactions { get; set; }
     }
 }

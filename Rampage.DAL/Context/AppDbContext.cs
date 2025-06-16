@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Rampage.Core.Entities;
+using Rampage.Core.Entities.Commons;
 using Rampage.Core.Entities.Identity;
 using Rampage.Core.Models;
 using System.Reflection;
@@ -10,6 +11,13 @@ namespace Rampage.DAL.Context
 {
     public class AppDbContext : IdentityDbContext<User>
     {
+
+        private readonly IClaimService _claimService;
+
+        public AppDbContext(DbContextOptions<AppDbContext> options, IClaimService claimService) : base(options)
+        {
+            _claimService = claimService;
+        }
 
         public DbSet<Basket> Baskets { get; set; }
         public DbSet<Blog> Blogs { get; set; }
@@ -35,5 +43,36 @@ namespace Rampage.DAL.Context
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
             base.OnModelCreating(modelBuilder);
         }
+
+        public new async Task<int> SaveChangesAsync(CancellationToken cancellationToken = new())
+        {
+            foreach (var entry in ChangeTracker.Entries<IAuditedEntity>())
+            {
+                switch (entry.State)
+                {
+                    case EntityState.Added:
+                        entry.Entity.CreatedBy = _claimService.GetUserId() ?? "Unkown User";
+                        entry.Entity.CreatedOn = DateTime.UtcNow;
+
+                        entry.Entity.UpdatedBy = _claimService.GetUserId() ?? "Unkown User";
+                        entry.Entity.UpdatedOn = DateTime.UtcNow;
+                        break;
+                    case EntityState.Modified:
+
+                        if (entry.Entity.CreatedBy is null)
+                        {
+                            entry.Entity.CreatedBy = _claimService.GetUserId() ?? "Unkown User";
+                            entry.Entity.CreatedOn = DateTime.UtcNow;
+                        }
+
+                        entry.Entity.UpdatedBy = _claimService.GetUserId() ?? "Unkown User";
+                        entry.Entity.UpdatedOn = DateTime.UtcNow;
+                        break;
+                }
+            }
+
+            return await base.SaveChangesAsync(cancellationToken);
+        }
     }
+}
 }
