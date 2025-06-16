@@ -1,8 +1,9 @@
 ﻿using Rampage.Core.Entities;
+using Rampage.Core.Entities.Commons;
 
 namespace Rampage.Core.Models
 {
-    public class Product
+    public class Product : BaseEntity, IAuditedEntity
     {
         public string Code { get; set; }
         public string BarCode { get; set; }
@@ -16,5 +17,12 @@ namespace Rampage.Core.Models
         public ICollection<ProductImage>? Images { get; set; }
         public ICollection<ProductSetting>? Settings { get; set; }
         public ICollection<ProductTranslation>? Translations { get; set; }
+
+        public string CreatedBy { get; set; }
+        public DateTime CreatedOn { get; set; }
+        public string UpdatedBy { get; set; }
+        public DateTime UpdatedOn { get; set; }
+        public bool IsDeleted { get; set; }
     }
+
 }

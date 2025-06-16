@@ -9,3 +9,5 @@ C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage.Core\obj\Debug\net8.0\Ram
 C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage.Core\obj\Debug\net8.0\refint\Rampage.Core.dll
 C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage.Core\obj\Debug\net8.0\Rampage.Core.pdb
 C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage.Core\obj\Debug\net8.0\ref\Rampage.Core.dll
+C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage.Core\obj\Debug\net8.0\Rampage.Core.csproj.AssemblyReference.cache
+C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage.Core\obj\Debug\net8.0\Rampage.Core.sourcelink.json

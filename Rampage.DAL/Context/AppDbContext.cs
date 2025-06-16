@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Rampage.BLL.Services.Interfaces;
 using Rampage.Core.Entities;
 using Rampage.Core.Entities.Commons;
 using Rampage.Core.Entities.Identity;
@@ -17,6 +18,10 @@ namespace Rampage.DAL.Context
         public AppDbContext(DbContextOptions<AppDbContext> options, IClaimService claimService) : base(options)
         {
             _claimService = claimService;
+        }
+
+        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
+        {
         }
 
         public DbSet<Basket> Baskets { get; set; }
@@ -75,4 +80,4 @@ namespace Rampage.DAL.Context
         }
     }
 }
-}
+

@@ -1,0 +1,16 @@
+C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage.BLL\obj\Debug\net8.0\Rampage.BLL.csproj.AssemblyReference.cache
+C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage.BLL\obj\Debug\net8.0\Rampage.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage.BLL\obj\Debug\net8.0\Rampage.BLL.AssemblyInfoInputs.cache
+C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage.BLL\obj\Debug\net8.0\Rampage.BLL.AssemblyInfo.cs
+C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage.BLL\obj\Debug\net8.0\Rampage.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage.BLL\obj\Debug\net8.0\Rampage.BLL.sourcelink.json
+C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage.BLL\bin\Debug\net8.0\Rampage.BLL.deps.json
+C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage.BLL\bin\Debug\net8.0\Rampage.BLL.dll
+C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage.BLL\bin\Debug\net8.0\Rampage.BLL.pdb
+C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage.BLL\bin\Debug\net8.0\Rampage.Core.dll
+C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage.BLL\bin\Debug\net8.0\Rampage.Core.pdb
+C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage.BLL\obj\Debug\net8.0\Rampage..6D7DF2B1.Up2Date
+C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage.BLL\obj\Debug\net8.0\Rampage.BLL.dll
+C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage.BLL\obj\Debug\net8.0\refint\Rampage.BLL.dll
+C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage.BLL\obj\Debug\net8.0\Rampage.BLL.pdb
+C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage.BLL\obj\Debug\net8.0\ref\Rampage.BLL.dll

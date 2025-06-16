@@ -8,10 +8,18 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.17" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.17" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.7" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Rampage.BLL\Rampage.BLL.csproj" />
     <ProjectReference Include="..\Rampage.Core\Rampage.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Repositories\Implementation\" />
+    <Folder Include="Repositories\Interfaces\" />
   </ItemGroup>
 
 </Project>
