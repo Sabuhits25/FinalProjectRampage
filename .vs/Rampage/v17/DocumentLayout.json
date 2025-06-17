@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CEA095DC-F9BF-4379-AA7C-98000607EBC7}|Rampage.DAL\\Rampage.DAL.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.dal\\repositories\\interfaces\\itransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEA095DC-F9BF-4379-AA7C-98000607EBC7}|Rampage.DAL\\Rampage.DAL.csproj|solutionrelative:rampage.dal\\repositories\\interfaces\\itransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CEA095DC-F9BF-4379-AA7C-98000607EBC7}|Rampage.DAL\\Rampage.DAL.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.dal\\repositories\\interfaces\\isettingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CEA095DC-F9BF-4379-AA7C-98000607EBC7}|Rampage.DAL\\Rampage.DAL.csproj|solutionrelative:rampage.dal\\repositories\\interfaces\\isettingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -159,6 +163,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ITransactionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Interfaces\\ITransactionRepository.cs",
+              "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Interfaces\\ITransactionRepository.cs",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Interfaces\\ITransactionRepository.cs",
+              "RelativeToolTip": "Rampage.DAL\\Repositories\\Interfaces\\ITransactionRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T19:38:49.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ISettingRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Interfaces\\ISettingRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Interfaces\\ISettingRepository.cs",
@@ -171,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "BlogTranslationRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Implementation\\BlogTranslationRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Implementation\\BlogTranslationRepository.cs",
@@ -179,12 +196,11 @@
               "RelativeToolTip": "Rampage.DAL\\Repositories\\Implementation\\BlogTranslationRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T14:18:40.293Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T14:18:40.293Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "BlogRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Implementation\\BlogRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Implementation\\BlogRepository.cs",
@@ -196,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "IBlogTranslationRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Interfaces\\IBlogTranslationRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Interfaces\\IBlogTranslationRepository.cs",
@@ -208,7 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "IBlogRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Interfaces\\IBlogRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Interfaces\\IBlogRepository.cs",
@@ -220,7 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "CommentRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Implementation\\CommentRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Implementation\\CommentRepository.cs",
@@ -232,7 +248,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ContactRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Implementation\\ContactRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Implementation\\ContactRepository.cs",
@@ -244,7 +260,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "IContactRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Interfaces\\IContactRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Interfaces\\IContactRepository.cs",
@@ -256,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ICommentRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Interfaces\\ICommentRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Interfaces\\ICommentRepository.cs",
@@ -268,7 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "ColorRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Implementation\\ColorRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Implementation\\ColorRepository.cs",
@@ -280,7 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "IPrdocutTranslationRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Interfaces\\IPrdocutTranslationRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Interfaces\\IPrdocutTranslationRepository.cs",
@@ -292,7 +308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ColorTranslationRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Implementation\\ColorTranslationRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Implementation\\ColorTranslationRepository.cs",
@@ -304,7 +320,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "IColorTranslationRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Interfaces\\IColorTranslationRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Interfaces\\IColorTranslationRepository.cs",
@@ -316,7 +332,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "IColorRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Interfaces\\IColorRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Interfaces\\IColorRepository.cs",
@@ -328,7 +344,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "CategoryTranslationRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Implementation\\CategoryTranslationRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Implementation\\CategoryTranslationRepository.cs",
@@ -340,7 +356,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "CategoryRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Implementation\\CategoryRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Implementation\\CategoryRepository.cs",
@@ -352,7 +368,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "ICategoryTranslationRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Interfaces\\ICategoryTranslationRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Interfaces\\ICategoryTranslationRepository.cs",
@@ -364,7 +380,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "ICategoryRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Interfaces\\ICategoryRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Interfaces\\ICategoryRepository.cs",
@@ -376,7 +392,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "ProductColorRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Implementation\\ProductColorRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Implementation\\ProductColorRepository.cs",
@@ -388,7 +404,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "IProductColorRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Interfaces\\IProductColorRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Interfaces\\IProductColorRepository.cs",
@@ -400,7 +416,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "ProductImageRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Implementation\\ProductImageRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Implementation\\ProductImageRepository.cs",
@@ -412,7 +428,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "IProductImageRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Interfaces\\IProductImageRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Interfaces\\IProductImageRepository.cs",
@@ -424,7 +440,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "ProductTranslationRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Implementation\\ProductTranslationRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Implementation\\ProductTranslationRepository.cs",
@@ -436,7 +452,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "ProductSettingRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Implementation\\ProductSettingRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Implementation\\ProductSettingRepository.cs",
@@ -448,7 +464,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Implementation\\ProductRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Implementation\\ProductRepository.cs",
@@ -460,7 +476,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "Repository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Implementation\\Repository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Implementation\\Repository.cs",
@@ -472,7 +488,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "IProductSettingRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Interfaces\\IProductSettingRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Interfaces\\IProductSettingRepository.cs",
@@ -484,7 +500,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "IProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Interfaces\\IProductRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Interfaces\\IProductRepository.cs",
@@ -496,7 +512,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Interfaces\\IRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Interfaces\\IRepository.cs",
