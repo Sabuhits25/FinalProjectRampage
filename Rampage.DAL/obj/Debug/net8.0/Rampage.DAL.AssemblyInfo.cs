@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Rampage.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+11007cf93ede2afe78cc81e96a222c007632e03a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+465fabaedbdfda7181d5f0d534770762c7da02aa")]
 [assembly: System.Reflection.AssemblyProductAttribute("Rampage.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Rampage.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
