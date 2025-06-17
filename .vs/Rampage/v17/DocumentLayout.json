@@ -3,6 +3,46 @@
   "WorkspaceRootPath": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CEA095DC-F9BF-4379-AA7C-98000607EBC7}|Rampage.DAL\\Rampage.DAL.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.dal\\repositories\\implementation\\colortranslationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEA095DC-F9BF-4379-AA7C-98000607EBC7}|Rampage.DAL\\Rampage.DAL.csproj|solutionrelative:rampage.dal\\repositories\\implementation\\colortranslationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA095DC-F9BF-4379-AA7C-98000607EBC7}|Rampage.DAL\\Rampage.DAL.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.dal\\repositories\\implementation\\colorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEA095DC-F9BF-4379-AA7C-98000607EBC7}|Rampage.DAL\\Rampage.DAL.csproj|solutionrelative:rampage.dal\\repositories\\implementation\\colorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA095DC-F9BF-4379-AA7C-98000607EBC7}|Rampage.DAL\\Rampage.DAL.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.dal\\repositories\\interfaces\\icolortranslationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEA095DC-F9BF-4379-AA7C-98000607EBC7}|Rampage.DAL\\Rampage.DAL.csproj|solutionrelative:rampage.dal\\repositories\\interfaces\\icolortranslationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA095DC-F9BF-4379-AA7C-98000607EBC7}|Rampage.DAL\\Rampage.DAL.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.dal\\repositories\\interfaces\\icolorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEA095DC-F9BF-4379-AA7C-98000607EBC7}|Rampage.DAL\\Rampage.DAL.csproj|solutionrelative:rampage.dal\\repositories\\interfaces\\icolorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA095DC-F9BF-4379-AA7C-98000607EBC7}|Rampage.DAL\\Rampage.DAL.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.dal\\repositories\\implementation\\categorytranslationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEA095DC-F9BF-4379-AA7C-98000607EBC7}|Rampage.DAL\\Rampage.DAL.csproj|solutionrelative:rampage.dal\\repositories\\implementation\\categorytranslationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA095DC-F9BF-4379-AA7C-98000607EBC7}|Rampage.DAL\\Rampage.DAL.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.dal\\repositories\\implementation\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEA095DC-F9BF-4379-AA7C-98000607EBC7}|Rampage.DAL\\Rampage.DAL.csproj|solutionrelative:rampage.dal\\repositories\\implementation\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA095DC-F9BF-4379-AA7C-98000607EBC7}|Rampage.DAL\\Rampage.DAL.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.dal\\repositories\\interfaces\\icategorytranslationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEA095DC-F9BF-4379-AA7C-98000607EBC7}|Rampage.DAL\\Rampage.DAL.csproj|solutionrelative:rampage.dal\\repositories\\interfaces\\icategorytranslationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA095DC-F9BF-4379-AA7C-98000607EBC7}|Rampage.DAL\\Rampage.DAL.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.dal\\repositories\\interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEA095DC-F9BF-4379-AA7C-98000607EBC7}|Rampage.DAL\\Rampage.DAL.csproj|solutionrelative:rampage.dal\\repositories\\interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA095DC-F9BF-4379-AA7C-98000607EBC7}|Rampage.DAL\\Rampage.DAL.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.dal\\repositories\\implementation\\productcolorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEA095DC-F9BF-4379-AA7C-98000607EBC7}|Rampage.DAL\\Rampage.DAL.csproj|solutionrelative:rampage.dal\\repositories\\implementation\\productcolorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA095DC-F9BF-4379-AA7C-98000607EBC7}|Rampage.DAL\\Rampage.DAL.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.dal\\repositories\\interfaces\\iproductcolorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEA095DC-F9BF-4379-AA7C-98000607EBC7}|Rampage.DAL\\Rampage.DAL.csproj|solutionrelative:rampage.dal\\repositories\\interfaces\\iproductcolorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CEA095DC-F9BF-4379-AA7C-98000607EBC7}|Rampage.DAL\\Rampage.DAL.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.dal\\repositories\\implementation\\productimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CEA095DC-F9BF-4379-AA7C-98000607EBC7}|Rampage.DAL\\Rampage.DAL.csproj|solutionrelative:rampage.dal\\repositories\\implementation\\productimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -83,6 +123,136 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ColorTranslationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Implementation\\ColorTranslationRepository.cs",
+              "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Implementation\\ColorTranslationRepository.cs",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Implementation\\ColorTranslationRepository.cs",
+              "RelativeToolTip": "Rampage.DAL\\Repositories\\Implementation\\ColorTranslationRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T11:12:02.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ColorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Implementation\\ColorRepository.cs",
+              "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Implementation\\ColorRepository.cs",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Implementation\\ColorRepository.cs",
+              "RelativeToolTip": "Rampage.DAL\\Repositories\\Implementation\\ColorRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T11:11:24.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IColorTranslationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Interfaces\\IColorTranslationRepository.cs",
+              "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Interfaces\\IColorTranslationRepository.cs",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Interfaces\\IColorTranslationRepository.cs",
+              "RelativeToolTip": "Rampage.DAL\\Repositories\\Interfaces\\IColorTranslationRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T11:11:06.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IColorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Interfaces\\IColorRepository.cs",
+              "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Interfaces\\IColorRepository.cs",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Interfaces\\IColorRepository.cs",
+              "RelativeToolTip": "Rampage.DAL\\Repositories\\Interfaces\\IColorRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T11:10:24.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoryTranslationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Implementation\\CategoryTranslationRepository.cs",
+              "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Implementation\\CategoryTranslationRepository.cs",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Implementation\\CategoryTranslationRepository.cs",
+              "RelativeToolTip": "Rampage.DAL\\Repositories\\Implementation\\CategoryTranslationRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T11:09:24.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Implementation\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Implementation\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Implementation\\CategoryRepository.cs",
+              "RelativeToolTip": "Rampage.DAL\\Repositories\\Implementation\\CategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T11:08:56.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ICategoryTranslationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Interfaces\\ICategoryTranslationRepository.cs",
+              "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Interfaces\\ICategoryTranslationRepository.cs",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Interfaces\\ICategoryTranslationRepository.cs",
+              "RelativeToolTip": "Rampage.DAL\\Repositories\\Interfaces\\ICategoryTranslationRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T10:54:59.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Interfaces\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Interfaces\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Interfaces\\ICategoryRepository.cs",
+              "RelativeToolTip": "Rampage.DAL\\Repositories\\Interfaces\\ICategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T10:53:25.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductColorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Implementation\\ProductColorRepository.cs",
+              "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Implementation\\ProductColorRepository.cs",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Implementation\\ProductColorRepository.cs",
+              "RelativeToolTip": "Rampage.DAL\\Repositories\\Implementation\\ProductColorRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T10:50:54.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IProductColorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Interfaces\\IProductColorRepository.cs",
+              "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Interfaces\\IProductColorRepository.cs",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Interfaces\\IProductColorRepository.cs",
+              "RelativeToolTip": "Rampage.DAL\\Repositories\\Interfaces\\IProductColorRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T10:49:55.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "ProductImageRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Implementation\\ProductImageRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Implementation\\ProductImageRepository.cs",
@@ -95,7 +265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "IProductImageRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Interfaces\\IProductImageRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Interfaces\\IProductImageRepository.cs",
@@ -103,12 +273,11 @@
               "RelativeToolTip": "Rampage.DAL\\Repositories\\Interfaces\\IProductImageRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T10:36:41.529Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T10:36:41.529Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "ProductTranslationRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Implementation\\ProductTranslationRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Implementation\\ProductTranslationRepository.cs",
@@ -116,12 +285,11 @@
               "RelativeToolTip": "Rampage.DAL\\Repositories\\Implementation\\ProductTranslationRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T10:31:17.989Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T10:31:17.989Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "ProductSettingRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Implementation\\ProductSettingRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Implementation\\ProductSettingRepository.cs",
@@ -129,12 +297,11 @@
               "RelativeToolTip": "Rampage.DAL\\Repositories\\Implementation\\ProductSettingRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T10:30:31.389Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T10:30:31.389Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Implementation\\ProductRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Implementation\\ProductRepository.cs",
@@ -142,12 +309,11 @@
               "RelativeToolTip": "Rampage.DAL\\Repositories\\Implementation\\ProductRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T10:29:25.239Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T10:29:25.239Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
               "Title": "Repository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Implementation\\Repository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Implementation\\Repository.cs",
@@ -155,12 +321,11 @@
               "RelativeToolTip": "Rampage.DAL\\Repositories\\Implementation\\Repository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T10:28:28.087Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T10:28:28.087Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 16,
               "Title": "IPrdocutTranslationRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Interfaces\\IPrdocutTranslationRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Interfaces\\IPrdocutTranslationRepository.cs",
@@ -168,12 +333,11 @@
               "RelativeToolTip": "Rampage.DAL\\Repositories\\Interfaces\\IPrdocutTranslationRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T10:16:36.692Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T10:16:36.692Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 17,
               "Title": "IProductSettingRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Interfaces\\IProductSettingRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Interfaces\\IProductSettingRepository.cs",
@@ -185,7 +349,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 18,
               "Title": "IProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Interfaces\\IProductRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Interfaces\\IProductRepository.cs",
@@ -197,7 +361,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 19,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Interfaces\\IRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Interfaces\\IRepository.cs",
