@@ -17,8 +17,4 @@
     <ProjectReference Include="..\Rampage.Core\Rampage.Core.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Repositories\Implementation\" />
-  </ItemGroup>
-
 </Project>
