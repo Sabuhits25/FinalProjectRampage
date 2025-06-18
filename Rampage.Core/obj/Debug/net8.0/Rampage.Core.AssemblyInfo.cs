@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Rampage.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9a7ce704b3564e0152689e26ea5de1d48a710b19")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+58687b7a01e818bc399d7a20eedea581028463cc")]
 [assembly: System.Reflection.AssemblyProductAttribute("Rampage.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Rampage.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
