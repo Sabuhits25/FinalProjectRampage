@@ -1,5 +1,6 @@
 ﻿using Rampage.Core.Entities.Commons;
 using Rampage.Core.Entities.Identity;
+using Rampage.Core.Enums;
 
 namespace Rampage.Core.Entities
 {
@@ -11,6 +12,7 @@ namespace Rampage.Core.Entities
         public decimal Amount { get; set; }
         public string SessionId { get; set; }
         public string CheckToken { get; set; }
+        public EOrderStatus Status { get; set; }
         public string ResponseBody { get; set; }
 
         public string? FullName { get; set; }

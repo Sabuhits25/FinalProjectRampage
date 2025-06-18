@@ -1,4 +1,5 @@
-﻿using Rampage.Core.Entities.Commons;
+﻿using Rampage.Core.Entities;
+using Rampage.Core.Entities.Commons;
 
 namespace Rampage.Core.Models
 {
@@ -8,6 +9,7 @@ namespace Rampage.Core.Models
         public Category? ParentCategory { get; set; }
         public string ImageUrl { get; set; }
         public ICollection<Product> Products { get; set; }
+        public ICollection<CategoryTranslation>? Translations { get; set; }
 
         public string CreatedBy { get; set; }
         public DateTime CreatedOn { get; set; }
