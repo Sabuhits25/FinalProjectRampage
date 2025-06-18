@@ -4,9 +4,9 @@ using Rampage.DAL.Repositories.Interfaces;
 
 namespace Rampage.DAL.Repositories.Implementation
 {
-    public class SubscriptionRepository : Repository<Subscription>, ISubscriptionRepository
+    public class BasketRepository : Repository<Basket>, IBasketRepository
     {
-        public SubscriptionRepository(AppDbContext context) : base(context)
+        public BasketRepository(AppDbContext context) : base(context)
         {
         }
     }
