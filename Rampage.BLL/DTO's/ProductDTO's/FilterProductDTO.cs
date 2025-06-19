@@ -1,4 +1,5 @@
 ﻿using Rampage.BLL.DTO_s.CategoryDTO_s;
+using Rampage.BLL.DTO_s.ColorDTO_s;
 using Rampage.Core.Models;
 
 namespace Rampage.BLL.DTO_s.ProductDTO_s
@@ -7,6 +8,7 @@ namespace Rampage.BLL.DTO_s.ProductDTO_s
     {
         public ICollection<Product> Products { get; set; }
         public ICollection<CategoryDTO> Categories { get; set; }
+        public ICollection<ColorDTO> Colors { get; set; }
         public string CategoryName { get; set; }
         public string CategoryImageUrl { get; set; }
 
