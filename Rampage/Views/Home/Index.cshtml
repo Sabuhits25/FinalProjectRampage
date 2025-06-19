@@ -1,8 +1,601 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@using Rampage.Core.Entities
+@{
+    string lang = "az";
+    var url = Context.Request.Path.Value.ToString();
+    if (url.Contains("/en"))
+    {
+        lang = "en";
+    }
+}
+<head>
+    <link rel="stylesheet" href="~/assets/css/style.css">
+    <style>
+        .category-cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .category-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+</head>
+
+@if (lang == "az")
+{
+    <section>
+        <div class="swiper mySwiper2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img class="slider-image-index" src="~/assets/image/download.jpg" alt="">
+                    <div class="slider-text">
+                        <span>BLINK</span>
+                        <h3>BLINK TEZLİKLƏ ANBARDADIR!</h3>
+                        <p>
+                            Rampage BLINK mouse 4 fərqli rəng seçimi və tərzinizə uyğun əlavə çıxarıla bilən
+                            ovuc içi dəstəyi ilə birlikdə təqdim olunur.
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img class="slider-image-index" src="~/assets/image/sliderphoto.jpg" alt="">
+                    <div class="slider-text">
+                        <span>FORCE V995</span>
+                        <h3>GERÇƏK SÜRÜŞ TƏCRÜBƏSİ</h3>
+                        <p>
+                            Rampage FORCE V995, müxtəlif yarış oyunları üçün nəzərdə tutulmuş dinamik sükan
+                            dəstidir. Mükəmməl sürüş təcrübəsi üçün dizayn edilmiş FORCE V995
+                            gerçək avtomobil hissi ilə sürətləndirməyə, əyləc etməyə və sürət dəyişməyə imkan verir.
+                            PS4/PC/XBOX ONE/Xbox Series S/X üçün uyğundur.
+                        </p>
+                        <div class="slider-btn">
+                            <a href="#">Alış-verişə Başla</a>
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img class="slider-image-index" src="~/assets/image/download.png" alt="">
+                    <div class="slider-text">
+                        <span>CRACK H11</span>
+                        <h3>OYUNLARDA AZADLIĞIN DADINI ÇIXAR</h3>
+                        <p>
+                            Oyunlarda performansınızı artırmaq üçün naqilsiz və ultra yüngül dizayn edilib.
+                        </p>
+                        <div class="slider-btn">
+                            <a href="#">Axtar</a>
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+}
+else
+{
+    <section>
+        <div class="swiper mySwiper2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img class="slider-image-index" src="~/assets/image/download.jpg" alt="">
+                    <div class="slider-text">
+                        <span>BLINK</span>
+                        <h3>BLINK COMING SOON IN STOCK!</h3>
+                        <p>
+                            Rampage BLINK mouse offers 4 different color options and an extra detachable
+                            palm support to match your style, included in the package.
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img class="slider-image-index" src="~/assets/image/sliderphoto.jpg" alt="">
+                    <div class="slider-text">
+                        <span>FORCE V995</span>
+                        <h3>REAL DRIVING EXPERIENCE</h3>
+                        <p>
+                            Rampage FORCE V995 is a dynamic steering wheel designed for all types of racing games.
+                            Designed for a flawless driving experience, FORCE V995
+                            provides a real car feel, allowing you to accelerate, brake, and shift gears.
+                            Compatible with PS4/PC/XBOX ONE/Xbox Series S/X.
+                        </p>
+                        <div class="slider-btn">
+                            <a href="#">Start Shopping</a>
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img class="slider-image-index" src="~/assets/image/download.png" alt="">
+                    <div class="slider-text">
+                        <span>CRACK H11</span>
+                        <h3>ENJOY FREEDOM IN GAMES</h3>
+                        <p>
+                            Designed to take your gaming performance to the next level with a wireless and ultra-lightweight design.
+                        </p>
+                        <div class="slider-btn">
+                            <a href="#">Discover</a>
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+@if (lang == "az")
+{
+    <section class="bg-shop">
+        <div class="swiper corusel">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="shop-flex">
+                        <div class="shop-title">
+                            <h2>Qulaqlıq və Mikrofon</h2>
+                        </div>
+                        <div class="shop-image">
+                            <span>1</span>
+                            <img src="~/assets/image/kulaklikcategories.png" alt="Qulaqlıq və Mikrofon">
+                        </div>
+                        <a href="#">
+                            <p>Axtar</p> <i class="fa-solid fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="shop-flex">
+                        <div class="shop-title">
+                            <h2>Klaviatura</h2>
+                        </div>
+                        <div class="shop-image">
+                            <span>2</span>
+                            <img src="~/assets/image/categoriesklavye.png" alt="Klavye">
+                        </div>
+                        <a href="#">
+                            <p>Axtar</p> <i class="fa-solid fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="shop-flex">
+                        <div class="shop-title">
+                            <h2>Monitor</h2>
+                        </div>
+                        <div class="shop-image">
+                            <span>3</span>
+                            <img src="~/assets/image/categoriesMonitor.png" alt="Monitor">
+                        </div>
+                        <a href="#">
+                            <p>Axtar</p> <i class="fa-solid fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="shop-flex">
+                        <div class="shop-title">
+                            <h2>Sıçan (Mouse)</h2>
+                        </div>
+                        <div class="shop-image">
+                            <span>4</span>
+                            <img src="~/assets/image/categoriesMouse.png" alt="Sıçan (Mouse)">
+                        </div>
+                        <a href="#">
+                            <p>Axtar</p> <i class="fa-solid fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="shop-flex">
+                        <div class="shop-title">
+                            <h2>Kompüter Korpusu</h2>
+                        </div>
+                        <div class="shop-image">
+                            <span>5</span>
+                            <img src="~/assets/image/categoriesKasa.png" alt="Kompüter Korpusu">
+                        </div>
+                        <a href="#">
+                            <p>Axtar</p> <i class="fa-solid fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+}
+else
+{
+    <section class="bg-shop">
+        <div class="swiper corusel">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="shop-flex">
+                        <div class="shop-title">
+                            <h2>Headphones and Microphone</h2>
+                        </div>
+                        <div class="shop-image">
+                            <span>1</span>
+                            <img src="~/assets/image/kulaklikcategories.png" alt="Headphones and Microphone">
+                        </div>
+                        <a href="#">
+                            <p>Discover</p> <i class="fa-solid fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="shop-flex">
+                        <div class="shop-title">
+                            <h2>Keyboard</h2>
+                        </div>
+                        <div class="shop-image">
+                            <span>2</span>
+                            <img src="~/assets/image/categoriesklavye.png" alt="Keyboard">
+                        </div>
+                        <a href="#">
+                            <p>Discover</p> <i class="fa-solid fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="shop-flex">
+                        <div class="shop-title">
+                            <h2>Monitor</h2>
+                        </div>
+                        <div class="shop-image">
+                            <span>3</span>
+                            <img src="~/assets/image/categoriesMonitor.png" alt="Monitor">
+                        </div>
+                        <a href="#">
+                            <p>Discover</p> <i class="fa-solid fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="shop-flex">
+                        <div class="shop-title">
+                            <h2>Mouse</h2>
+                        </div>
+                        <div class="shop-image">
+                            <span>4</span>
+                            <img src="~/assets/image/categoriesMouse.png" alt="Mouse">
+                        </div>
+                        <a href="#">
+                            <p>Discover</p> <i class="fa-solid fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="shop-flex">
+                        <div class="shop-title">
+                            <h2>PC Case</h2>
+                        </div>
+                        <div class="shop-image">
+                            <span>5</span>
+                            <img src="~/assets/image/categoriesKasa.png" alt="PC Case">
+                        </div>
+                        <a href="#">
+                            <p>Discover</p> <i class="fa-solid fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+}
+@if (lang == "az")
+{
+    <section class="power-slider">
+        <div class="power-slider-header">
+            <div class="power-slider-title">
+                <span>SƏNİN ÜÇÜN</span>
+                <h2>Güc, Təhlükəsizlik və Performans.</h2>
+            </div>
+        </div>
+        <div class="power-slider-boxs1 active">
+            <div class="power-slider-box1">
+                <img src="~/assets/image/for-youMouse.jpg" alt="Sıçan">
+            </div>
+            <div class="power-slider-box2">
+                <div class="swiper foryou">
+                    <div class="swiper-wrapper">
+                        @foreach (var product in Model)
+                        {
+                            <div class="swiper-slide">
+                                <div class="product-box-swipper">
+                                    <div class="product-title">
+                                        <span>@product.Name</span>
+                                    </div>
+                                    <div class="product-image">
+                                        <img src="@product.ImageUrl" alt="@product.Name">
+                                    </div>
+                                    <div class="total-rating">
+                                        <div class="total-star">
+                                            @for (int i = 0; i < Math.Floor(product.Star); i++)
+                                            {
+                                                <i class="fa-solid fa-star"></i>
+                                            }
+                                            @if (product.Star % 1 != 0)
+                                            {
+                                                <i class="fa-solid fa-star-half-alt"></i>
+                                            }
+                                            @for (int i = (int)Math.Ceiling(product.Star); i < 5; i++)
+                                            {
+                                                <i class="fa-regular fa-star"></i>
+                                            }
+                                        </div>
+                                        <span>@product.Star.ToString("0.0")</span>
+                                    </div>
+                                    <div class="product-price">
+                                        <span>@product.Price AZN</span>
+                                    </div>
+                                    <div class="product-add-basket">
+                                        <div>
+                                            <a asp-action="AddProduct" asp-controller="Basket"
+                                               asp-route-productId="@product.Id">Səbətə Əlavə Et</a>
+                                            <span>+</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+}
+else
+{
+    <section class="power-slider">
+        <div class="power-slider-header">
+            <div class="power-slider-title">
+                <span>FOR YOU</span>
+                <h2>Power, Security, and Performance.</h2>
+            </div>
+        </div>
+        <div class="power-slider-boxs1 active">
+            <div class="power-slider-box1">
+                <img src="~/assets/image/for-youMouse.jpg" alt="Mouse">
+            </div>
+            <div class="power-slider-box2">
+                <div class="swiper foryou">
+                    <div class="swiper-wrapper">
+                        @foreach (var product in Model)
+                        {
+                            <div class="swiper-slide">
+                                <div class="product-box-swipper">
+                                    <div class="product-title">
+                                        <span>@product.Name</span>
+                                    </div>
+                                    <div class="product-image">
+                                        <img src="@product.ImageUrl" alt="@product.Name">
+                                    </div>
+                                    <div class="total-rating">
+                                        <div class="total-star">
+                                            @for (int i = 0; i < Math.Floor(product.Star); i++)
+                                            {
+                                                <i class="fa-solid fa-star"></i>
+                                            }
+                                            @if (product.Star % 1 != 0)
+                                            {
+                                                <i class="fa-solid fa-star-half-alt"></i>
+                                            }
+                                            @for (int i = (int)Math.Ceiling(product.Star); i < 5; i++)
+                                            {
+                                                <i class="fa-regular fa-star"></i>
+                                            }
+                                        </div>
+                                        <span>@product.Star.ToString("0.0")</span>
+                                    </div>
+                                    <div class="product-price">
+                                        <span>@product.Price AZN</span>
+                                    </div>
+                                    <div class="product-add-basket">
+                                        <div>
+                                            <a asp-action="AddProduct" asp-controller="Basket"
+                                               asp-route-productId="@product.Id">Add to Cart</a>
+                                            <span>+</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+}
+
+<section class="card-toggle-section">
+    <div class="card-toggle-category">
+        <span>@(lang == "az" ? "MƏHSUL VİTRİNİ" : "PRODUCT SHOWCASE")</span>
+        <div class="card-category">
+            <span class="category-menu" data-category="all">
+                @(lang == "az" ? "Bütün Məhsullar" : "All Products")
+            </span>
+            @foreach (var category in ViewBag.Categories)
+            {
+                <span class="category-menu" data-category="@category.Id">@category.Name</span>
+            }
+        </div>
+    </div>
+
+    @for (int i = 0; i < Model.Count; i += 4)
+    {
+        <div class="category-cards@(i / 4 + 1)">
+            @for (int j = i; j < i + 4 && j < Model.Count; j++)
+            {
+                var product = Model[j];
+                <div class="category-card" data-category="@product.CategoryId">
+                    <h2>@product.Name</h2>
+                    <div class="category-image">
+                        <img src="@product.ImageUrl" alt="@product.Name">
+                    </div>
+                    <p>@product.Price.ToString("N2") TL</p>
+                    <div class="category-add-basket">
+                        <a asp-action="AddProduct" asp-controller="Basket"
+                           asp-route-productId="@product.Id">
+                            <span>@(lang == "az" ? "Səbətə Əlavə Et" : "Add to Cart")</span>
+                            <p>+</p>
+                        </a>
+
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</section>
+
+@if ((ViewBag.Comments as ICollection<Comment>).Count != 0)
+{
+    @if (lang == "az")
+    {
+        <section class="user-comment">
+            <div class="user-comment-title">
+                <p>İstifadəçi Təcrübələri</p>
+                <span>İstifadəçilərimizdən Rəylər</span>
+            </div>
+            <div class="user-comment-boxs">
+                <div class="swiper user-comment-slider">
+                    <div class="swiper-wrapper">
+                        @foreach (var item in (ViewBag.Comments as ICollection<Comment>))
+                        {
+                            <div class="swiper-slide">
+                                <div class="user-comment-box">
+                                    <span>
+                                        @item.Name
+                                    </span>
+                                    <div class="user-comment-image">
+                                        <img src="@item.ImageUrl" alt="Korpus">
+                                    </div>
+                                    <div class="user-comment-text">
+                                        <div class="user-name-date">
+                                            <div class="user-name">@item.Author</div>
+                                            <div class="user-date">
+                                                @item.CreatedOn.ToString("dd MMM yyyy")
+                                            </div>
+                                        </div>
+                                        <div class="user-stars">
+                                            @for (int i = 0; i < Math.Floor(item.Star); i++)
+                                            {
+                                                <i class="fa-solid fa-star"></i>
+                                            }
+                                            @if (item.Star % 1 != 0)
+                                            {
+                                                <i class="fa-solid fa-star-half-alt"></i>
+                                            }
+                                            @for (int i = (int)Math.Ceiling(item.Star); i < 5; i++)
+                                            {
+                                                <i class="fa-regular fa-star"></i>
+                                            }
+                                        </div>
+                                        <p>
+                                            @item.Message
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </section>
+    }
+    else
+    {
+        <section class="user-comment">
+            <div class="user-comment-title">
+                <p>User Experiences</p>
+                <span>Reviews from Our Users</span>
+            </div>
+            <div class="user-comment-boxs">
+                <div class="swiper user-comment-slider">
+                    <div class="swiper-wrapper">
+                        @foreach (var item in (ViewBag.Comments as ICollection<Comment>))
+                        {
+                            <div class="swiper-slide">
+                                <div class="user-comment-box">
+                                    <span>
+                                        @item.Name
+                                    </span>
+                                    <div class="user-comment-image">
+                                        <img src="@item.ImageUrl" alt="Korpus">
+                                    </div>
+                                    <div class="user-comment-text">
+                                        <div class="user-name-date">
+                                            <div class="user-name">@item.Author</div>
+                                            <div class="user-date">
+                                                @item.CreatedOn.ToString("dd MMM yyyy")
+                                            </div>
+                                        </div>
+                                        <div class="user-stars">
+                                            @for (int i = 0; i < Math.Floor(item.Star); i++)
+                                            {
+                                                <i class="fa-solid fa-star"></i>
+                                            }
+                                            @if (item.Star % 1 != 0)
+                                            {
+                                                <i class="fa-solid fa-star-half-alt"></i>
+                                            }
+                                            @for (int i = (int)Math.Ceiling(item.Star); i < 5; i++)
+                                            {
+                                                <i class="fa-regular fa-star"></i>
+                                            }
+                                        </div>
+                                        <p>
+                                            @item.Message
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </section>
+    }
+}
+
+<script>
+        document.addEventListener('DOMContentLoaded', function () {
+        const categoryMenus = document.querySelectorAll('.category-menu');
+        const productContainers = document.querySelectorAll('[class^="category-cards"]');
+        const allProducts = document.querySelectorAll('.category-card');
+
+        function filterProducts(category) {
+            let count = 0;
+
+            allProducts.forEach(product => {
+                if (category === 'all' || product.dataset.category === category) {
+                    if (count < 8) {
+                        product.style.display = 'block';
+                        count++;
+                    } else {
+                        product.style.display = 'none';
+                    }
+                } else {
+                    product.style.display = 'none';
+                }
+            });
+
+            productContainers.forEach(container => {
+                let visibleProducts = container.querySelectorAll('.category-card[style="display: block;"]');
+                container.style.display = visibleProducts.length > 0 ? 'flex' : 'none';
+            });
+        }
+
+        categoryMenus.forEach(menu => {
+            menu.addEventListener('click', () => {
+                const selectedCategory = menu.getAttribute('data-category');
+                filterProducts(selectedCategory);
+            });
+        });
+
+        filterProducts('all');
+    });
+</script>

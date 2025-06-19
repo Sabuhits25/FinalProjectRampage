@@ -20,4 +20,9 @@
     <ProjectReference Include="..\Rampage.Core\Rampage.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Services\InternalServices\Abstraction\" />
+    <Folder Include="Services\InternalServices\Interfaces\" />
+  </ItemGroup>
+
 </Project>

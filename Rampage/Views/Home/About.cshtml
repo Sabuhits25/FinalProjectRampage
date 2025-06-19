@@ -1,0 +1,307 @@
+﻿@inject ISettingRepository _settingRepository;
+@{
+    string lang = "az";
+    var url = Context.Request.Path.Value.ToString();
+    if (url.Contains("/en"))
+    {
+        lang = "en";
+    }
+
+    var setting = await _settingRepository.GetAllAsync(x => true);
+    var siteSettings = setting.FirstOrDefault();
+}
+
+@if (lang == "az")
+{
+    <head>
+        <link rel="stylesheet" href="~/assets/css/about.css">
+    </head>
+
+    <section class="about-home">
+        <div class="about-img-container">
+            <img src="~/assets/image/about-big-img.svg" alt="">
+        </div>
+        <div class="about-text-center">
+            <span>#ürəyinləoyna</span>
+            <p>Ürəyinlə Oyna, Potensialını Kəşf Et!</p>
+        </div>
+    </section>
+
+    <section class="about-stats">
+        <div class="about-stats-all">
+            <div class="stats-text">
+                <span>Yüzlərlə İnsana Keyfiyyət və Etibarlılığı Təqdim Etməkdən Qürur Duyuruq.</span>
+                <p>
+                    Gündəlik unikal ziyarətçilərimiz üçün fasiləsiz olaraq çalışaraq inkişaf etməyə davam edirik. Məqsədimiz
+                    funksionallıq və estetikliyi eyni zamanda əlçatan qiymətlərlə təqdim etməkdir.
+                </p>
+            </div>
+            <div class="stats-boxes">
+                <div class="stats-box">
+                    <span>@siteSettings?.DailyUsers+</span>
+                    <p>Gündəlik Orta Ziyarətçi</p>
+                </div>
+                <div class="stats-box">
+                    <span>@siteSettings?.DailyProducts+</span>
+                    <p>Gündəlik Məhsul Təminatı</p>
+                </div>
+                <div class="stats-box">
+                    <span>@siteSettings?.CompanyCount+</span>
+                    <p>Müqaviləli Şirkət</p>
+                </div>
+                <div class="stats-box">
+                    <span>@siteSettings?.CustomerCount+</span>
+                    <p>Müştəri</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-exp">
+        <div class="about-exp-all">
+            <div class="exp-slider">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="~/assets/image/aboutslider1.png" alt="Haqqımızda Şəkil">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="~/assets/image/aboutslider2.png" alt="Haqqımızda Şəkil">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="~/assets/image/aboutslider1.png" alt="Haqqımızda Şəkil">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="~/assets/image/aboutslider2.png" alt="Haqqımızda Şəkil">
+                        </div>
+                    </div>
+                </div>
+                <div class="exp-slider-under-photo">
+                    <img src="~/assets/image/aboutunder1.png" alt="">
+                    <img src="~/assets/image/aboutunder2.png" alt="">
+                </div>
+            </div>
+            <div class="exp-text">
+                <div class="exp-text-title">
+                    Azərbaycanın <span>Yerli Lider Oyun Markası</span> olmaqdan qürur duyuruq!<br><br>Bəs <span>Biz</span> Kimik?
+                </div>
+                <p>
+                    2016-cı ildə "Ürəyinlə Oyna!" ruhu ilə yaradılan markamız, keyfiyyətli və davamlı oyun avadanlıqları təqdim etməyi hədəfləyir.<br><br>
+                    Performansın gücü ilə oyun dünyasının həyəcanını bir araya gətirərək, unudulmaz oyun təcrübələri təqdim etməyə buradayıq!<br><br>
+                    Azərbaycanın uğurunu aşaraq dünya üzrə 22 ölkəyə, o cümlədən Gürcüstan, Macarıstan, Niderland və Kosovo kimi ölkələrə ixrac edirik.<br><br>
+                    Oyun təcrübənizi artıran, uğurlarınıza dəstək olan məhsullarımızla dünya üzrə seçilən bir marka olmaqdan qürur duyuruq.<br><br>
+                    Ədalətli rəqabətin canlı atmosferini dəstəkləmək və e-sport dünyasının böyüməsinə töhfə vermək üçün sponsorluqlarımızı davam etdiririk.<br><br>
+                    Oyun dünyasının ehtiraslı səyahətində bizimlə birgə olun. Keyfiyyətli oyun avadanlıqları ilə dolu güclü və həyəcanlı anlar sizi gözləyir.<br><br>
+                    Gəlin, oyun dünyasının unikal atmosferinə qoşulun və uğurlarla dolu bir səyahətə başlayın.<br><br>
+                    Rampage hər zaman sizin yanınızdadır!
+                </p>
+                <div class="for-news">
+                    <a href="#">Bizdən Xəbərdar Olun!</a>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    @if ((ViewBag.Comments as ICollection<Comment>).Count != 0)
+    {
+        <section class="user-comment">
+            <div class="user-comment-title">
+                <p>İstifadəçi Təcrübələri</p>
+                <span>İstifadəçilərimizdən Rəylər</span>
+            </div>
+            <div class="user-comment-boxs">
+                <div class="swiper user-comment-slider">
+                    <div class="swiper-wrapper">
+                        @foreach (var item in (ViewBag.Comments as ICollection<Comment>))
+                        {
+                            <div class="swiper-slide">
+                                <div class="user-comment-box">
+                                    <span>
+                                        @item.Name
+                                    </span>
+                                    <div class="user-comment-image">
+                                        <img src="@item.ImageUrl" alt="Korpus">
+                                    </div>
+                                    <div class="user-comment-text">
+                                        <div class="user-name-date">
+                                            <div class="user-name">@item.Author</div>
+                                            <div class="user-date">
+                                                @item.CreatedOn.ToString("dd MMM yyyy")
+                                            </div>
+                                        </div>
+                                        <div class="user-stars">
+                                            @for (int i = 0; i < Math.Floor(item.Star); i++)
+                                            {
+                                                <i class="fa-solid fa-star"></i>
+                                            }
+                                            @if (item.Star % 1 != 0)
+                                            {
+                                                <i class="fa-solid fa-star-half-alt"></i>
+                                            }
+                                            @for (int i = (int)Math.Ceiling(item.Star); i < 5; i++)
+                                            {
+                                                <i class="fa-regular fa-star"></i>
+                                            }
+                                        </div>
+                                        <p>
+                                            @item.Message
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </section>
+    }
+}
+else
+{
+    <head>
+        <link rel="stylesheet" href="~/assets/css/about.css">
+    </head>
+
+    <section class="about-home">
+        <div class="about-img-container">
+            <img src="~/assets/image/about-big-img.svg" alt="">
+        </div>
+        <div class="about-text-center">
+            <span>#playwithyourheart</span>
+            <p>Play with Your Heart, Discover Your Potential!</p>
+        </div>
+    </section>
+
+    <section class="about-stats">
+        <div class="about-stats-all">
+            <div class="stats-text">
+                <span>We Are Proud to Offer Quality and Trust to Hundreds of People.</span>
+                <p>
+                    We continue to develop tirelessly for our daily unique visitors. Our goal is
+                    to offer functionality and aesthetics at accessible prices simultaneously.
+                </p>
+            </div>
+            <div class="stats-boxes">
+                <div class="stats-box">
+                    <span>@siteSettings?.DailyUsers+</span>
+                    <p>Daily Average Visitors</p>
+                </div>
+                <div class="stats-box">
+                    <span>@siteSettings?.DailyProducts+</span>
+                    <p>Daily Product Supply</p>
+                </div>
+                <div class="stats-box">
+                    <span>@siteSettings?.CompanyCount+</span>
+                    <p>Partnered Companies</p>
+                </div>
+                <div class="stats-box">
+                    <span>@siteSettings?.CustomerCount+</span>
+                    <p>Customers</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-exp">
+        <div class="about-exp-all">
+            <div class="exp-slider">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="~/assets/image/aboutslider1.png" alt="About Slider Photo">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="~/assets/image/aboutslider2.png" alt="About Slider Photo">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="~/assets/image/aboutslider1.png" alt="About Slider Photo">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="~/assets/image/aboutslider2.png" alt="About Slider Photo">
+                        </div>
+                    </div>
+                </div>
+                <div class="exp-slider-under-photo">
+                    <img src="~/assets/image/aboutunder1.png" alt="">
+                    <img src="~/assets/image/aboutunder2.png" alt="">
+                </div>
+            </div>
+            <div class="exp-text">
+                <div class="exp-text-title">
+                    We are proud to be <span>Turkey's Leading Gaming Brand</span>!<br><br>So, <span>Who</span> Are We?
+                </div>
+                <p>
+                    Founded in 2016 with the spirit of "Play with Your Heart!", our Turkey-based brand aims to provide quality and durable gaming equipment.<br><br>
+                    Bringing the excitement of the gaming world with the power of performance, we are here to offer unforgettable gaming experiences!<br><br>
+                    Beyond our success in Turkey, we export to 22 countries worldwide, including Azerbaijan, Croatia, Georgia, Hungary, the Netherlands, and Kosovo.<br><br>
+                    With our qualified service approach and comprehensive service network, we continue to expand our reach every day.<br><br>
+                    We are proud to be a globally preferred brand with our products that enhance your gaming experience and support your achievements.<br><br>
+                    We continue our sponsorships to support the vibrant atmosphere of fair competition and contribute to the growth of the esports world.<br><br>
+                    Join us on the passionate journey of the gaming world. A thrilling experience equipped with high-quality gaming gear awaits you.<br><br>
+                    Come, be part of the unique gaming atmosphere and embark on a journey full of success.<br><br>
+                    Rampage is always with you!
+                </p>
+                <div class="for-news">
+                    <a href="#">Stay Informed!</a>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    @if ((ViewBag.Comments as ICollection<Comment>).Count != 0)
+    {
+        <section class="user-comment">
+            <div class="user-comment-title">
+                <p>User Experiences</p>
+                <span>Reviews from Our Users</span>
+            </div>
+            <div class="user-comment-boxs">
+                <div class="swiper user-comment-slider">
+                    <div class="swiper-wrapper">
+                        @foreach (var item in (ViewBag.Comments as ICollection<Comment>))
+                        {
+                            <div class="swiper-slide">
+                                <div class="user-comment-box">
+                                    <span>
+                                        @item.Name
+                                    </span>
+                                    <div class="user-comment-image">
+                                        <img src="@item.ImageUrl" alt="Korpus">
+                                    </div>
+                                    <div class="user-comment-text">
+                                        <div class="user-name-date">
+                                            <div class="user-name">@item.Author</div>
+                                            <div class="user-date">
+                                                @item.CreatedOn.ToString("dd MMM yyyy")
+                                            </div>
+                                        </div>
+                                        <div class="user-stars">
+                                            @for (int i = 0; i < Math.Floor(item.Star); i++)
+                                            {
+                                                <i class="fa-solid fa-star"></i>
+                                            }
+                                            @if (item.Star % 1 != 0)
+                                            {
+                                                <i class="fa-solid fa-star-half-alt"></i>
+                                            }
+                                            @for (int i = (int)Math.Ceiling(item.Star); i < 5; i++)
+                                            {
+                                                <i class="fa-regular fa-star"></i>
+                                            }
+                                        </div>
+                                        <p>
+                                            @item.Message
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </section>
+    }
+}
+<script src="~/assets/js/about.js"></script>
