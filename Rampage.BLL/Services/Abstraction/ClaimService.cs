@@ -2,7 +2,7 @@
 using Rampage.BLL.Services.Interfaces;
 using System.Security.Claims;
 
-namespace Rampage.BLL.Services
+namespace Rampage.BLL.Services.Abstraction
 {
     public class ClaimService : IClaimService
     {

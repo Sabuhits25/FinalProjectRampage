@@ -3,7 +3,7 @@ using CloudinaryDotNet.Actions;
 using Microsoft.AspNetCore.Http;
 using Rampage.BLL.Services.Interfaces;
 
-namespace Rampage.BLL.Services
+namespace Rampage.BLL.Services.Abstraction
 {
     public class CloudinaryService : ICloudinaryService
     {

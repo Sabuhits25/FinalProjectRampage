@@ -2,7 +2,7 @@
 using Rampage.Core.Entities.Commons;
 using Rampage.Core.Exceptions.Commons;
 
-namespace Rampage.BLL.Services
+namespace Rampage.BLL.Services.Abstraction
 {
     public class Handler<T> : IHandler<T> where T : BaseEntity
     {
