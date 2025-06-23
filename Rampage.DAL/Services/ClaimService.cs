@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Http;
-using Rampage.BLL.Services.Interfaces;
+using Rampage.DAL.Services.Interface;
 using System.Security.Claims;
 
-namespace Rampage.BLL.Services.Abstraction
+namespace Rampage.DAL.Services
 {
     public class ClaimService : IClaimService
     {

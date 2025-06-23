@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using Rampage.BLL.Services.Interfaces;
 using Rampage.Core.Entities;
 using Rampage.Core.Entities.Commons;
 using Rampage.Core.Entities.Identity;
 using Rampage.Core.Models;
+using Rampage.DAL.Services.Interface;
 using System.Reflection;
 
 

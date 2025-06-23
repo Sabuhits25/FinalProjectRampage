@@ -1,4 +1,4 @@
-﻿namespace Rampage.BLL.Services.Interfaces
+﻿namespace Rampage.DAL.Services.Interface
 {
     public interface IClaimService
     {

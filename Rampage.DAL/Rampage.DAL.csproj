@@ -13,7 +13,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Rampage.BLL\Rampage.BLL.csproj" />
     <ProjectReference Include="..\Rampage.Core\Rampage.Core.csproj" />
   </ItemGroup>
 

@@ -12,6 +12,7 @@ namespace Rampage.BLL.DTO_s.ProductDTO_s
 
         public ICollection<int> ColorIds { get; set; }
         public ICollection<IFormFile>? Images { get; set; }
-
+        public ICollection<CreateProductTranslationDTO> Translations { get; set; }
+        public ICollection<CreateProductSettingDTO> Settings { get; set; }
     }
 }

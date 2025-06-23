@@ -7,9 +7,7 @@ C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage.DAL\obj\Debug\net8.0\Ramp
 C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage.DAL\bin\Debug\net8.0\Rampage.DAL.deps.json
 C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage.DAL\bin\Debug\net8.0\Rampage.DAL.dll
 C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage.DAL\bin\Debug\net8.0\Rampage.DAL.pdb
-C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage.DAL\bin\Debug\net8.0\Rampage.BLL.dll
 C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage.DAL\bin\Debug\net8.0\Rampage.Core.dll
-C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage.DAL\bin\Debug\net8.0\Rampage.BLL.pdb
 C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage.DAL\bin\Debug\net8.0\Rampage.Core.pdb
 C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage.DAL\obj\Debug\net8.0\Rampage..8342DA0F.Up2Date
 C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage.DAL\obj\Debug\net8.0\Rampage.DAL.dll
