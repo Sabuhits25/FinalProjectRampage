@@ -270,3 +270,10 @@ C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage\obj\Debug\net8.0\refint\R
 C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage\obj\Debug\net8.0\Rampage.pdb
 C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage\obj\Debug\net8.0\Rampage.genruntimeconfig.cache
 C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage\obj\Debug\net8.0\ref\Rampage.dll
+C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage\obj\Debug\net8.0\Rampage.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage\bin\Debug\net8.0\CloudinaryDotNet.dll
+C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage\bin\Debug\net8.0\Rampage.BLL.dll
+C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage\bin\Debug\net8.0\Rampage.BLL.pdb

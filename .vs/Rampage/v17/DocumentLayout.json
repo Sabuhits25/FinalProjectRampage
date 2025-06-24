@@ -3,20 +3,88 @@
   "WorkspaceRootPath": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D78C7640-DB06-4D6C-9017-8AF8F6932BC0}|Rampage\\Rampage.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage\\controllers\\languagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D78C7640-DB06-4D6C-9017-8AF8F6932BC0}|Rampage\\Rampage.csproj|solutionrelative:rampage\\controllers\\languagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78C7640-DB06-4D6C-9017-8AF8F6932BC0}|Rampage\\Rampage.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D78C7640-DB06-4D6C-9017-8AF8F6932BC0}|Rampage\\Rampage.csproj|solutionrelative:rampage\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78C7640-DB06-4D6C-9017-8AF8F6932BC0}|Rampage\\Rampage.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D78C7640-DB06-4D6C-9017-8AF8F6932BC0}|Rampage\\Rampage.csproj|solutionrelative:rampage\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78C7640-DB06-4D6C-9017-8AF8F6932BC0}|Rampage\\Rampage.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D78C7640-DB06-4D6C-9017-8AF8F6932BC0}|Rampage\\Rampage.csproj|solutionrelative:rampage\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78C7640-DB06-4D6C-9017-8AF8F6932BC0}|Rampage\\Rampage.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage\\controllers\\contactuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D78C7640-DB06-4D6C-9017-8AF8F6932BC0}|Rampage\\Rampage.csproj|solutionrelative:rampage\\controllers\\contactuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78C7640-DB06-4D6C-9017-8AF8F6932BC0}|Rampage\\Rampage.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D78C7640-DB06-4D6C-9017-8AF8F6932BC0}|Rampage\\Rampage.csproj|solutionrelative:rampage\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78C7640-DB06-4D6C-9017-8AF8F6932BC0}|Rampage\\Rampage.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D78C7640-DB06-4D6C-9017-8AF8F6932BC0}|Rampage\\Rampage.csproj|solutionrelative:rampage\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78C7640-DB06-4D6C-9017-8AF8F6932BC0}|Rampage\\Rampage.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D78C7640-DB06-4D6C-9017-8AF8F6932BC0}|Rampage\\Rampage.csproj|solutionrelative:rampage\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA095DC-F9BF-4379-AA7C-98000607EBC7}|Rampage.DAL\\Rampage.DAL.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.dal\\daldependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEA095DC-F9BF-4379-AA7C-98000607EBC7}|Rampage.DAL\\Rampage.DAL.csproj|solutionrelative:rampage.dal\\daldependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA095DC-F9BF-4379-AA7C-98000607EBC7}|Rampage.DAL\\Rampage.DAL.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.dal\\rampage.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CEA095DC-F9BF-4379-AA7C-98000607EBC7}|Rampage.DAL\\Rampage.DAL.csproj|solutionrelative:rampage.dal\\rampage.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78C7640-DB06-4D6C-9017-8AF8F6932BC0}|Rampage\\Rampage.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D78C7640-DB06-4D6C-9017-8AF8F6932BC0}|Rampage\\Rampage.csproj|solutionrelative:rampage\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7988B08-11BC-45C2-87F9-B73B0303BB08}|Rampage.BLL\\Rampage.BLL.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.bll\\validators\\categoryvalidators\\updatecategorytranslationdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7988B08-11BC-45C2-87F9-B73B0303BB08}|Rampage.BLL\\Rampage.BLL.csproj|solutionrelative:rampage.bll\\validators\\categoryvalidators\\updatecategorytranslationdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7988B08-11BC-45C2-87F9-B73B0303BB08}|Rampage.BLL\\Rampage.BLL.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.bll\\validators\\colorvalidators\\createcolortranslationdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7988B08-11BC-45C2-87F9-B73B0303BB08}|Rampage.BLL\\Rampage.BLL.csproj|solutionrelative:rampage.bll\\validators\\colorvalidators\\createcolortranslationdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7988B08-11BC-45C2-87F9-B73B0303BB08}|Rampage.BLL\\Rampage.BLL.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.bll\\validators\\categoryvalidators\\createcategorytranslationdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7988B08-11BC-45C2-87F9-B73B0303BB08}|Rampage.BLL\\Rampage.BLL.csproj|solutionrelative:rampage.bll\\validators\\categoryvalidators\\createcategorytranslationdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7988B08-11BC-45C2-87F9-B73B0303BB08}|Rampage.BLL\\Rampage.BLL.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.bll\\validators\\blogvaidators\\updateblogtranslationdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7988B08-11BC-45C2-87F9-B73B0303BB08}|Rampage.BLL\\Rampage.BLL.csproj|solutionrelative:rampage.bll\\validators\\blogvaidators\\updateblogtranslationdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7988B08-11BC-45C2-87F9-B73B0303BB08}|Rampage.BLL\\Rampage.BLL.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.bll\\validators\\blogvaidators\\createblogdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7988B08-11BC-45C2-87F9-B73B0303BB08}|Rampage.BLL\\Rampage.BLL.csproj|solutionrelative:rampage.bll\\validators\\blogvaidators\\createblogdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7988B08-11BC-45C2-87F9-B73B0303BB08}|Rampage.BLL\\Rampage.BLL.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.bll\\validators\\blogvaidators\\updateblogdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7988B08-11BC-45C2-87F9-B73B0303BB08}|Rampage.BLL\\Rampage.BLL.csproj|solutionrelative:rampage.bll\\validators\\blogvaidators\\updateblogdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7988B08-11BC-45C2-87F9-B73B0303BB08}|Rampage.BLL\\Rampage.BLL.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.bll\\validators\\blogvaidators\\createblogtranslationdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7988B08-11BC-45C2-87F9-B73B0303BB08}|Rampage.BLL\\Rampage.BLL.csproj|solutionrelative:rampage.bll\\validators\\blogvaidators\\createblogtranslationdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7988B08-11BC-45C2-87F9-B73B0303BB08}|Rampage.BLL\\Rampage.BLL.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.bll\\validators\\authenticationvalidators\\registerdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7988B08-11BC-45C2-87F9-B73B0303BB08}|Rampage.BLL\\Rampage.BLL.csproj|solutionrelative:rampage.bll\\validators\\authenticationvalidators\\registerdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C7988B08-11BC-45C2-87F9-B73B0303BB08}|Rampage.BLL\\Rampage.BLL.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.bll\\validators\\authenticationvalidators\\logindtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7988B08-11BC-45C2-87F9-B73B0303BB08}|Rampage.BLL\\Rampage.BLL.csproj|solutionrelative:rampage.bll\\validators\\authenticationvalidators\\logindtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C7988B08-11BC-45C2-87F9-B73B0303BB08}|Rampage.BLL\\Rampage.BLL.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.bll\\rampage.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{C7988B08-11BC-45C2-87F9-B73B0303BB08}|Rampage.BLL\\Rampage.BLL.csproj|solutionrelative:rampage.bll\\rampage.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7988B08-11BC-45C2-87F9-B73B0303BB08}|Rampage.BLL\\Rampage.BLL.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.bll\\buseinessdependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7988B08-11BC-45C2-87F9-B73B0303BB08}|Rampage.BLL\\Rampage.BLL.csproj|solutionrelative:rampage.bll\\buseinessdependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEA095DC-F9BF-4379-AA7C-98000607EBC7}|Rampage.DAL\\Rampage.DAL.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.dal\\daldependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEA095DC-F9BF-4379-AA7C-98000607EBC7}|Rampage.DAL\\Rampage.DAL.csproj|solutionrelative:rampage.dal\\daldependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C7988B08-11BC-45C2-87F9-B73B0303BB08}|Rampage.BLL\\Rampage.BLL.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.bll\\services\\internalservices\\abstraction\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -73,10 +141,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CEA095DC-F9BF-4379-AA7C-98000607EBC7}|Rampage.DAL\\Rampage.DAL.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.dal\\services\\interface\\iclaimservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CEA095DC-F9BF-4379-AA7C-98000607EBC7}|Rampage.DAL\\Rampage.DAL.csproj|solutionrelative:rampage.dal\\services\\interface\\iclaimservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEA095DC-F9BF-4379-AA7C-98000607EBC7}|Rampage.DAL\\Rampage.DAL.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.dal\\rampage.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{CEA095DC-F9BF-4379-AA7C-98000607EBC7}|Rampage.DAL\\Rampage.DAL.csproj|solutionrelative:rampage.dal\\rampage.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CEA095DC-F9BF-4379-AA7C-98000607EBC7}|Rampage.DAL\\Rampage.DAL.csproj|c:\\users\\zenbook\\onedrive\\\u0130\u015F masas\u0131\\rampage\\rampage.dal\\repositories\\implementation\\basketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -562,19 +626,110 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShopController.cs",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage\\Controllers\\ShopController.cs",
+              "RelativeDocumentMoniker": "Rampage\\Controllers\\ShopController.cs",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage\\Controllers\\ShopController.cs",
+              "RelativeToolTip": "Rampage\\Controllers\\ShopController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T12:27:00.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Rampage\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Rampage\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T12:26:39.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ContactUsController.cs",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage\\Controllers\\ContactUsController.cs",
+              "RelativeDocumentMoniker": "Rampage\\Controllers\\ContactUsController.cs",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage\\Controllers\\ContactUsController.cs",
+              "RelativeToolTip": "Rampage\\Controllers\\ContactUsController.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAuwE8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T12:26:29.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LanguageController.cs",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage\\Controllers\\LanguageController.cs",
+              "RelativeDocumentMoniker": "Rampage\\Controllers\\LanguageController.cs",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage\\Controllers\\LanguageController.cs",
+              "RelativeToolTip": "Rampage\\Controllers\\LanguageController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAASwBoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T12:26:51.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Rampage.BLL",
-              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\Rampage.BLL.csproj",
-              "RelativeDocumentMoniker": "Rampage.BLL\\Rampage.BLL.csproj",
-              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\Rampage.BLL.csproj",
-              "RelativeToolTip": "Rampage.BLL\\Rampage.BLL.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-24T10:43:57.35Z",
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Rampage\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Rampage\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T12:26:00.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BasketController.cs",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage\\Controllers\\BasketController.cs",
+              "RelativeDocumentMoniker": "Rampage\\Controllers\\BasketController.cs",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage\\Controllers\\BasketController.cs",
+              "RelativeToolTip": "Rampage\\Controllers\\BasketController.cs",
+              "ViewState": "AQIAAH0BAAAAAAAAAAAIwIoBAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T12:26:09.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BlogController.cs",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage\\Controllers\\BlogController.cs",
+              "RelativeDocumentMoniker": "Rampage\\Controllers\\BlogController.cs",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage\\Controllers\\BlogController.cs",
+              "RelativeToolTip": "Rampage\\Controllers\\BlogController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T12:26:17.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage\\Program.cs",
+              "RelativeDocumentMoniker": "Rampage\\Program.cs",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage\\Program.cs",
+              "RelativeToolTip": "Rampage\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T12:18:18.314Z",
               "EditorCaption": ""
             },
             {
@@ -607,7 +762,154 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "Rampage\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "Rampage\\ScaffoldingReadMe.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-06-24T12:16:44.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Rampage.DAL.csproj",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Rampage.DAL.csproj",
+              "RelativeDocumentMoniker": "Rampage.DAL\\Rampage.DAL.csproj",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Rampage.DAL.csproj",
+              "RelativeToolTip": "Rampage.DAL\\Rampage.DAL.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-23T12:17:02.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DALDependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\DALDependencyInjection.cs",
+              "RelativeDocumentMoniker": "Rampage.DAL\\DALDependencyInjection.cs",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\DALDependencyInjection.cs",
+              "RelativeToolTip": "Rampage.DAL\\DALDependencyInjection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T10:39:42.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UpdateCategoryTranslationDTOValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\Validators\\CategoryValidators\\UpdateCategoryTranslationDTOValidator.cs",
+              "RelativeDocumentMoniker": "Rampage.BLL\\Validators\\CategoryValidators\\UpdateCategoryTranslationDTOValidator.cs",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\Validators\\CategoryValidators\\UpdateCategoryTranslationDTOValidator.cs",
+              "RelativeToolTip": "Rampage.BLL\\Validators\\CategoryValidators\\UpdateCategoryTranslationDTOValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T11:48:58.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateColorTranslationDTOValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\Validators\\ColorValidators\\CreateColorTranslationDTOValidator.cs",
+              "RelativeDocumentMoniker": "Rampage.BLL\\Validators\\ColorValidators\\CreateColorTranslationDTOValidator.cs",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\Validators\\ColorValidators\\CreateColorTranslationDTOValidator.cs",
+              "RelativeToolTip": "Rampage.BLL\\Validators\\ColorValidators\\CreateColorTranslationDTOValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T11:50:43.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CreateCategoryTranslationDTOValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\Validators\\CategoryValidators\\CreateCategoryTranslationDTOValidator.cs",
+              "RelativeDocumentMoniker": "Rampage.BLL\\Validators\\CategoryValidators\\CreateCategoryTranslationDTOValidator.cs",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\Validators\\CategoryValidators\\CreateCategoryTranslationDTOValidator.cs",
+              "RelativeToolTip": "Rampage.BLL\\Validators\\CategoryValidators\\CreateCategoryTranslationDTOValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T11:48:20.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UpdateBlogTranslationDTOValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\Validators\\BlogVaidators\\UpdateBlogTranslationDTOValidator.cs",
+              "RelativeDocumentMoniker": "Rampage.BLL\\Validators\\BlogVaidators\\UpdateBlogTranslationDTOValidator.cs",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\Validators\\BlogVaidators\\UpdateBlogTranslationDTOValidator.cs",
+              "RelativeToolTip": "Rampage.BLL\\Validators\\BlogVaidators\\UpdateBlogTranslationDTOValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T11:46:57.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UpdateBlogDTOValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\Validators\\BlogVaidators\\UpdateBlogDTOValidator.cs",
+              "RelativeDocumentMoniker": "Rampage.BLL\\Validators\\BlogVaidators\\UpdateBlogDTOValidator.cs",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\Validators\\BlogVaidators\\UpdateBlogDTOValidator.cs",
+              "RelativeToolTip": "Rampage.BLL\\Validators\\BlogVaidators\\UpdateBlogDTOValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T11:46:23.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CreateBlogTranslationDTOValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\Validators\\BlogVaidators\\CreateBlogTranslationDTOValidator.cs",
+              "RelativeDocumentMoniker": "Rampage.BLL\\Validators\\BlogVaidators\\CreateBlogTranslationDTOValidator.cs",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\Validators\\BlogVaidators\\CreateBlogTranslationDTOValidator.cs",
+              "RelativeToolTip": "Rampage.BLL\\Validators\\BlogVaidators\\CreateBlogTranslationDTOValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T11:45:55.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CreateBlogDTOValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\Validators\\BlogVaidators\\CreateBlogDTOValidator.cs",
+              "RelativeDocumentMoniker": "Rampage.BLL\\Validators\\BlogVaidators\\CreateBlogDTOValidator.cs",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\Validators\\BlogVaidators\\CreateBlogDTOValidator.cs",
+              "RelativeToolTip": "Rampage.BLL\\Validators\\BlogVaidators\\CreateBlogDTOValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T11:44:43.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RegisterDTOValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\Validators\\AuthenticationValidators\\RegisterDTOValidator.cs",
+              "RelativeDocumentMoniker": "Rampage.BLL\\Validators\\AuthenticationValidators\\RegisterDTOValidator.cs",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\Validators\\AuthenticationValidators\\RegisterDTOValidator.cs",
+              "RelativeToolTip": "Rampage.BLL\\Validators\\AuthenticationValidators\\RegisterDTOValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T11:42:51.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Rampage.BLL.csproj",
+              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\Rampage.BLL.csproj",
+              "RelativeDocumentMoniker": "Rampage.BLL\\Rampage.BLL.csproj",
+              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\Rampage.BLL.csproj",
+              "RelativeToolTip": "Rampage.BLL\\Rampage.BLL.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-24T10:43:57.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "LoginDTOValidator.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\Validators\\AuthenticationValidators\\LoginDTOValidator.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\Validators\\AuthenticationValidators\\LoginDTOValidator.cs",
@@ -615,25 +917,11 @@
               "RelativeToolTip": "Rampage.BLL\\Validators\\AuthenticationValidators\\LoginDTOValidator.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T10:44:48.658Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T10:44:48.658Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DALDependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\DALDependencyInjection.cs",
-              "RelativeDocumentMoniker": "Rampage.DAL\\DALDependencyInjection.cs",
-              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\DALDependencyInjection.cs",
-              "RelativeToolTip": "Rampage.DAL\\DALDependencyInjection.cs",
-              "ViewState": "AQIAAEkAAAAAAAAAAAAAwBwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T10:39:42.856Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 21,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\Services\\InternalServices\\Abstraction\\ProductService.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\Services\\InternalServices\\Abstraction\\ProductService.cs",
@@ -645,20 +933,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BuseinessDependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\BuseinessDependencyInjection.cs",
-              "RelativeDocumentMoniker": "Rampage.BLL\\BuseinessDependencyInjection.cs",
-              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\BuseinessDependencyInjection.cs",
-              "RelativeToolTip": "Rampage.BLL\\BuseinessDependencyInjection.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T12:23:25.47Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 24,
               "Title": "TransactionService.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\Services\\InternalServices\\Abstraction\\TransactionService.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\Services\\InternalServices\\Abstraction\\TransactionService.cs",
@@ -670,7 +945,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 23,
               "Title": "ColorService.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\Services\\InternalServices\\Abstraction\\ColorService.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\Services\\InternalServices\\Abstraction\\ColorService.cs",
@@ -682,7 +957,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 22,
               "Title": "CreateProductDTO.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\DTO\u0027s\\ProductDTO\u0027s\\CreateProductDTO.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\DTO\u0027s\\ProductDTO\u0027s\\CreateProductDTO.cs",
@@ -694,7 +969,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 25,
               "Title": "SubscriptionService.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\Services\\InternalServices\\Abstraction\\SubscriptionService.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\Services\\InternalServices\\Abstraction\\SubscriptionService.cs",
@@ -706,7 +981,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 26,
               "Title": "ContactService.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\Services\\InternalServices\\Abstraction\\ContactService.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\Services\\InternalServices\\Abstraction\\ContactService.cs",
@@ -718,7 +993,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 27,
               "Title": "CommentService.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\Services\\InternalServices\\Abstraction\\CommentService.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\Services\\InternalServices\\Abstraction\\CommentService.cs",
@@ -730,7 +1005,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 28,
               "Title": "CategoryService.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\Services\\InternalServices\\Abstraction\\CategoryService.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\Services\\InternalServices\\Abstraction\\CategoryService.cs",
@@ -742,7 +1017,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 29,
               "Title": "BlogService.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\Services\\InternalServices\\Abstraction\\BlogService.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\Services\\InternalServices\\Abstraction\\BlogService.cs",
@@ -754,7 +1029,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 31,
               "Title": "MailService.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\Services\\Abstraction\\MailService.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\Services\\Abstraction\\MailService.cs",
@@ -766,7 +1041,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 32,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Context\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Context\\AppDbContext.cs",
@@ -778,7 +1053,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 30,
               "Title": "AuthenticationService.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\Services\\InternalServices\\Abstraction\\AuthenticationService.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\Services\\InternalServices\\Abstraction\\AuthenticationService.cs",
@@ -790,7 +1065,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 33,
               "Title": "ClaimService.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Services\\ClaimService.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Services\\ClaimService.cs",
@@ -802,7 +1077,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 34,
               "Title": "IClaimService.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Services\\Interface\\IClaimService.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Services\\Interface\\IClaimService.cs",
@@ -814,19 +1089,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Rampage.DAL.csproj",
-              "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Rampage.DAL.csproj",
-              "RelativeDocumentMoniker": "Rampage.DAL\\Rampage.DAL.csproj",
-              "ToolTip": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Rampage.DAL.csproj",
-              "RelativeToolTip": "Rampage.DAL\\Rampage.DAL.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-23T12:17:02.033Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 36,
               "Title": "PaymentService.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\Services\\Abstraction\\PaymentService.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\Services\\Abstraction\\PaymentService.cs",
@@ -838,7 +1101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 37,
               "Title": "ITransactionRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Interfaces\\ITransactionRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Interfaces\\ITransactionRepository.cs",
@@ -850,7 +1113,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 35,
               "Title": "BasketRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Implementation\\BasketRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Implementation\\BasketRepository.cs",
@@ -862,7 +1125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 38,
               "Title": "ITransactionService.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\Services\\InternalServices\\Interfaces\\ITransactionService.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\Services\\InternalServices\\Interfaces\\ITransactionService.cs",
@@ -874,7 +1137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 39,
               "Title": "TransactionRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Implementation\\TransactionRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Implementation\\TransactionRepository.cs",
@@ -886,7 +1149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 40,
               "Title": "UserMP.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\MappingProfiles\\UserMP.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\MappingProfiles\\UserMP.cs",
@@ -898,7 +1161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 41,
               "Title": "IAuthenticationService.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\Services\\InternalServices\\Interfaces\\IAuthenticationService.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\Services\\InternalServices\\Interfaces\\IAuthenticationService.cs",
@@ -910,7 +1173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 43,
               "Title": "EmailIsNotConfirmedException.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Exceptions\\AuthenticationExceptions\\EmailIsNotConfirmedException.cs",
               "RelativeDocumentMoniker": "Rampage.Core\\Exceptions\\AuthenticationExceptions\\EmailIsNotConfirmedException.cs",
@@ -922,7 +1185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 42,
               "Title": "IMailService.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\Services\\Interfaces\\IMailService.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\Services\\Interfaces\\IMailService.cs",
@@ -934,7 +1197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 44,
               "Title": "Transaction.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\Transaction.cs",
               "RelativeDocumentMoniker": "Rampage.Core\\Entities\\Transaction.cs",
@@ -946,7 +1209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 45,
               "Title": "BankClient.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\Helpers\\BankClient.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\Helpers\\BankClient.cs",
@@ -958,7 +1221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 46,
               "Title": "IPaymentService.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\Services\\Interfaces\\IPaymentService.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\Services\\Interfaces\\IPaymentService.cs",
@@ -970,7 +1233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 47,
               "Title": "SubscriptionMP.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\MappingProfiles\\SubscriptionMP.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\MappingProfiles\\SubscriptionMP.cs",
@@ -982,7 +1245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 48,
               "Title": "SettingMP.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\MappingProfiles\\SettingMP.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\MappingProfiles\\SettingMP.cs",
@@ -994,7 +1257,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 49,
               "Title": "Comment.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\MappingProfiles\\Comment.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\MappingProfiles\\Comment.cs",
@@ -1006,7 +1269,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 53,
               "Title": "ContactMP.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\MappingProfiles\\ContactMP.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\MappingProfiles\\ContactMP.cs",
@@ -1018,7 +1281,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 54,
               "Title": "ColorMP.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\MappingProfiles\\ColorMP.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\MappingProfiles\\ColorMP.cs",
@@ -1030,7 +1293,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 55,
               "Title": "CategoryMP.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\MappingProfiles\\CategoryMP.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\MappingProfiles\\CategoryMP.cs",
@@ -1042,7 +1305,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 50,
               "Title": "BlogMP.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\MappingProfiles\\BlogMP.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\MappingProfiles\\BlogMP.cs",
@@ -1054,7 +1317,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 52,
               "Title": "CustomMappingAction.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\MappingProfiles\\Commons\\CustomMappingAction.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\MappingProfiles\\Commons\\CustomMappingAction.cs",
@@ -1066,7 +1329,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 51,
               "Title": "ProductMP.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\MappingProfiles\\ProductMP.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\MappingProfiles\\ProductMP.cs",
@@ -1078,7 +1341,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 56,
               "Title": "FileManagerService.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\Services\\Abstraction\\FileManagerService.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\Services\\Abstraction\\FileManagerService.cs",
@@ -1090,7 +1353,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 57,
               "Title": "IFileManagerService.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\Services\\Interfaces\\IFileManagerService.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\Services\\Interfaces\\IFileManagerService.cs",
@@ -1102,7 +1365,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 58,
               "Title": "ISubscriptionService.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\Services\\InternalServices\\Interfaces\\ISubscriptionService.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\Services\\InternalServices\\Interfaces\\ISubscriptionService.cs",
@@ -1114,7 +1377,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 59,
               "Title": "IContactService.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\Services\\InternalServices\\Interfaces\\IContactService.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\Services\\InternalServices\\Interfaces\\IContactService.cs",
@@ -1126,7 +1389,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 60,
               "Title": "ICommentService.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\Services\\InternalServices\\Interfaces\\ICommentService.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\Services\\InternalServices\\Interfaces\\ICommentService.cs",
@@ -1138,7 +1401,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 61,
               "Title": "IColorService.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\Services\\InternalServices\\Interfaces\\IColorService.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\Services\\InternalServices\\Interfaces\\IColorService.cs",
@@ -1150,7 +1413,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 62,
               "Title": "IBlogService.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\Services\\InternalServices\\Interfaces\\IBlogService.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\Services\\InternalServices\\Interfaces\\IBlogService.cs",
@@ -1162,7 +1425,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 63,
               "Title": "ICategoryService.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\Services\\InternalServices\\Interfaces\\ICategoryService.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\Services\\InternalServices\\Interfaces\\ICategoryService.cs",
@@ -1174,7 +1437,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 64,
               "Title": "IProductService.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\Services\\InternalServices\\Interfaces\\IProductService.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\Services\\InternalServices\\Interfaces\\IProductService.cs",
@@ -1186,7 +1449,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 65,
               "Title": "EmailConfirmationDTO.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\DTO\u0027s\\AuthenticationDTO\u0027s\\EmailConfirmationDTO.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\DTO\u0027s\\AuthenticationDTO\u0027s\\EmailConfirmationDTO.cs",
@@ -1198,7 +1461,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 66,
               "Title": "UpdateUserDto.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\DTO\u0027s\\AuthenticationDTO\u0027s\\UpdateUserDto.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\DTO\u0027s\\AuthenticationDTO\u0027s\\UpdateUserDto.cs",
@@ -1210,7 +1473,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 67,
               "Title": "RegisterDTO.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\DTO\u0027s\\AuthenticationDTO\u0027s\\RegisterDTO.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\DTO\u0027s\\AuthenticationDTO\u0027s\\RegisterDTO.cs",
@@ -1222,7 +1485,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 68,
               "Title": "LoginDTO.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\DTO\u0027s\\AuthenticationDTO\u0027s\\LoginDTO.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\DTO\u0027s\\AuthenticationDTO\u0027s\\LoginDTO.cs",
@@ -1234,7 +1497,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 69,
               "Title": "UserComponentDTO.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\DTO\u0027s\\UserDTO\u0027s\\UserComponentDTO.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\DTO\u0027s\\UserDTO\u0027s\\UserComponentDTO.cs",
@@ -1246,7 +1509,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 70,
               "Title": "BasketItemDTO.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\DTO\u0027s\\BasketDTO\u0027s\\BasketItemDTO.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\DTO\u0027s\\BasketDTO\u0027s\\BasketItemDTO.cs",
@@ -1258,7 +1521,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 71,
               "Title": "BasketDTO.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\DTO\u0027s\\BasketDTO\u0027s\\BasketDTO.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\DTO\u0027s\\BasketDTO\u0027s\\BasketDTO.cs",
@@ -1270,7 +1533,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 75,
               "Title": "UpdateBlogDTO.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\DTO\u0027s\\BlogDTO\u0027s\\UpdateBlogDTO.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\DTO\u0027s\\BlogDTO\u0027s\\UpdateBlogDTO.cs",
@@ -1282,7 +1545,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 76,
               "Title": "UpdateBlogTranslationDTO.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\DTO\u0027s\\BlogDTO\u0027s\\UpdateBlogTranslationDTO.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\DTO\u0027s\\BlogDTO\u0027s\\UpdateBlogTranslationDTO.cs",
@@ -1294,7 +1557,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 74,
               "Title": "CreateBlogTranslationDTO.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\DTO\u0027s\\BlogDTO\u0027s\\CreateBlogTranslationDTO.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\DTO\u0027s\\BlogDTO\u0027s\\CreateBlogTranslationDTO.cs",
@@ -1306,7 +1569,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 73,
               "Title": "CreateBlogDTO.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\DTO\u0027s\\BlogDTO\u0027s\\CreateBlogDTO.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\DTO\u0027s\\BlogDTO\u0027s\\CreateBlogDTO.cs",
@@ -1318,7 +1581,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 72,
               "Title": "BlogDTO.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\DTO\u0027s\\BlogDTO\u0027s\\BlogDTO.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\DTO\u0027s\\BlogDTO\u0027s\\BlogDTO.cs",
@@ -1330,7 +1593,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 78,
               "Title": "ResponseTransactionDTO.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\DTO\u0027s\\TransactionDTO\u0027s\\ResponseTransactionDTO.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\DTO\u0027s\\TransactionDTO\u0027s\\ResponseTransactionDTO.cs",
@@ -1342,7 +1605,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 79,
               "Title": "CreateTransactionDTO.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\DTO\u0027s\\TransactionDTO\u0027s\\CreateTransactionDTO.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\DTO\u0027s\\TransactionDTO\u0027s\\CreateTransactionDTO.cs",
@@ -1354,7 +1617,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 80,
               "Title": "TransactionDTO.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\DTO\u0027s\\TransactionDTO\u0027s\\TransactionDTO.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\DTO\u0027s\\TransactionDTO\u0027s\\TransactionDTO.cs",
@@ -1366,7 +1629,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 77,
               "Title": "CreateSubscriptionDTO.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\DTO\u0027s\\SubscriptionDTO\u0027s\\CreateSubscriptionDTO.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\DTO\u0027s\\SubscriptionDTO\u0027s\\CreateSubscriptionDTO.cs",
@@ -1378,7 +1641,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 81,
               "Title": "CreateContactDTO.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\DTO\u0027s\\ContactDTO\u0027s\\CreateContactDTO.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\DTO\u0027s\\ContactDTO\u0027s\\CreateContactDTO.cs",
@@ -1390,7 +1653,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 82,
               "Title": "ContactDTO.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\DTO\u0027s\\ContactDTO\u0027s\\ContactDTO.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\DTO\u0027s\\ContactDTO\u0027s\\ContactDTO.cs",
@@ -1402,7 +1665,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 83,
               "Title": "SettingDTO.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\DTO\u0027s\\SettingDTO\u0027s\\SettingDTO.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\DTO\u0027s\\SettingDTO\u0027s\\SettingDTO.cs",
@@ -1414,7 +1677,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 84,
               "Title": "UpdateCommentDTO.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\DTO\u0027s\\CommentDTO\u0027s\\UpdateCommentDTO.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\DTO\u0027s\\CommentDTO\u0027s\\UpdateCommentDTO.cs",
@@ -1426,7 +1689,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 85,
               "Title": "CreateCommentDTo.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\DTO\u0027s\\CommentDTO\u0027s\\CreateCommentDTo.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\DTO\u0027s\\CommentDTO\u0027s\\CreateCommentDTo.cs",
@@ -1438,7 +1701,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 87,
               "Title": "UpdateColorTranslationDTO.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\DTO\u0027s\\ColorDTO\u0027s\\UpdateColorTranslationDTO.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\DTO\u0027s\\ColorDTO\u0027s\\UpdateColorTranslationDTO.cs",
@@ -1450,7 +1713,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 86,
               "Title": "UpdateColorDTO.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\DTO\u0027s\\ColorDTO\u0027s\\UpdateColorDTO.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\DTO\u0027s\\ColorDTO\u0027s\\UpdateColorDTO.cs",
@@ -1462,7 +1725,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 89,
               "Title": "CreateColorTranslationDTO.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\DTO\u0027s\\ColorDTO\u0027s\\CreateColorTranslationDTO.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\DTO\u0027s\\ColorDTO\u0027s\\CreateColorTranslationDTO.cs",
@@ -1474,7 +1737,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 88,
               "Title": "CreateColorDTO.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\DTO\u0027s\\ColorDTO\u0027s\\CreateColorDTO.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\DTO\u0027s\\ColorDTO\u0027s\\CreateColorDTO.cs",
@@ -1486,7 +1749,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 91,
               "Title": "ColorDTO.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\DTO\u0027s\\ColorDTO\u0027s\\ColorDTO.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\DTO\u0027s\\ColorDTO\u0027s\\ColorDTO.cs",
@@ -1498,7 +1761,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 93,
               "Title": "UpdateCategoryTranslationDTO.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\DTO\u0027s\\CategoryDTO\u0027s\\UpdateCategoryTranslationDTO.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\DTO\u0027s\\CategoryDTO\u0027s\\UpdateCategoryTranslationDTO.cs",
@@ -1510,7 +1773,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 92,
               "Title": "UpdateCategoryDTO.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\DTO\u0027s\\CategoryDTO\u0027s\\UpdateCategoryDTO.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\DTO\u0027s\\CategoryDTO\u0027s\\UpdateCategoryDTO.cs",
@@ -1522,7 +1785,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 94,
               "Title": "CreateCategoryTranslation.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\DTO\u0027s\\CategoryDTO\u0027s\\CreateCategoryTranslation.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\DTO\u0027s\\CategoryDTO\u0027s\\CreateCategoryTranslation.cs",
@@ -1534,7 +1797,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 90,
               "Title": "FilterProductDTO.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\DTO\u0027s\\ProductDTO\u0027s\\FilterProductDTO.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\DTO\u0027s\\ProductDTO\u0027s\\FilterProductDTO.cs",
@@ -1546,7 +1809,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 95,
               "Title": "CreateCategoryDTO.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\DTO\u0027s\\CategoryDTO\u0027s\\CreateCategoryDTO.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\DTO\u0027s\\CategoryDTO\u0027s\\CreateCategoryDTO.cs",
@@ -1558,7 +1821,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 96,
               "Title": "CategoryDTO.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\DTO\u0027s\\CategoryDTO\u0027s\\CategoryDTO.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\DTO\u0027s\\CategoryDTO\u0027s\\CategoryDTO.cs",
@@ -1570,7 +1833,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 98,
               "Title": "CreateProductTranslationDTO.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\DTO\u0027s\\ProductDTO\u0027s\\CreateProductTranslationDTO.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\DTO\u0027s\\ProductDTO\u0027s\\CreateProductTranslationDTO.cs",
@@ -1582,7 +1845,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 102,
               "Title": "CreateProductImageDTO.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\DTO\u0027s\\ProductDTO\u0027s\\CreateProductImageDTO.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\DTO\u0027s\\ProductDTO\u0027s\\CreateProductImageDTO.cs",
@@ -1594,7 +1857,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 97,
               "Title": "ProductComponentDTO.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\DTO\u0027s\\ProductDTO\u0027s\\ProductComponentDTO.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\DTO\u0027s\\ProductDTO\u0027s\\ProductComponentDTO.cs",
@@ -1606,7 +1869,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 101,
               "Title": "CreateProductSettingDTO.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\DTO\u0027s\\ProductDTO\u0027s\\CreateProductSettingDTO.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\DTO\u0027s\\ProductDTO\u0027s\\CreateProductSettingDTO.cs",
@@ -1618,7 +1881,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 100,
               "Title": "CurrentProductImageDTO.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\DTO\u0027s\\ProductDTO\u0027s\\CurrentProductImageDTO.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\DTO\u0027s\\ProductDTO\u0027s\\CurrentProductImageDTO.cs",
@@ -1630,7 +1893,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 99,
               "Title": "ProductDTO.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\DTO\u0027s\\ProductDTO\u0027s\\ProductDTO.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\DTO\u0027s\\ProductDTO\u0027s\\ProductDTO.cs",
@@ -1642,7 +1905,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 103,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Rampage\\Views\\Shared\\_Layout.cshtml",
@@ -1654,7 +1917,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 105,
               "Title": "About.cshtml",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage\\Views\\Home\\About.cshtml",
               "RelativeDocumentMoniker": "Rampage\\Views\\Home\\About.cshtml",
@@ -1666,7 +1929,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 106,
               "Title": "AccesDenied.cshtml",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage\\Views\\Home\\AccesDenied.cshtml",
               "RelativeDocumentMoniker": "Rampage\\Views\\Home\\AccesDenied.cshtml",
@@ -1678,7 +1941,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 104,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Rampage\\Views\\Home\\Index.cshtml",
@@ -1690,7 +1953,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 110,
               "Title": "UpdateProductTranslationDTO.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\DTO\u0027s\\ProductDTO\u0027s\\UpdateProductTranslationDTO.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\DTO\u0027s\\ProductDTO\u0027s\\UpdateProductTranslationDTO.cs",
@@ -1702,7 +1965,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 108,
               "Title": "UpdateProductSettingDTO.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\DTO\u0027s\\ProductDTO\u0027s\\UpdateProductSettingDTO.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\DTO\u0027s\\ProductDTO\u0027s\\UpdateProductSettingDTO.cs",
@@ -1714,7 +1977,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 109,
               "Title": "UpdateProductImageDTO.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\DTO\u0027s\\ProductDTO\u0027s\\UpdateProductImageDTO.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\DTO\u0027s\\ProductDTO\u0027s\\UpdateProductImageDTO.cs",
@@ -1726,7 +1989,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 107,
               "Title": "UpdateProductDTO.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\DTO\u0027s\\ProductDTO\u0027s\\UpdateProductDTO.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\DTO\u0027s\\ProductDTO\u0027s\\UpdateProductDTO.cs",
@@ -1738,7 +2001,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 95,
+              "DocumentIndex": 111,
               "Title": "IAuditedEntityDTO.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\DTO\u0027s\\Commons\\IAuditedEntityDTO.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\DTO\u0027s\\Commons\\IAuditedEntityDTO.cs",
@@ -1750,7 +2013,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 96,
+              "DocumentIndex": 112,
               "Title": "BaseEntityDTO.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\DTO\u0027s\\Commons\\BaseEntityDTO.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\DTO\u0027s\\Commons\\BaseEntityDTO.cs",
@@ -1762,7 +2025,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 97,
+              "DocumentIndex": 113,
               "Title": "CloudinaryService.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\Services\\Abstraction\\CloudinaryService.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\Services\\Abstraction\\CloudinaryService.cs",
@@ -1774,7 +2037,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 98,
+              "DocumentIndex": 114,
               "Title": "ICloudinaryService.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.BLL\\Services\\Interfaces\\ICloudinaryService.cs",
               "RelativeDocumentMoniker": "Rampage.BLL\\Services\\Interfaces\\ICloudinaryService.cs",
@@ -1786,7 +2049,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 99,
+              "DocumentIndex": 115,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Entities\\Category.cs",
               "RelativeDocumentMoniker": "Rampage.Core\\Entities\\Category.cs",
@@ -1798,7 +2061,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 100,
+              "DocumentIndex": 116,
               "Title": "AutomatedMigration.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Context\\AutomatedMigration.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Context\\AutomatedMigration.cs",
@@ -1810,7 +2073,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 101,
+              "DocumentIndex": 117,
               "Title": "EOrderStatus.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Enums\\EOrderStatus.cs",
               "RelativeDocumentMoniker": "Rampage.Core\\Enums\\EOrderStatus.cs",
@@ -1822,7 +2085,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 103,
+              "DocumentIndex": 119,
               "Title": "EUserRole.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.Core\\Enums\\EUserRole.cs",
               "RelativeDocumentMoniker": "Rampage.Core\\Enums\\EUserRole.cs",
@@ -1834,7 +2097,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 102,
+              "DocumentIndex": 118,
               "Title": "AppDbContextSeed.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Context\\AppDbContextSeed.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Context\\AppDbContextSeed.cs",
@@ -1846,7 +2109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 105,
+              "DocumentIndex": 121,
               "Title": "IBasketRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Interfaces\\IBasketRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Interfaces\\IBasketRepository.cs",
@@ -1858,7 +2121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 104,
+              "DocumentIndex": 120,
               "Title": "DALDependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\DALDependencyInjection.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\DALDependencyInjection.cs",
@@ -1870,7 +2133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 106,
+              "DocumentIndex": 122,
               "Title": "SubscriptionRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Implementation\\SubscriptionRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Implementation\\SubscriptionRepository.cs",
@@ -1882,7 +2145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 107,
+              "DocumentIndex": 123,
               "Title": "ISubscriptionRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Interfaces\\ISubscriptionRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Interfaces\\ISubscriptionRepository.cs",
@@ -1894,7 +2157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 108,
+              "DocumentIndex": 124,
               "Title": "SettingRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Implementation\\SettingRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Implementation\\SettingRepository.cs",
@@ -1906,7 +2169,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 109,
+              "DocumentIndex": 125,
               "Title": "ISettingRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Interfaces\\ISettingRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Interfaces\\ISettingRepository.cs",
@@ -1918,7 +2181,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 110,
+              "DocumentIndex": 126,
               "Title": "BlogTranslationRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Implementation\\BlogTranslationRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Implementation\\BlogTranslationRepository.cs",
@@ -1930,7 +2193,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 111,
+              "DocumentIndex": 127,
               "Title": "BlogRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Implementation\\BlogRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Implementation\\BlogRepository.cs",
@@ -1942,7 +2205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 112,
+              "DocumentIndex": 128,
               "Title": "IBlogTranslationRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Interfaces\\IBlogTranslationRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Interfaces\\IBlogTranslationRepository.cs",
@@ -1954,7 +2217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 113,
+              "DocumentIndex": 129,
               "Title": "IBlogRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Interfaces\\IBlogRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Interfaces\\IBlogRepository.cs",
@@ -1966,7 +2229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 114,
+              "DocumentIndex": 130,
               "Title": "CommentRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Implementation\\CommentRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Implementation\\CommentRepository.cs",
@@ -1978,7 +2241,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 116,
+              "DocumentIndex": 132,
               "Title": "ContactRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Implementation\\ContactRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Implementation\\ContactRepository.cs",
@@ -1990,7 +2253,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 118,
+              "DocumentIndex": 134,
               "Title": "IContactRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Interfaces\\IContactRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Interfaces\\IContactRepository.cs",
@@ -2002,7 +2265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 117,
+              "DocumentIndex": 133,
               "Title": "ICommentRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Interfaces\\ICommentRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Interfaces\\ICommentRepository.cs",
@@ -2014,7 +2277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 120,
+              "DocumentIndex": 136,
               "Title": "ColorRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Implementation\\ColorRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Implementation\\ColorRepository.cs",
@@ -2026,7 +2289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 115,
+              "DocumentIndex": 131,
               "Title": "IPrdocutTranslationRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Interfaces\\IPrdocutTranslationRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Interfaces\\IPrdocutTranslationRepository.cs",
@@ -2038,7 +2301,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 119,
+              "DocumentIndex": 135,
               "Title": "ColorTranslationRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Implementation\\ColorTranslationRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Implementation\\ColorTranslationRepository.cs",
@@ -2050,7 +2313,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 121,
+              "DocumentIndex": 137,
               "Title": "IColorTranslationRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Interfaces\\IColorTranslationRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Interfaces\\IColorTranslationRepository.cs",
@@ -2062,7 +2325,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 122,
+              "DocumentIndex": 138,
               "Title": "IColorRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Interfaces\\IColorRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Interfaces\\IColorRepository.cs",
@@ -2074,7 +2337,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 123,
+              "DocumentIndex": 139,
               "Title": "CategoryTranslationRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Implementation\\CategoryTranslationRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Implementation\\CategoryTranslationRepository.cs",
@@ -2086,7 +2349,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 124,
+              "DocumentIndex": 140,
               "Title": "CategoryRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Implementation\\CategoryRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Implementation\\CategoryRepository.cs",
@@ -2098,7 +2361,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 125,
+              "DocumentIndex": 141,
               "Title": "ICategoryTranslationRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Interfaces\\ICategoryTranslationRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Interfaces\\ICategoryTranslationRepository.cs",
@@ -2110,7 +2373,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 126,
+              "DocumentIndex": 142,
               "Title": "ICategoryRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Interfaces\\ICategoryRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Interfaces\\ICategoryRepository.cs",
@@ -2122,7 +2385,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 127,
+              "DocumentIndex": 143,
               "Title": "ProductColorRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Implementation\\ProductColorRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Implementation\\ProductColorRepository.cs",
@@ -2134,7 +2397,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 128,
+              "DocumentIndex": 144,
               "Title": "IProductColorRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Interfaces\\IProductColorRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Interfaces\\IProductColorRepository.cs",
@@ -2146,7 +2409,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 129,
+              "DocumentIndex": 145,
               "Title": "ProductImageRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Implementation\\ProductImageRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Implementation\\ProductImageRepository.cs",
@@ -2158,7 +2421,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 130,
+              "DocumentIndex": 146,
               "Title": "IProductImageRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Interfaces\\IProductImageRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Interfaces\\IProductImageRepository.cs",
@@ -2170,7 +2433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 131,
+              "DocumentIndex": 147,
               "Title": "ProductTranslationRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Implementation\\ProductTranslationRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Implementation\\ProductTranslationRepository.cs",
@@ -2182,7 +2445,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 132,
+              "DocumentIndex": 148,
               "Title": "ProductSettingRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Implementation\\ProductSettingRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Implementation\\ProductSettingRepository.cs",
@@ -2194,7 +2457,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 133,
+              "DocumentIndex": 149,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Implementation\\ProductRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Implementation\\ProductRepository.cs",
@@ -2206,7 +2469,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 134,
+              "DocumentIndex": 150,
               "Title": "Repository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Implementation\\Repository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Implementation\\Repository.cs",
@@ -2218,7 +2481,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 135,
+              "DocumentIndex": 151,
               "Title": "IProductSettingRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Interfaces\\IProductSettingRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Interfaces\\IProductSettingRepository.cs",
@@ -2230,7 +2493,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 136,
+              "DocumentIndex": 152,
               "Title": "IProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Interfaces\\IProductRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Interfaces\\IProductRepository.cs",
@@ -2242,7 +2505,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 137,
+              "DocumentIndex": 153,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zenbook\\OneDrive\\\u0130\u015F masas\u0131\\Rampage\\Rampage.DAL\\Repositories\\Interfaces\\IRepository.cs",
               "RelativeDocumentMoniker": "Rampage.DAL\\Repositories\\Interfaces\\IRepository.cs",

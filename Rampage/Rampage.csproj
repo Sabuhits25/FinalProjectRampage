@@ -17,7 +17,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Rampage.BLL\Rampage.BLL.csproj" />
     <ProjectReference Include="..\Rampage.DAL\Rampage.DAL.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Manage\Controllers\" />
+    <Folder Include="Areas\Manage\Data\" />
+    <Folder Include="Areas\Manage\Models\" />
+    <Folder Include="Areas\Manage\Views\" />
   </ItemGroup>
 
 </Project>
