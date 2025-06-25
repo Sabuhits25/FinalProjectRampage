@@ -1,0 +1,170 @@
+﻿@model CreateContactDTO;
+@inject ISettingRepository _settingRepository;
+@{
+    string lang = "az";
+    var url = Context.Request.Path.Value.ToString();
+    if (url.Contains("/en"))
+    {
+        lang = "en";
+    }
+
+    var setting = await _settingRepository.GetAllAsync(x => true);
+    var siteSettings = setting.FirstOrDefault();
+}
+
+<head>
+    <link rel="stylesheet" href="~/assets/css/contact.css">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.1.2/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.1.2/mapbox-gl.js"></script>
+</head>
+
+@if (lang == "az")
+{
+    <section class="all-map">
+        <div id="map"></div>
+    </section>
+
+    <section class="all-infos">
+        <div class="info">
+            <div class="info-item">
+                <span>Ünvan</span>
+                <a href="#">@siteSettings?.Address</a>
+            </div>
+            <div class="info-item">
+                <span>Telefon</span>
+                <a href="#">@siteSettings?.Phone</a>
+            </div>
+            <div class="info-item">
+                <span>E-poçt</span>
+                <a href="mailto:@siteSettings?.Email">@siteSettings?.Email</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="all-contact">
+        <div class="contact">
+            <div class="contact-left">
+                <div class="title">Sürətli <span>Mesaj</span></div>
+                <div class="contact-text">
+                    <p>
+                        Hansı yolla bizə müraciət etsəniz edin, sizə <span>ən qısa zamanda</span>
+                        cavab verəcəyik.
+                    </p>
+                </div>
+            </div>
+            <div class="contact-right">
+                @if (TempData["SuccessMessage"] != null)
+                {
+                    <div style="color: green; background-color: white; font-size: 20px;">@TempData["SuccessMessage"]</div>
+                }
+                @if (TempData["ErrorMessage"] != null)
+                {
+                    <div style="color: red; background-color: white; font-size: 20px;">@TempData["ErrorMessage"]</div>
+                }
+
+                <form asp-controller="ContactUs" asp-action="Index" method="post">
+                    <div class="inputs">
+                        <div class="form-item">
+                            <input asp-for="FullName" placeholder="Adınız Soyadınız">
+                            <span asp-validation-for="FullName" class="text-danger"></span>
+                        </div>
+                        <div class="form-item">
+                            <input asp-for="Email" placeholder="E-poçt ünvanınız">
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+                        <div class="form-item">
+                            <textarea asp-for="Message" class="textarea" placeholder="Mesajınız"></textarea>
+                            <span asp-validation-for="Message" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="gizlilik">
+                        <p>
+                            Şəxsi məlumatlarınız, <a href="#">Məlumatlandırma Mətninə</a> uyğun olaraq işlənir. 'Göndər'
+                            düyməsini basmaqla
+                            <a href="#"> Məxfilik və Kukilər Siyasəti</a>ni oxuduğunuzu və qəbul etdiyinizi
+                            təsdiq edirsiniz.
+                        </p>
+                    </div>
+                    <div class="send-message-contact">
+                        <button type="submit">Göndər</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+}
+else
+{
+    <section class="all-map">
+        <div id="map"></div>
+    </section>
+
+    <section class="all-infos">
+        <div class="info">
+            <div class="info-item">
+                <span>Ünvan</span>
+                <a href="#">@siteSettings?.Address</a>
+            </div>
+            <div class="info-item">
+                <span>Telefon</span>
+                <a href="#">@siteSettings?.Phone</a>
+            </div>
+            <div class="info-item">
+                <span>E-poçt</span>
+                <a href="mailto:@siteSettings?.Email">@siteSettings?.Email</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="all-contact">
+        <div class="contact">
+            <div class="contact-left">
+                <div class="title">Sürətli <span>Mesaj</span></div>
+                <div class="contact-text">
+                    <p>
+                        No matter how you reach us, we will respond to you <span>as quickly as possible</span>.
+                    </p>
+                </div>
+            </div>
+            <div class="contact-right">
+                @if (TempData["SuccessMessage"] != null)
+                {
+                    <div style="color: green; background-color: white; font-size: 20px;">@TempData["SuccessMessage"]</div>
+                }
+                @if (TempData["ErrorMessage"] != null)
+                {
+                    <div style="color: red; background-color: white; font-size: 20px;">@TempData["ErrorMessage"]</div>
+                }
+
+                <form asp-controller="ContactUs" asp-action="Index" method="post">
+                    <div class="inputs">
+                        <div class="form-item">
+                            <input asp-for="FullName" placeholder="Adınız Soyadınız">
+                            <span asp-validation-for="FullName" class="text-danger"></span>
+                        </div>
+                        <div class="form-item">
+                            <input asp-for="Email" placeholder="E-poçt ünvanınız">
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+                        <div class="form-item">
+                            <textarea asp-for="Message" class="textarea" placeholder="Mesajınız"></textarea>
+                            <span asp-validation-for="Message" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="gizlilik">
+                        <p>
+                            Your personal data is processed within the scope of the
+                            <a href="#">Privacy Policy</a>. By clicking the 'Send'
+                            button, you confirm that you have read and accepted the
+                            <a href="#"> Privacy and Cookie Policy</a>.
+                        </p>
+                    </div>
+                    <div class="send-message-contact">
+                        <button type="submit">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+}
+<script src="~/assets/js/contact.js"></script>

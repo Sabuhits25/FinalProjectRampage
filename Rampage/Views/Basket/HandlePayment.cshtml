@@ -1,0 +1,248 @@
+﻿@{
+    string lang = "az";
+    var url = Context.Request.Path.Value.ToString();
+    if (url.Contains("/en"))
+    {
+        lang = "en";
+    }
+}
+@model CreateTransactionDTO
+
+<head>
+    <link rel="stylesheet" href="~/assets/css/basketteslimat.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <style>
+        .couppon form {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .couppon button {
+            background-color: #e63946;
+            color: #fff;
+            font-size: 16px;
+            font-weight: bold;
+            border: none;
+            padding: 12px 24px;
+            margin-top: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+            .couppon button:hover {
+                background-color: #d62828;
+            }
+
+        .couppon i {
+            font-size: 20px;
+            color: #fff;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #fff;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 50vh;
+            margin-bottom: 10rem;
+            margin-top: -15rem;
+            flex-direction: column;
+        }
+
+        .success-checkmark {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color: #4CAF50;
+            position: relative;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .check-icon {
+            position: relative;
+            width: 40px;
+            height: 40px;
+        }
+
+        .icon-line {
+            position: absolute;
+            height: 5px;
+            background-color: #fff;
+            border-radius: 2px;
+        }
+
+        .line-tip {
+            width: 25px;
+            left: 10px;
+            top: 20px;
+            transform: rotate(45deg);
+        }
+
+        .line-long {
+            width: 40px;
+            left: 0px;
+            top: 15px;
+            transform: rotate(-45deg);
+        }
+
+        .message {
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            color: #fff;
+        }
+    </style>
+</head>
+
+@if (lang == "az")
+{
+    <section class="shopping-basket-image">
+        <div class="basket-nav">
+            <div class="step active step active mobile-active bar">
+                <div class="stepIcon">
+                    <a href="#">
+                        <i class="fas fa-shopping-basket" title="Alış-veriş Səbəti">
+                        </i>
+                    </a>
+                </div>
+                <div class="stepTitle">
+                    <a href="#" id="shopping">
+                        Alış-veriş Səbəti
+                    </a>
+                </div>
+            </div>
+            <div class="step active step active mobile-active bar">
+                <div class="stepIcon">
+                    <a href="#">
+                        <i class="fas fa-shipping-fast" title="Çatdırılma Məlumatları">
+                        </i>
+                    </a>
+                </div>
+                <div class="stepTitle">
+                    <a href="#">
+                        Çatdırılma Məlumatları
+                    </a>
+                </div>
+            </div>
+            <div class="step active mobile-active bar">
+                <div class="stepIcon">
+                    <a href="#">
+                        <i class="fas fa-credit-card" title="Ödəmə Məlumatları">
+                        </i>
+                    </a>
+                </div>
+                <div class="stepTitle">
+                    <a href="#">
+                        Ödəmə Məlumatları
+                    </a>
+                </div>
+            </div>
+            <div class="step active step active mobile-active bar">
+                <div class="stepIcon">
+                    <a href="javascript:;">
+                        <i class="far fa-check-circle" title="Sifariş Bitdi">
+                        </i>
+                    </a>
+                </div>
+                <div class="stepTitle">
+                    <a href="javascript:;">
+                        Sifariş Bitdi
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+}
+else
+{
+    <section class="shopping-basket-image">
+        <div class="basket-nav">
+            <div class="step active mobile-active bar">
+                <div class="stepIcon">
+                    <a href="#">
+                        <i class="fas fa-shopping-basket" title="Shopping Cart">
+                        </i>
+                    </a>
+                </div>
+                <div class="stepTitle">
+                    <a href="#" id="shopping">
+                        Shopping Cart
+                    </a>
+                </div>
+            </div>
+            <div class="step active mobile-active bar">
+                <div class="stepIcon">
+                    <a href="#">
+                        <i class="fas fa-shipping-fast" title="Delivery Information">
+                        </i>
+                    </a>
+                </div>
+                <div class="stepTitle">
+                    <a href="#">
+                        Delivery Information
+                    </a>
+                </div>
+            </div>
+            <div class="step active mobile-active bar">
+                <div class="stepIcon">
+                    <a href="#">
+                        <i class="fas fa-credit-card" title="Payment Information">
+                        </i>
+                    </a>
+                </div>
+                <div class="stepTitle">
+                    <a href="#">
+                        Payment Information
+                    </a>
+                </div>
+            </div>
+            <div class="step active mobile-active bar">
+                <div class="stepIcon">
+                    <a href="javascript:;">
+                        <i class="far fa-check-circle" title="Order Complete">
+                        </i>
+                    </a>
+                </div>
+                <div class="stepTitle">
+                    <a href="javascript:;">
+                        Order Complete
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+}
+
+<div class="container">
+    <div class="success-checkmark">
+        @if (TempData["Status"] == "Success")
+        {
+            <i class="fas fa-check-circle" style="font-size: 50px; color: white;"></i>
+        }
+        else
+        {
+            <i class="fas fa-times-circle" style="font-size: 50px; color: white;"></i>
+        }
+    </div>
+
+    <p class="message">
+        @(TempData["Status"] == "Success" ? (lang == "az" ? "Ödəniş uğurla tamamlandı, təşəkkür edirik!" : "Payment completed successfully, thank you!")
+            : (lang == "az" ? "Ödəniş zamanı problem yaşandı, ödəniş ləğv edildi!" : "The payment was canceled due to an issue!"))
+    </p>
+</div>
+
+<script src="~/assets/js/basketteslimat.js"></script>

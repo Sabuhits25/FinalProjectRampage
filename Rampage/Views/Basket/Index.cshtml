@@ -1,0 +1,479 @@
+﻿@{
+    string lang = "az";
+    var url = Context.Request.Path.Value.ToString();
+    if (url.Contains("/en"))
+    {
+        lang = "en";
+    }
+}
+@model BasketDTO
+<head>
+    <link rel="stylesheet" href="~/assets/css/basketsepet.css">
+    <style>
+        .couppon form {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .couppon button {
+            background-color: #e63946;
+            color: #fff;
+            font-size: 16px;
+            font-weight: bold;
+            border: none;
+            padding: 12px 24px;
+            margin-top: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+            .couppon button:hover {
+                background-color: #d62828;
+            }
+
+        .couppon i {
+            font-size: 20px;
+            color: #fff;
+        }
+    </style>
+</head>
+
+@if (lang == "az")
+{
+    <section class="shopping-basket-image">
+        <div class="basket-nav">
+            <div class="step active mobile-active bar">
+                <div class="stepIcon">
+                    <a href="#">
+                        <i class="fas fa-shopping-basket" title="Alış-veriş səbəti">
+                        </i>
+                    </a>
+                </div>
+                <div class="stepTitle">
+                    <a href="#" id="shopping">
+                        Alış-veriş səbəti
+                    </a>
+                </div>
+            </div>
+            <div class="step " id="delivery-Information">
+                <div class="stepIcon">
+                    <a href="#">
+                        <i class="fas fa-shipping-fast" title="Çatdırılma Məlumatları">
+                        </i>
+                    </a>
+                </div>
+                <div class="stepTitle">
+                    <a href="#">
+                        Çatdırılma Məlumatları
+                    </a>
+                </div>
+            </div>
+            <div class="step " id="payment-Information">
+                <div class="stepIcon">
+                    <a href="#">
+                        <i class="fas fa-credit-card" title="Ödəniş Məlumatları">
+                        </i>
+                    </a>
+                </div>
+                <div class="stepTitle">
+                    <a href="#">
+                        Ödəniş Məlumatları
+                    </a>
+                </div>
+            </div>
+            <div class="step">
+                <div class="stepIcon">
+                    <a href="javascript:;">
+                        <i class="far fa-check-circle" title="Sifariş Nəticəsi">
+                        </i>
+                    </a>
+                </div>
+                <div class="stepTitle">
+                    <a href="javascript:;">
+                        Sifariş Nəticəsi
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sepet-all">
+        <div class="sepet-left-right" style="margin-top: -200px;">
+            @if (Model.BasketItems is not null)
+            {
+                <div class="sepet-left">
+
+                    <h4>MƏHSULLARIM</h4>
+                    @foreach (var item in Model.BasketItems)
+                    {
+                        <div class="sepet-info" data-product-id="@item.ProductId">
+                            <div class="sepet-img">
+                                <a href="#">
+                                    <img src="@item.ImageUrl" alt="@item.Name">
+                                </a>
+                            </div>
+                            <div class="sepet-name">
+                                <a href="#">
+                                    <span>@item.Name</span>
+                                </a>
+                            </div>
+                            <div class="sepet-count">
+                                <div class="piece">
+                                    <div class="product-qty">
+                                        <div class="qty-minus" onclick="updateQuantity(@item.ProductId, -1)">-</div>
+                                        <div class="piece-count">
+                                            <input type="number" step="1" id="qty-@item.ProductId" value="@item.Quantity" min="1">
+                                        </div>
+                                        <div class="qty-plus" onclick="updateQuantity(@item.ProductId, 1)">+</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sepet-single-total">
+                                <div class="sepet-single">
+                                    <h6>Qiymət</h6>
+                                    <p id="price-@item.ProductId">@item.Price.ToString("N2") AZN</p>
+                                </div>
+                                <div class="sepet-sub-total">
+                                    <h6>Ümumi</h6>
+                                    <p id="total-@item.ProductId">@(item.Price * item.Quantity) AZN</p>
+                                </div>
+                            </div>
+                            <div class="sepet-delete">
+                                <a href="javascript:void(0);" onclick="removeProduct(@item.ProductId)"><i class="fas fa-trash"></i> DELETE </a>
+                            </div>
+                        </div>
+                    }
+                    <p class="products_desc">
+                        Səbətinizdəki məhsulların ümumi çatdırılma dəyəri 0₼-dir. Təxmini çatdırılma müddəti 2 iş günüdür. 500₼ üzəri çatdırılma pulsuzdur!
+                    </p>
+                    <div class="sepet-btn">
+                        <div class="sepet-btn-left">
+                            <a asp-action="Index" asp-controller="Shop">
+                                <i class="fa-solid fa-arrow-left"></i> Alış-verişə Davam Et
+                            </a>
+                        </div>
+                        <div class="sepet-btn-right">
+                            <a href="javascript:void(0);" onclick="clearCart()">
+                                <i class="fa-solid fa-trash"></i> Səbəti Təmizlə
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="sepet-right">
+                    <div class="ozetTitle">
+                        <h4>SİFARİŞİN XÜLASƏSİ</h4>
+                    </div>
+                    <div class="ozetDetay">
+                        <div>
+                            <span>Məhsulların Qiyməti</span>
+                            <p id="subtotal">@Model.TotalPrice AZN</p>
+                        </div>
+                        <div>
+                            <span>VAT</span>
+                            <p id="vat">100,00 AZN</p>
+                        </div>
+                        <div>
+                            <span>Transportasiya</span>
+                            <p id="shipping">200,00 AZN</p>
+                        </div>
+                        <div>
+                            <span>Ümumi Məbləğ</span>
+                            <p id="grand-total">@(Model.TotalPrice + 100 + 200) AZN</p>
+                        </div>
+                    </div>
+                    <div class="couppon">
+                        <form id="basket-form" method="post" asp-action="Index" asp-controller="Basket">
+                            <div id="basket-items">
+                                @foreach (var item in Model.BasketItems)
+                                {
+                                    <input type="hidden" name="BasketItems[@Model.BasketItems.ToList().IndexOf(item)].ProductId" value="@item.ProductId">
+                                    <input type="hidden" name="BasketItems[@Model.BasketItems.ToList().IndexOf(item)].Name" value="@item.Name">
+                                    <input type="hidden" name="BasketItems[@Model.BasketItems.ToList().IndexOf(item)].Quantity" id="hidden-qty-@item.ProductId" value="@item.Quantity">
+                                    <input type="hidden" name="BasketItems[@Model.BasketItems.ToList().IndexOf(item)].Price" value="@item.Price">
+                                    <input type="hidden" name="BasketItems[@Model.BasketItems.ToList().IndexOf(item)].ImageUrl" value="@item.ImageUrl">
+                                }
+                            </div>
+                            <input type="hidden" name="TotalPrice" id="hidden-total-price" value="@(Model.TotalPrice + 100 + 200)">
+                            <input type="hidden" name="ProductsPrice" id="hidden-total-price" value="@(Model.TotalPrice)">
+                            <input type="hidden" name="UserId" id="hidden-total-price" value="@Model.UserId">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <button type="submit">Sifarişə Davam</button>
+                        </form>
+                    </div>
+                </div>
+            }
+            else
+            {
+                <h1 style="color: red; font-size: 30px;">Hələ ki səbətə hansısa bir məhsul əlavə olunmayıb!</h1>
+            }
+
+
+
+        </div>
+    </section>
+}
+else
+{
+    <section class="shopping-basket-image">
+        <div class="basket-nav">
+            <div class="step active mobile-active bar">
+                <div class="stepIcon">
+                    <a href="#">
+                        <i class="fas fa-shopping-basket" title="Shopping Cart">
+                        </i>
+                    </a>
+                </div>
+                <div class="stepTitle">
+                    <a href="#" id="shopping">
+                        Shopping Cart
+                    </a>
+                </div>
+            </div>
+            <div class="step " id="delivery-Information">
+                <div class="stepIcon">
+                    <a href="#">
+                        <i class="fas fa-shipping-fast" title="Delivery Information">
+                        </i>
+                    </a>
+                </div>
+                <div class="stepTitle">
+                    <a href="#">
+                        Delivery Information
+                    </a>
+                </div>
+            </div>
+            <div class="step " id="payment-Information">
+                <div class="stepIcon">
+                    <a href="#">
+                        <i class="fas fa-credit-card" title="Payment Information">
+                        </i>
+                    </a>
+                </div>
+                <div class="stepTitle">
+                    <a href="#">
+                        Payment Information
+                    </a>
+                </div>
+            </div>
+            <div class="step">
+                <div class="stepIcon">
+                    <a href="javascript:;">
+                        <i class="far fa-check-circle" title="Order Completion">
+                        </i>
+                    </a>
+                </div>
+                <div class="stepTitle">
+                    <a href="javascript:;">
+                        Order Completion
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sepet-all">
+        <div class="sepet-left-right" style="margin-top: -200px;">
+            @if (Model.BasketItems is not null)
+            {
+                <div class="sepet-left">
+
+                    <h4>MY PRODUCTS</h4>
+                    <div id="basket-items">
+                        @foreach (var item in Model.BasketItems)
+                        {
+                            <div class="sepet-info" data-product-id="@item.ProductId">
+                                <div class="sepet-img">
+                                    <a href="#">
+                                        <img src="@item.ImageUrl" alt="@item.Name">
+                                    </a>
+                                </div>
+                                <div class="sepet-name">
+                                    <a href="#">
+                                        <span>@item.Name</span>
+                                    </a>
+                                </div>
+                                <div class="sepet-count">
+                                    <div class="piece">
+                                        <div class="product-qty">
+                                            <div class="qty-minus" onclick="updateQuantity(@item.ProductId, -1)">-</div>
+                                            <div class="piece-count">
+                                                <input type="number" id="qty-@item.ProductId" value="@item.Quantity" min="1">
+                                            </div>
+                                            <div class="qty-plus" onclick="updateQuantity(@item.ProductId, 1)">+</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sepet-single-total">
+                                    <div class="sepet-single">
+                                        <h6>Price</h6>
+                                        <p id="price-@item.ProductId">@item.Price.ToString("N2") AZN</p>
+                                    </div>
+                                    <div class="sepet-sub-total">
+                                        <h6>Total</h6>
+                                        <p id="total-@item.ProductId">@(item.Price * item.Quantity) AZN</p>
+                                    </div>
+                                </div>
+                                <div class="sepet-delete" data-product-id="@item.ProductId">
+                                    <a href="javascript:void(0);" onclick="removeProductFromElement(this)">
+                                        <i class="fas fa-trash"></i> DELETE
+                                    </a>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                    <p class="products_desc">
+                        The total shipping cost for the items in your cart is 0₺. Estimated delivery time is 2 business days. Free shipping for orders over 500₺!
+                    </p>
+                    <div class="sepet-btn">
+                        <div class="sepet-btn-left">
+                            <a href="#">
+                                <i class="fa-solid fa-arrow-left"></i>
+                                Continue Shopping
+                            </a>
+                        </div>
+                        <div class="sepet-btn-right">
+                            <a href="javascript:void(0);" onclick="clearCart()">
+                                <i class="fa-solid fa-trash"></i>
+                                Clear Cart
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="sepet-right">
+                    <div class="ozetTitle">
+                        <h4>ORDER SUMMARY</h4>
+                    </div>
+                    <div class="ozetDetay">
+                        <div>
+                            <span>SUBTOTAL</span>
+                            <p id="subtotal">@Model.TotalPrice AZN</p>
+                        </div>
+                        <div>
+                            <span>VAT</span>
+                            <p id="vat">100,00 AZN</p>
+                        </div>
+                        <div>
+                            <span>SHIPPING</span>
+                            <p id="shipping">200,00 AZN</p>
+                        </div>
+                        <div>
+                            <span>TOTAL</span>
+                            <p id="grand-total">@(Model.TotalPrice + 100 + 200) AZN</p>
+                        </div>
+                    </div>
+                    <div class="couppon">
+                        <form id="basket-form" method="post" asp-action="Index" asp-controller="Basket">
+                            <div id="basket-items">
+                                @foreach (var item in Model.BasketItems)
+                                {
+                                    <input type="hidden" name="BasketItems[@Model.BasketItems.ToList().IndexOf(item)].ProductId" value="@item.ProductId">
+                                    <input type="hidden" name="BasketItems[@Model.BasketItems.ToList().IndexOf(item)].Name" value="@item.Name">
+                                    <input type="hidden" name="BasketItems[@Model.BasketItems.ToList().IndexOf(item)].Quantity" id="hidden-qty-@item.ProductId" value="@item.Quantity">
+                                    <input type="hidden" name="BasketItems[@Model.BasketItems.ToList().IndexOf(item)].Price" value="@item.Price">
+                                    <input type="hidden" name="BasketItems[@Model.BasketItems.ToList().IndexOf(item)].ImageUrl" value="@item.ImageUrl">
+                                }
+                            </div>
+                            <input type="hidden" name="TotalPrice" id="hidden-total-price" value="@(Model.TotalPrice + 100 + 200)">
+                            <input type="hidden" name="ProductsPrice" id="hidden-total-price" value="@(Model.TotalPrice)">
+                            <input type="hidden" name="UserId" id="hidden-total-price" value="@Model.UserId">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <button type="submit">Continue Order</button>
+                        </form>
+                    </div>
+                </div>
+            }
+            else
+            {
+                <h1 style="color: red; font-size: 30px;">There is no any item in your basket!</h1>
+            }
+        </div>
+    </section>
+}
+<script src="~/assets/js/basketsepet.js"></script>
+
+<script>
+    async function updateQuantity(productId, change) {
+        let qtyInput = document.getElementById(`qty-${productId}`);
+        let currentQuantity = parseInt(qtyInput.value);
+        let newQuantity = Math.max(1, currentQuantity + change);
+        qtyInput.value = newQuantity;
+
+        const increaseOrDecrease = change > 0;
+
+        const response = await fetch('/en/Basket/UpdateQuantity', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                productId: parseInt(productId),
+                quantity: newQuantity,
+                increaseOrDecrease: increaseOrDecrease
+            })
+        });
+
+        const result = await response.json();
+        if (result.success) updateTotal(productId);
+    }
+
+    async function removeProductFromElement(element) {
+        let productId = element.closest('.sepet-delete').dataset.productId;
+
+        if (!productId || isNaN(productId)) {
+            console.error('Invalid product ID');
+            return;
+        }
+
+        const response = await fetch('/en/Basket/RemoveProduct', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ productId: parseInt(productId) })
+        });
+
+        const result = await response.json();
+        if (result.success) {
+            element.closest('.sepet-info').remove();
+            updateGrandTotal();
+        }
+    }
+
+    async function clearCart() {
+        const response = await fetch('/en/Basket/ClearBasket', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' }
+        });
+
+        const result = await response.json();
+        if (result.success) {
+            document.getElementById('basket-items').innerHTML = '';
+            updateGrandTotal();
+        }
+    }
+
+    function updateTotal(productId) {
+        let priceElement = document.getElementById(`price-${productId}`);
+        let qtyElement = document.getElementById(`qty-${productId}`);
+
+        if (!priceElement || !qtyElement) {
+            console.error('Element not found');
+            return;
+        }
+
+        let price = parseFloat(priceElement.innerText.replace(' AZN', ''));
+        let quantity = parseInt(qtyElement.value);
+        document.getElementById(`total-${productId}`).innerText = (price * quantity).toFixed(2) + ' AZN';
+
+        updateGrandTotal();
+    }
+
+    function updateGrandTotal() {
+        let subtotal = Array.from(document.querySelectorAll(".sepet-sub-total p"))
+            .reduce((sum, el) => sum + parseFloat(el.innerText.replace(' AZN', '')), 0);
+        document.getElementById("subtotal").innerText = subtotal.toFixed(2) + ' AZN';
+        document.getElementById("grand-total").innerText = (subtotal + 100 + 200).toFixed(2) + ' AZN';
+    }
+</script>
+
+

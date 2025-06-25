@@ -1,0 +1,62 @@
+﻿@model EmailConfirmationDTO
+
+<head>
+    <link rel="stylesheet" href="~/assets/css/login.css">
+    <style>
+        .enter .account-btn {
+            display: inline-block;
+            background-color: #e42c22;
+            color: white;
+            padding: 18px 72px;
+            text-align: center;
+            border-radius: 5px;
+            border-color: black;
+            cursor: pointer;
+        }
+
+            .enter .account-btn button {
+                background: none;
+                border: none;
+                color: inherit;
+                font: inherit;
+                cursor: pointer;
+            }
+
+    </style>
+</head>
+
+<section class="bg-image-login">
+</section>
+
+<section class="login">
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger text-center">
+            @TempData["ErrorMessage"]
+        </div>
+    }
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success text-center">
+            @TempData["SuccessMessage"]
+        </div>
+    }
+    <form method="post">
+        <h2>E-posta Təsdiqləmə</h2>
+        <p>Lütfən e-poçt ünvanınıza göndərilmiş təsdiq kodunu daxil edin.</p>
+        <p>Email təsdiqləmə üçün göndərildi: @ViewBag.Email</p>
+        <div class="login-email">
+            <input asp-for="Code" type="text" placeholder="Təsdiq kodu">
+            <input type="hidden" name="email" value="@ViewBag.Email" />
+        </div>
+        <div class="enter">
+            <button type="submit" class="btn btn-primary account-btn">
+                Təsdiqlə
+            </button>
+        </div>
+        <div class="register">
+            <a asp-action="Register" asp-controller="Account">Hesabın yokmu? Kaydol</a>
+        </div>
+    </form>
+</section>

@@ -1,49 +1,334 @@
-﻿<!DOCTYPE html>
+﻿@inject ISettingRepository _settingRepository;
+@inject ICategoryService _categoryService;
+@inject IBasketRepository _basketRepository;
+@inject IClaimService _claimService;
+<!DOCTYPE html>
 <html lang="en">
+
+@{
+    string lang = "az";
+    var url = Context.Request.Path.Value.ToString();
+    if (url.Contains("/en"))
+    {
+        lang = "en";
+    }
+
+    var setting = await _settingRepository.GetAllAsync(x => true);
+    var siteSettings = setting.FirstOrDefault();
+    var categories = await _categoryService.GetAllCategoriesByTranslationAsync(lang);
+    int itemsPerGroup = 5;
+    int totalGroups = (int)Math.Ceiling((double)categories.Count / itemsPerGroup);
+    var currentUserId = _claimService.GetUserId();
+    var basketItemsCount = 0;
+}
+
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Rampage</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/Rampage.styles.css" asp-append-version="true" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome cdn Strt -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+          integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font awesome cdn end -->
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Demo styles -->
+
+    <title>Rampage-home</title>
+    <style>
+        .language-selector {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+            .language-selector select {
+                padding: 3px 7px;
+                font-size: 16px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                background-color: #fff;
+                color: #333;
+                cursor: pointer;
+                outline: none;
+                transition: all 0.3s ease;
+            }
+
+                .language-selector select:hover {
+                    border-color: #555;
+                    box-shadow: 0 0 5px red;
+                }
+
+                .language-selector select:focus {
+                    border-color: red;
+                }
+
+            .language-selector::before {
+                content: "\f0ac";
+                font-family: "Font Awesome 5 Free";
+                font-weight: 900;
+                font-size: 22px;
+                margin-right: 14px;
+                margin-left: 22px;
+                color: white;
+            }
+    </style>
 </head>
+
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Rampage</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+    <!-- Header Sections Start -->
+    <header class="header">
+        <nav>
+            <div class="menu">
+                <i id="shop-menu" class="fa-solid fa-bars"></i>
+            </div>
+            <a asp-action="Index" asp-controller="Home">
+                <div class="logo">
+                    <img src="@siteSettings?.ImageUrl" alt="Rampage Logo">
+                </div>
+            </a>
+            <ul>
+                @if (!User.Identity.IsAuthenticated)
+                {
+                    <li style="cursor: pointer;">
+                        <a asp-action="Login" asp-controller="Account">
+                            <i class="fa-solid fa-user"></i>
+                            <span>@(lang == "az" ? "Daxil ol" : "Login")</span>
+                        </a>
+                    </li>
+                }
+                else
+                {
+                    @if (User.IsInRole(EUserRole.Admin.ToString()) || User.IsInRole(EUserRole.Moderator.ToString()))
+                    {
+                        <li style="cursor: pointer;">
+                            <a asp-action="Index" asp-controller="Dashboard" asp-area="Manage">
+                                <i class="fa-solid fa-user-shield"></i>
+                                <span>Admin Panel</span>
+                            </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
+                    }
+                    <li style="cursor: pointer;">
+                        <a asp-action="Component" asp-controller="Account">
+                            <i class="fa-solid fa-user"></i>
+                            <span>@User.Identity.Name</span>
+                        </a>
+                    </li>
+                    <li style="cursor: pointer;">
+                        <a asp-action="Logout" asp-controller="Account">
+                            <i class="fa-solid fa-sign-out-alt"></i>
+                            <span>@(lang == "az" ? "Çıxış" : "Logout")</span>
+                        </a>
+                    </li>
+                }
+                <li class="basket_click">
+                    <a asp-controller="Basket" asp-action="Index">
+                        <div class="basket-icon">
+                            <i class="fas fa-shopping-basket" style="font-size: 25px;"></i>
+                            <span id="basket-count" style="margin-left: -15px;
+                                font-weight: 900; font-size: 20px;"> @basketItemsCount </span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-magnifying-glass search-open-icon"></i>
+                </li>
+
+                @{
+                    var cleanedPath = Context.Request.Path.Value;
+                }
+
+                <li class="language-selector">
+                    <select onchange="location.href=this.value">
+                        @if (lang == "az")
+                        {
+                            <option value="@Url.Action("ChangeLanguage", "Language", new { lang = "az", returnUrl = cleanedPath })" selected>
+                                Az
+                            </option>
+                        }
+                        else
+                        {
+                            <option value="@Url.Action("ChangeLanguage", "Language", new { lang = "az", returnUrl = cleanedPath })">
+                                Az
+                            </option>
+                        }
+                        @if (lang == "en")
+                        {
+                            <option value="@Url.Action("ChangeLanguage", "Language", new { lang = "en", returnUrl = cleanedPath })" selected>
+                                En
+                            </option>
+                        }
+                        else
+                        {
+                            <option value="@Url.Action("ChangeLanguage", "Language", new { lang = "en", returnUrl = cleanedPath })">
+                                En
+                            </option>
+                        }
+                    </select>
+                </li>
+            </ul>
+            <div class="basket-container">
+                <div class="basket-content" id="cart_list">
+                    <p class="">
+                        Sepet
+                        <svg id="" class="close-btn close_btn_click  snipcss0-2-2-3" xmlns="http://www.w3.org/2000/svg"
+                             width="22.707" height="22.712" viewBox="0 0 22.707 22.712">
+                            <g transform="translate(-40.647 -836.142)" class="snipcss0-3-3-4">
+                                <line x1="21.5" y2="20.981" transform="translate(41.5 836.5)">
+                                </line>
+                                <line x2="22" y2="21.981" transform="translate(41 836.519)">
+                                </line>
+                            </g>
+                        </svg>
+                    </p>
+                    <div class="b-product-list ">
+                    </div>
+                    <div class="basket-bottom ">
+                    </div>
                 </div>
             </div>
         </nav>
+        <div class="shop-item-container">
+            <div class="all-boxes-item">
+                @for (int i = 0; i < totalGroups; i++)
+                {
+                    <ul>
+                        @foreach (var category in categories.Skip(i * itemsPerGroup).Take(itemsPerGroup))
+                        {
+                            <li>
+                                <a asp-action="Index" asp-controller="Shop" asp-route-categoryId="@category.Id">
+                                    <img src="@category.ImageUrl" alt="kulaklik">
+                                    <span>@category.Name</span>
+                                </a>
+                            </li>
+                        }
+                    </ul>
+                }
+            </div>
+        </div>
+        <div class="shop-item-search-container">
+            <div class="search-close-icon">
+                <i class="fa-solid fa-x"></i>
+            </div>
+            @if (lang == "az")
+            {
+                <form asp-action="Search" asp-controller="Shop" method="post" id="form">
+                    <p>
+                        Sizə Necə Kömək Edə Bilərik?
+                    </p>
+                    <input name="code" type="text" placeholder="Məhsul və ya Kod Axtar" class="form_input">
+                </form>
+            }
+            else
+            {
+                <form asp-action="Search" asp-controller="Shop" method="post" id="form">
+                    <p>How Can We Help You?</p>
+                    <input name="code" type="text" placeholder="Search Product or Code" class="form_input">
+                </form>
+            }
+        </div>
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
+    <!-- Header Sections End -->
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2025 - Rampage - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    <main>
+            @RenderBody()
+    </main>
+    <!-- Footer Start -->
+    <footer style="margin-top: 100px;">
+        <div class="footer-all">
+            <div class="footer-top">
+                <div class="footer-logo">
+                    <img src="@siteSettings?.ImageUrl" alt="Rampage logo">
+                </div>
+                <div class="footer-email">
+                    <a href="mailto:@siteSettings?.Email">@siteSettings?.Email</a>
+                </div>
+                @if (!User.Identity.IsAuthenticated)
+                {
+                    <div class="footer-send-email">
+                        <div class="buttons">
+                            <span>
+                                @(lang == "az" ? "Bizə Qatıl" : "Join Us")
+                            </span>
+                        </div>
+                        <form method="post" asp-action="Subscribe" asp-controller="ContactUs">
+                            <div class="input-box">
+                                @if (TempData["SubscribeMessage"] is not null)
+                                {
+                                    <h4 style="margin-bottom: 20px;">@TempData["SubscribeMessage"]</h4>
+                                }
+
+                                <input name="email" style="color: white; margin-right: 10px; margin-top: -8px;
+                                       margin-left: -15px; padding: 20px;" type="text"
+                                       placeholder="@(lang == "az" ? "E-poçt ünvanınız" : "Your Email Address")">
+
+                            </div>
+                            <div class="send-email" style="margin-left: 250px;">
+                                <button type="submit">@(lang == "az" ? "Göndər" : "Send")</button>
+                            </div>
+                        </form>
+                    </div>
+                }
+
+            </div>
+            <div class="footer-mid">
+                <div class="links">
+                    <a asp-action="About" asp-controller="Home">@(lang == "az" ? "Haqqımızda" : "About Us")</a>
+                    <a asp-action="Index" asp-controller="ContactUs">@(lang == "az" ? "Əlaqə" : "Contact") </a>
+                    <a asp-action="Index" asp-controller="Blog">@(lang == "az" ? "Bloqlar" : "Blogs")</a>
+                </div>
+                <div class="social-icons">
+                    <a href="@siteSettings?.Facebook">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="@siteSettings?.Twitter">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="@siteSettings?.LinkedIn">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="@siteSettings?.Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="@siteSettings?.Youtube">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+                <div class="policys">
+                    <a href="#">@(lang == "az" ? "Məxfilik və Kukilər Siyasəti" : "Privacy and Cookie Policy")</a>
+                    <a href="#">@(lang == "az" ? "KVKK və Məlumatlandırma Mətni" : "KVKK and Information Notice")</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2024 RAMPAGE</span>
+                <p>TR/QLOBAL</p>
+                <p>@(lang == "az" ? "Veb Dizayn Rampage tərəfindən" : "Web Design By Rampage")</p>
+            </div>
         </div>
     </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
+    <!-- Footer Start -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+    <script src="~/assets/js/main.js"></script>
+    <script type="text/javascript">window.$crisp = []; window.CRISP_WEBSITE_ID = "44123c4d-dd16-4ba2-b248-ffb9e57a33d8"; (function () { d = document; s = d.createElement("script"); s.src = "https://client.crisp.chat/l.js"; s.async = 1; d.getElementsByTagName("head")[0].appendChild(s); })();</script>
+    <script>
+        function updateBasketCount() {
+            fetch('/en/Basket/GetBasketCount')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('basket-count').innerText = data.count;
+                })
+                .catch(error => console.error('Error fetching basket count:', error));
+        }
+
+        // Səhifə yükləndikdə səbət sayını yenilə
+        document.addEventListener("DOMContentLoaded", updateBasketCount);
+    </script>
 </body>
+
 </html>

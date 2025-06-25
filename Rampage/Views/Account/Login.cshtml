@@ -1,0 +1,66 @@
+﻿@model LoginDTO
+
+<head>
+    <link rel="stylesheet" href="~/assets/css/login.css">
+    <style>
+        .enter .account-btn {
+            display: inline-block;
+            background-color: #e42c22;
+            color: white;
+            padding: 18px 72px;
+            text-align: center;
+            border-radius: 5px;
+            border-color: black;
+            cursor: pointer;
+        }
+
+            .enter .account-btn button {
+                background: none;
+                border: none;
+                color: inherit;
+                font: inherit;
+                cursor: pointer;
+            }
+
+    </style>
+</head>
+
+<section class="bg-image-login">
+</section>
+
+<section class="login">
+    <div style="background-color: white; border: 5px; border-color: black; font-size: 18px;">
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <div class="alert alert-danger text-center">
+                @TempData["ErrorMessage"]
+            </div>
+        }
+
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div class="alert alert-success text-center">
+                @TempData["SuccessMessage"]
+
+            </div>
+        }
+    </div>
+    <form method="post">
+        <div class="login-email">
+            <input asp-for="Email" type="email" placeholder="E-posta">
+        </div>
+        <div class="login-password">
+            <input asp-for="Password" type="password" placeholder="Şifre">
+        </div>
+        <div class="enter">
+            <button type="submit" class="btn btn-primary account-btn">
+                Giriş yap
+            </button>
+        </div>
+        <div class="register">
+            <a asp-action="Register" asp-controller="Account">Hesabın yokmu? Kaydol</a>
+        </div>
+    </form>
+</section>
+
+<script src="~/assets/js/login.js"></script>

@@ -1,0 +1,208 @@
+﻿@{
+    string lang = "az";
+    var url = Context.Request.Path.Value.ToString();
+    if (url.Contains("/en"))
+    {
+        lang = "en";
+    }
+}
+
+@if (lang == "az")
+{
+    <head>
+        <link rel="stylesheet" href="~/assets/css/blog.css">
+    </head>
+
+    <section class="title-news-box">
+        <div class="title-news-box-container">
+            <div class="news-title">
+                <span>Son Xəbərlər Nələrdir?</span>
+            </div>
+            <div class="news-boxs">
+                @foreach (var blog in (ViewBag.Blogs as ICollection<BlogDTO>))
+                {
+                    <div class="news-box">
+                        <div class="news-category">
+                            <span>@blog.Author</span>
+                        </div>
+                        <div class="news-text">
+                            <h3>@blog.Title</h3>
+                            <p>@blog.Description</p>
+                        </div>
+                        <div class="news-date">
+                            <span>Paylaşım Tarixi</span>
+                            <p>@DateTime.Now.ToString("dd MMMM yyyy")</p>
+                        </div>
+                        <div class="news-image">
+                            <img src="@blog.ImageUrl" alt="@blog.Title">
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+
+    <section class="blog-container">
+        <div class="blog-share-all">
+            <div class="blog-share">
+                <div class="blog-share-title">
+                    <h3>Əvvəlki Paylaşımlar</h3>
+                </div>
+                <div class="blog-image-text">
+                    <div class="blog-image">
+                        <a href="#">
+                            <img src="~/assets/image/eternal-fire.jpg" alt="BlogShare">
+                        </a>
+                    </div>
+                    <div class="blog-text">
+                        <div class="blog-date">
+                            <span>12 / AVQUST / 2023</span>
+                        </div>
+                        <div class="blog-content">
+                            <a href="#">
+                                <h3>Eternal Fire: Azərbaycanın Qüruru, Esport Arenasında Parlayan Bir Ulduz</h3>
+                            </a>
+                        </div>
+                        <div class="blog-cnt">
+                            <p>
+                                Salam esport həvəskarları! Bu gün sizi Azərbaycanın parlayan ulduzu, esport
+                                dünyasının
+                                aparıcı komandalarından biri olan Eternal Fire ilə tanış etmək istəyirik. Bu
+                                həyəcanverici
+                                komanda yalnız oyuna deyil, həm də arzulara və uğurlara bağlıdır!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-categories-all">
+                <div class="into-blog-cate">
+                    <div class="blog-cate-title">
+                        <img src="~/assets/image/news-icon.png" alt="Rampage Logo">
+                        <span>Kateqoriyalar</span>
+                    </div>
+
+                    <div class="blog-list">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <span class="news-cont">1</span>
+                                    <span>Hamısı</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="news-cont">0</span>
+                                    <span>Bizdən Xəbərlər</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="news-cont">1</span>
+                                    <span>Oyun Dünyasından</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+}
+else
+{
+    <head>
+        <link rel="stylesheet" href="~/assets/css/blog.css">
+    </head>
+
+    <section class="title-news-box">
+        <div class="title-news-box-container">
+            <div class="news-title">
+                <span>What's Happening Recently?</span>
+            </div>
+            <div class="news-boxs">
+                <div class="news-box">
+                    <div class="news-category">
+                        <span>From the Gaming World</span>
+                    </div>
+                    <div class="news-text">
+                        <h3>Eternal Fire: Turkey's Pride, a Shining Star in the Esports Arena</h3>
+                    </div>
+                    <div class="news-date">
+                        <span>Publication Date</span>
+                        <div class="date-line"></div>
+                        <p>August 12, 2023</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="blog-container">
+        <div class="blog-share-all">
+            <div class="blog-share">
+                <div class="blog-share-title">
+                    <h3>Previous Posts</h3>
+                </div>
+                <div class="blog-image-text">
+                    <div class="blog-image">
+                        <a href="#">
+                            <img src="~/assets/image/eternal-fire.jpg" alt="BlogShare">
+                        </a>
+                    </div>
+                    <div class="blog-text">
+                        <div class="blog-date">
+                            <span>August 12, 2023</span>
+                        </div>
+                        <div class="blog-content">
+                            <a href="#">
+                                <h3>Eternal Fire: Turkey's Pride, a Shining Star in the Esports Arena</h3>
+                            </a>
+                        </div>
+                        <div class="blog-cnt">
+                            <p>
+                                Hello esports enthusiasts! Today, we want to introduce you to Turkey's rising star,
+                                one of the leading teams in the esports world, Eternal Fire. This exciting team is
+                                passionate not only about the game but also about dreams and achievements!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-categories-all">
+                <div class="into-blog-cate">
+                    <div class="blog-cate-title">
+                        <img src="~/assets/image/news-icon.png" alt="Rampage Logo">
+                        <span>Categories</span>
+                    </div>
+
+                    <div class="blog-list">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <span class="news-cont">1</span>
+                                    <span>All</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="news-cont">0</span>
+                                    <span>News from Us</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="news-cont">1</span>
+                                    <span>From the Gaming World</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+}
+
+<script src="~/assets/js/blog.js"></script>

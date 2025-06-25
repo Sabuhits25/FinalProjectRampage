@@ -1,0 +1,401 @@
+﻿@model UpdateUserDTO
+@{
+    string lang = "az";
+    var url = Context.Request.Path.Value.ToString();
+    if (url.Contains("/en"))
+    {
+        lang = "en";
+    }
+}
+<head>
+    <link rel="stylesheet" href="~/assets/css/userpage.css">
+    <style>
+        #logout-yes, #logout-no {
+            background-color: #ff0000; /* Normal state */
+            color: #ffffff;
+            border: 2px solid white;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+            #logout-yes:hover, #logout-no:hover {
+                background-color: black; /* Hover state */
+                color: #fff;
+            }
+
+            #logout-yes:active, #logout-no:active {
+                transform: scale(0.98);
+            }
+
+        .user-forms {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .form-group {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .input-box {
+            flex: 1;
+            text-align: left;
+        }
+
+            .input-box label {
+                display: block;
+                font-weight: bold;
+                margin-bottom: 5px;
+                color: #fff;
+            }
+
+        .user-forms input {
+            width: 100%;
+            padding: 12px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            background: #fff;
+            color: #333;
+        }
+
+        #save-info {
+            background: #4caf50;
+            color: #fff;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+
+            #save-info:hover {
+                background: #45a049;
+            }
+
+        .form-actions {
+            margin-top: 20px;
+        }
+    </style>
+
+</head>
+
+<section class="bg-image-user">
+</section>
+
+@if (lang == "az")
+{
+    <section class="user-screen-menu">
+        <a href="#" class="bilgilerim active" onclick="setActiveMenu(event)">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 13 13">
+                <path d="M8.626,6.855A6.51,6.51,0,0,1,13,13H11.984A5.484,5.484,0,0,0,1.016,13H0A6.51,6.51,0,0,1,4.374,6.855a3.758,3.758,0,1,1,4.252,0l-4.868-3.1A2.742,2.742,0,1,0,6.5,1.016,2.745,2.745,0,0,0,3.758,3.758Z"
+                      transform="translate(0 0)" fill-rule="evenodd"></path>
+            </svg>
+            <span>Məlumatlarım</span>
+        </a>
+        <a href="#" class="sifre" onclick="setActiveMenu(event)">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 14.013 14.013">
+                <path d="M6.028,4a4.016,4.016,0,1,1,.985,2.622L4.38,9.258l1.825,1.825a.25.25,0,1,1-.354.354L4.026,9.612l-.9.9,1.324,1.324a.25.25,0,1,1-.354.354L2.775,10.863l-.9.9L3.7,13.586a.25.25,0,1,1-.354.354L1.524,12.114.45,13.189A.25.25,0,0,1,.1,12.835L6.7,6.227A3.981,3.981,0,0,1,6.028,4h.5a3.5,3.5,0,1,0,3.5-3.5A3.507,3.507,0,0,0,6.529,4Z"
+                      transform="translate(-0.023)" fill-rule="evenodd"></path>
+            </svg>
+            <span>Şifrəni Dəyiş</span>
+        </a>
+        <a href="#" class="close" onclick="setActiveMenu(event)">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 12.657 14.096">
+                <g>
+                    <path d="M6.1,13.289H2.536a1.785,1.785,0,0,1-1.753-1.81V2.618A1.785,1.785,0,0,1,2.536.808H6.155A.4.4,0,0,0,6.546.4.4.4,0,0,0,6.155,0H2.536A2.58,2.58,0,0,0,0,2.618v8.861A2.58,2.58,0,0,0,2.536,14.1H6.1a.4.4,0,0,0,0-.808Z"
+                          fill-rule="evenodd"></path>
+                </g>
+                <g transform="translate(2.994 4.078)">
+                    <path d="M12.309,6.447,9.823,3.88a.381.381,0,0,0-.553,0,.412.412,0,0,0,0,.571l1.82,1.879H3.152a.4.4,0,0,0,0,.808h7.937L9.269,9.017a.412.412,0,0,0,0,.571.388.388,0,0,0,.275.12.376.376,0,0,0,.275-.12l2.486-2.567A.413.413,0,0,0,12.309,6.447Z"
+                          transform="translate(-2.761 -3.761)" fill-rule="evenodd"></path>
+                </g>
+            </svg>
+            <span>Təhlükəsiz Çıxış</span>
+        </a>
+    </section>
+}
+else
+{
+    <section class="user-screen-menu">
+        <a href="" class="bilgilerim active">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 13 13">
+                <path d="M8.626,6.855A6.51,6.51,0,0,1,13,13H11.984A5.484,5.484,0,0,0,1.016,13H0A6.51,6.51,0,0,1,4.374,6.855a3.758,3.758,0,1,1,4.252,0l-4.868-3.1A2.742,2.742,0,1,0,6.5,1.016,2.745,2.745,0,0,0,3.758,3.758Z"
+                      transform="translate(0 0)" fill-rule="evenodd"></path>
+            </svg>
+            <span>My Information</span>
+        </a>
+        <a href="#" class="sifre">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 14.013 14.013">
+                <path d="M6.028,4a4.016,4.016,0,1,1,.985,2.622L4.38,9.258l1.825,1.825a.25.25,0,1,1-.354.354L4.026,9.612l-.9.9,1.324,1.324a.25.25,0,1,1-.354.354L2.775,10.863l-.9.9L3.7,13.586a.25.25,0,1,1-.354.354L1.524,12.114.45,13.189A.25.25,0,0,1,.1,12.835L6.7,6.227A3.981,3.981,0,0,1,6.028,4h.5a3.5,3.5,0,1,0,3.5-3.5A3.507,3.507,0,0,0,6.529,4Z"
+                      transform="translate(-0.023)" fill-rule="evenodd"></path>
+            </svg>
+            <span>Change Password</span>
+        </a>
+        <a href="" class="close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 12.657 14.096">
+                <g>
+                    <path d="M6.1,13.289H2.536a1.785,1.785,0,0,1-1.753-1.81V2.618A1.785,1.785,0,0,1,2.536.808H6.155A.4.4,0,0,0,6.546.4.4.4,0,0,0,6.155,0H2.536A2.58,2.58,0,0,0,0,2.618v8.861A2.58,2.58,0,0,0,2.536,14.1H6.1a.4.4,0,0,0,0-.808Z"
+                          fill-rule="evenodd"></path>
+                </g>
+                <g transform="translate(2.994 4.078)">
+                    <path d="M12.309,6.447,9.823,3.88a.381.381,0,0,0-.553,0,.412.412,0,0,0,0,.571l1.82,1.879H3.152a.4.4,0,0,0,0,.808h7.937L9.269,9.017a.412.412,0,0,0,0,.571.388.388,0,0,0,.275.12.376.376,0,0,0,.275-.12l2.486-2.567A.413.413,0,0,0,12.309,6.447Z"
+                          transform="translate(-2.761 -3.761)" fill-rule="evenodd"></path>
+                </g>
+            </svg>
+            <span>Secure Logout</span>
+        </a>
+    </section>
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger text-center">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success text-center">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+@if (lang == "az")
+{
+    <section class="user-screen-content">
+        <div class="user-about-all">
+            <div class="form-user-title">
+                <span>Şəxsi Məlumatlar</span>
+            </div>
+            <div class="user-forms" style="margin-left: 370px;">
+                <form method="post">
+                    <input type="hidden" asp-for="UserId" />
+
+                    <div class="form-group">
+                        <div class="input-box">
+                            <label for="FirstName">Ad</label>
+                            <input asp-for="FirstName" id="FirstName" type="text" placeholder="Adınızı daxil edin">
+                        </div>
+                        <div class="input-box">
+                            <label for="LastName">Soyad</label>
+                            <input asp-for="LastName" id="LastName" type="text" placeholder="Soyadınızı daxil edin">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-box">
+                            <label for="PhoneNumber">Telefon</label>
+                            <input asp-for="PhoneNumber" id="PhoneNumber" type="tel" placeholder="Telefon nömrənizi daxil edin">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-box">
+                            <label for="Email">Email</label>
+                            <input asp-for="Email" id="PhoneNumber" type="email" placeholder="Emailinizi daxil edin">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-box">
+                            <label for="Address">Ünvan</label>
+                            <input asp-for="Address" id="Address" type="text" placeholder="Ünvanınızı daxil edin">
+                        </div>
+                        <div class="input-box">
+                            <label for="City">Şəhər</label>
+                            <input asp-for="City" id="City" type="text" placeholder="Şəhərinizi daxil edin">
+                        </div>
+                    </div>
+
+                    <div class="form-actions">
+                        <button id="save-info" type="submit">Yadda saxla</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+}
+else
+{
+    <section class="user-screen-content">
+        <div class="user-about-all">
+            <div class="form-user-title">
+                <span>Personal Information</span>
+            </div>
+            <div class="user-forms" style="margin-left: 370px;">
+                <form method="post">
+                    <input type="hidden" asp-for="UserId" />
+
+                    <div class="form-group">
+                        <div class="input-box">
+                            <label for="FirstName">First Name</label>
+                            <input asp-for="FirstName" id="FirstName" type="text" placeholder="Enter your first name">
+                        </div>
+                        <div class="input-box">
+                            <label for="LastName">Last Name</label>
+                            <input asp-for="LastName" id="LastName" type="text" placeholder="Enter your last name">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-box">
+                            <label for="PhoneNumber">Phone</label>
+                            <input asp-for="PhoneNumber" id="PhoneNumber" type="tel" placeholder="Enter your phone number">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-box">
+                            <label for="Email">Email</label>
+                            <input asp-for="Email" id="PhoneNumber" type="email" placeholder="Enter your email address">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-box">
+                            <label for="Address">Address</label>
+                            <input asp-for="Address" id="Address" type="text" placeholder="Enter your address">
+                        </div>
+                        <div class="input-box">
+                            <label for="City">City</label>
+                            <input asp-for="City" id="City" type="text" placeholder="Enter your city">
+                        </div>
+                    </div>
+
+                    <div class="form-actions">
+                        <button id="save-info" type="submit">Save</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+}
+@if (lang == "az")
+{
+    <section class="user-screen-content-password">
+        <div class="user-about-all-password">
+            <div class="form-user-title-password">
+                <span>Şifrəni Dəyiş</span>
+            </div>
+            <div class="user-forms" style="margin-left: 370px;">
+                <form method="post">
+                    <input type="hidden" asp-for="UserId" />
+                    <input type="hidden" asp-for="PasswordOrDetail" name="True" />
+
+                    <div class="form-name">
+                        <input asp-for="NewPassword" type="password" placeholder="Yeni Şifrə">
+                    </div>
+                    <div class="form-name">
+                        <input asp-for="ConfirmNewPassword" type="password" placeholder="Yeni şifrəni təkrar daxil edin">
+                    </div>
+
+                    <div class="form-actions">
+                        <button id="save-info" type="submit">Yadda saxla</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+}
+else
+{
+    <section class="user-screen-content-password">
+        <div class="user-about-all-password">
+            <div class="form-user-title-password">
+                <span>Change Password</span>
+            </div>
+            <div class="user-forms" style="margin-left: 275px;">
+                <form method="post">
+                    <input type="hidden" asp-for="UserId" />
+
+                    <div class="form-name">
+                        <input asp-for="NewPassword" type="password" placeholder="New Password">
+                    </div>
+                    <div class="form-name">
+                        <input asp-for="ConfirmNewPassword" type="password" placeholder="Re-enter New Password">
+                    </div>
+
+                    <div class="form-actions">
+                        <button id="save-info" type="submit">Yadda saxla</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+}
+
+<section class="close-user-all">
+    <div class="close-user">
+        <div class="close-user-text">
+            <p style="margin-bottom: 20px;">
+                @(lang == "az" ? "Sessiyanı bitirmək istədiyinizə əminsiniz?" :
+                    "Are you sure you want to end your session?")
+            </p>
+            <button id="logout-yes" type="submit" asp-action="Logout" asp-controller="Account"
+                    style="button::hover:">
+                @(lang == "az" ? "Bəli" : "Yes")
+            </button>
+            <button id="logout-no" type="button">@(lang == "az" ? "Hayır" : "No")</button>
+        </div>
+    </div>
+</section>
+
+<script src="~/assets/js/userpage.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const menuItems = document.querySelectorAll('.user-screen-menu a');
+
+        function setActiveMenu(event) {
+            menuItems.forEach(item => item.classList.remove('active'));
+            event.currentTarget.classList.add('active');
+        }
+
+        menuItems.forEach(item => {
+            item.addEventListener('click', setActiveMenu);
+        });
+
+        const currentPath = window.location.pathname;
+        if (currentPath.includes('change-password')) {
+            document.querySelector('.sifre').classList.add('active');
+        } else if (currentPath.includes('secure-logout')) {
+            document.querySelector('.close').classList.add('active');
+        } else {
+            document.querySelector('.bilgilerim').classList.add('active');
+        }
+    });
+</script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const closeUserAll = document.querySelector('.close-user-all');
+        const logoutYes = document.getElementById('logout-yes');
+        const logoutNo = document.getElementById('logout-no');
+
+        document.querySelector('.close').addEventListener('click', function (e) {
+            e.preventDefault();
+            closeUserAll.style.display = 'flex';
+        });
+
+        logoutNo.addEventListener('click', function () {
+            closeUserAll.style.display = 'none';
+        });
+
+        logoutYes.addEventListener('click', function () {
+            window.location.href = '/@lang/Account/Logout';
+        });
+
+        closeUserAll.addEventListener('click', function (e) {
+            if (e.target === closeUserAll) {
+                closeUserAll.style.display = 'none';
+            }
+        });
+    });
+
+</script>

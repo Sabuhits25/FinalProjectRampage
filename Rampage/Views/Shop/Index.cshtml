@@ -1,0 +1,342 @@
+﻿@model FilterProductDTO
+@{
+    string lang = "az";
+    var url = Context.Request.Path.Value.ToString();
+
+    if (url.Contains("/en"))
+    {
+        lang = "en";
+    }
+
+    var langEnum = lang == "az" ? ELanguage.AZ : ELanguage.EN;
+}
+<head>
+    <link rel="stylesheet" href="~/assets/css/shop.css">
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+        }
+
+        /* Category Banner */
+        .category-bgimage-name {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+
+            .category-bgimage-name img {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+            }
+
+        .category-name {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 2.5rem;
+            font-weight: bold;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px 40px;
+            border-radius: 10px;
+        }
+
+        /* Filter Section */
+        .filter-product-all {
+            display: flex;
+            align-items: flex-start;
+            padding: 20px;
+            background: black;
+        }
+
+        .filter-left-all {
+            flex: 1;
+            max-width: 200px;
+            padding: 20px;
+            background: #333;
+            color: white;
+            border-radius: 10px;
+        }
+
+        .filter-left form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .filter-left select,
+        .filter-left input {
+            padding: 10px;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 100%;
+        }
+
+        .filter-left button {
+            padding: 12px;
+            background: #ff6600;
+            border: none;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+            .filter-left button:hover {
+                background: #ff4500;
+            }
+
+        .filter-left a {
+            padding: 12px;
+            background: #ff6600;
+            border: none;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+            .filter-left a:hover {
+                background: #ff4500;
+            }
+
+        /* Products Section */
+        .product-right-all {
+            flex: 3;
+            padding: 20px;
+            margin-top: -5rem;
+        }
+
+        .product-list {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .product-item {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 20px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+            .product-item:hover {
+                transform: scale(1.05);
+            }
+
+            .product-item img {
+                width: 20%;
+                border-radius: 10px;
+                object-fit: cover;
+            }
+
+            .product-item h3 {
+                font-size: 1.3rem;
+                margin: 10px 0;
+                color: #333;
+            }
+
+            .product-item p {
+                font-size: 1rem;
+                color: #666;
+                margin-bottom: 10px;
+            }
+
+        .product-rating {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+            .product-rating .fa-star {
+                color: #ffcc00;
+            }
+
+        .product-price {
+            font-size: 1.4rem;
+            font-weight: bold;
+            color: #ff6600;
+            margin: 10px 0;
+        }
+
+        .add-to-cart {
+            width: 20%;
+            padding: 10px;
+            background: #008cba;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+            .add-to-cart:hover {
+                background: #005f7f;
+            }
+
+        /* Responsive Design */
+        @@media (max-width: 768px) {
+            .filter-product-all {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .filter-left-all {
+                max-width: 100%;
+                margin-bottom: 20px;
+            }
+
+            .product-list {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+        /* Responsivlik üçün */
+        @@media (max-width: 1200px) {
+            .product-list {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @@media (max-width: 900px) {
+            .product-list {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @@media (max-width: 600px) {
+            .product-list {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+    </style>
+</head>
+
+<section class="category-bgimage-name">
+    <img src="~/assets/image/shopbackground.jpg" alt="">
+    <div class="category-name">
+        @if (Model.CategoryImageUrl is not null)
+        {
+            <img src="@Model.CategoryImageUrl" style="max-width: 90px; margin-right: 20px;" alt="kulaklik">
+        }
+        <span>@(Model.CategoryName ?? (lang == "az" ? "Bütün Məhsullar" : "All Products"))</span>
+    </div>
+</section>
+
+<section class="filter-product-all">
+    <div class="filter-product">
+        <div class="filter-left-all">
+            <div class="filter-left">
+                <form method="post" asp-action="Index" asp-controller="Shop">
+
+                    <label>@(lang == "az" ? "Kateqoriyalar" : "Categories")</label>
+                    <select asp-for="CategoryId">
+                        <option value="0">@(lang == "az" ? "Bütün Kateqoriyalar" : "All Categories")</option>
+                        @foreach (var category in Model.Categories)
+                        {
+                            var checkCat = category.Id == Model.CategoryId;
+
+                            @if (checkCat)
+                            {
+                                <option value="@category.Id" selected>
+                                    @category.Name
+                                </option>
+                            }
+                            else
+                            {
+                                <option value="@category.Id">
+                                    @category.Name
+                                </option>
+                            }
+                        }
+                    </select>
+
+                    <label>@(lang == "az" ? "Minimum qiymət" : "Minimum price")</label>
+                    <input asp-for="MinPrice" type="number" placeholder="Min Price" />
+                    <label>@(lang == "az" ? "Maksimum qiymət" : "Maximum price")</label>
+                    <input asp-for="MaxPrice" type="number" placeholder="Max Price" />
+
+                    <label>@(lang == "az" ? "Rənglər" : "Colors")</label>
+                    <select asp-for="ColorIds" class="form-control" multiple>
+                        @foreach (var color in Model.Colors)
+                        {
+                            <option value="@color.Id">@color.Name</option>
+                        }
+                    </select>
+
+                    <button type="submit">@(lang == "az" ? "Filterları Tətbiq Et" : "Apply Filters")</button>
+                </form>
+            </div>
+        </div>
+        <div class="none-filter-icon">
+            <img src="~/assets/image/filterImage.png" alt="">
+        </div>
+        <div class="product-right-all">
+            <div class="product-right">
+                <div class="product-list">
+                    <div class="product-container">
+                        @foreach (var product in Model.Products)
+                        {
+                            var name = product.Translations.FirstOrDefault(t => t.Language == langEnum)?.Name;
+                            var description = product.Translations.FirstOrDefault(t => t.Language == langEnum)?.Description;
+
+                            <div class="product-item">
+                                <img src="@product.Images.FirstOrDefault()?.ImageUrl" alt="@name">
+                                <h3>
+                                    @name
+                                </h3>
+                                @if (description.Length > 300)
+                                {
+                                    @description.Substring(0, 300)
+                                    @Html.Raw(" ...")
+                                }
+                                else
+                                {
+                                    @description
+                                }
+
+                                <div class="product-rating">
+                                    @for (int i = 0; i < 5; i++)
+                                    {
+                                        if (i < product.Star)
+                                        {
+                                            <span class="fa fa-star checked"></span>
+                                        }
+                                        else
+                                        {
+                                            <span class="fa fa-star"></span>
+                                        }
+                                    }
+                                    <span>@product.Star</span>
+                                </div>
+
+                                <p class="product-price">@product.Price.ToString("N2") TL</p>
+
+                                <a asp-action="AddProduct" asp-controller="Basket"
+                                   asp-route-productId="@product.Id" asp-route-returnUrl="@Context.Request.Path" class="add-to-cart">@(lang == "az" ? "Səbətə Əlavə Et" : "Add To Basket")</a>
+                                <a asp-action="Component" asp-controller="Shop"
+                                   asp-route-id="@product.Id" class="add-to-cart"
+                                   style="background-color: red;">@(lang == "az" ? "Məhsul Detalları" : "Product Details")</a>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="~/assets/js/shop.js"></script>
