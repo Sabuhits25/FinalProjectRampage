@@ -1,4 +1,4 @@
-﻿using Rampage.Core.Models;
+﻿using Rampage.Core.Entities;
 using Rampage.DAL.Context;
 using Rampage.DAL.Repositories.Interfaces;
 

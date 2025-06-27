@@ -1,0 +1,56 @@
+﻿@using Rampage.BLL.DTO_s.ContactDTO_s
+@model ContactDTO
+
+@{
+    ViewBag.Title = "Contact Details";
+}
+
+<div class="container py-4">
+    <h1 class="text-center mb-4">Contact Details</h1>
+
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger text-center">
+            <strong>Error:</strong> @TempData["ErrorMessage"]
+        </div>
+    }
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success text-center">
+            <strong>Success:</strong> @TempData["SuccessMessage"]
+        </div>
+    }
+
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="FullName" class="form-label fw-bold">Full Name:</label>
+                        <input type="text" id="FullName" class="form-control" value="@Model.FullName" readonly />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="Email" class="form-label fw-bold">Email:</label>
+                        <input type="text" id="Email" class="form-control" value="@Model.Email" readonly />
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="Message" class="form-label fw-bold">Message:</label>
+                        <textarea id="Message" class="form-control" rows="5" readonly>@Model.Message</textarea>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-4">
+                <a href="@Url.Action("Table", new { pageIndex = Model.PageIndex })" class="btn btn-primary px-4">Back to List</a>
+            </div>
+        </div>
+    </div>
+</div>

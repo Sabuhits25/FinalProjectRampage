@@ -16,7 +16,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Rampage.Core\Rampage.Core.csproj" />
     <ProjectReference Include="..\Rampage.DAL\Rampage.DAL.csproj" />
   </ItemGroup>
 

@@ -1,5 +1,4 @@
-﻿
-using Rampage.Core.Models;
+﻿using Rampage.Core.Entities;
 
 namespace Rampage.DAL.Repositories.Interfaces
 {

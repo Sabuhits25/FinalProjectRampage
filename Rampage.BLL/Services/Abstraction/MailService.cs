@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Rampage.BLL.Services.Interfaces;
+using Rampage.Core.Entities;
 using Rampage.Core.Entities.Identity;
-using Rampage.Core.Models;
 using System.Net;
 using System.Net.Mail;
 
@@ -37,12 +37,12 @@ namespace Rampage.BLL.Services.Abstraction
             {
                 client.UseDefaultCredentials = false;
                 client.DeliveryMethod = SmtpDeliveryMethod.Network;
-                client.Credentials = new NetworkCredential("bendiyevf@gmail.com", "gbmb biwz ehim aspn");
+                client.Credentials = new NetworkCredential("safarlisabuhi17@gmail.com", "ugjr yslo bwrf jwla");
                 client.EnableSsl = true;
 
                 var mailMessage = new MailMessage
                 {
-                    From = new MailAddress("bendiyevf@gmail.com"),
+                    From = new MailAddress("safarlisabuhi17@gmail.com"),
                     Subject = lang switch
                     {
                         "AZ" => "Rapmpage-ə xoş gəlmisiniz",

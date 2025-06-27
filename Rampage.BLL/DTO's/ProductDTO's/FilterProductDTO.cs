@@ -1,6 +1,6 @@
 ﻿using Rampage.BLL.DTO_s.CategoryDTO_s;
 using Rampage.BLL.DTO_s.ColorDTO_s;
-using Rampage.Core.Models;
+using Rampage.Core.Entities;
 
 namespace Rampage.BLL.DTO_s.ProductDTO_s
 {

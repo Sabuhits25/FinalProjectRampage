@@ -191,7 +191,7 @@ namespace Rampage.DAL.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Baskets");
+                    b.ToTable("Baskets", (string)null);
                 });
 
             modelBuilder.Entity("Rampage.Core.Entities.Blog", b =>
@@ -229,7 +229,7 @@ namespace Rampage.DAL.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Blogs");
+                    b.ToTable("Blogs", (string)null);
                 });
 
             modelBuilder.Entity("Rampage.Core.Entities.BlogTranslation", b =>
@@ -275,7 +275,7 @@ namespace Rampage.DAL.Migrations
 
                     b.HasIndex("BlogId");
 
-                    b.ToTable("BlogTranslations");
+                    b.ToTable("BlogTranslations", (string)null);
                 });
 
             modelBuilder.Entity("Rampage.Core.Entities.CategoryTranslation", b =>
@@ -317,7 +317,7 @@ namespace Rampage.DAL.Migrations
 
                     b.HasIndex("CategoryId");
 
-                    b.ToTable("CategoryTranslations");
+                    b.ToTable("CategoryTranslations", (string)null);
                 });
 
             modelBuilder.Entity("Rampage.Core.Entities.Color", b =>
@@ -347,7 +347,7 @@ namespace Rampage.DAL.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Colors");
+                    b.ToTable("Colors", (string)null);
                 });
 
             modelBuilder.Entity("Rampage.Core.Entities.ColorTranslation", b =>
@@ -389,7 +389,7 @@ namespace Rampage.DAL.Migrations
 
                     b.HasIndex("ColorId");
 
-                    b.ToTable("ColorTranslations");
+                    b.ToTable("ColorTranslations", (string)null);
                 });
 
             modelBuilder.Entity("Rampage.Core.Entities.Comment", b =>
@@ -446,7 +446,7 @@ namespace Rampage.DAL.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("Comments");
+                    b.ToTable("Comments", (string)null);
                 });
 
             modelBuilder.Entity("Rampage.Core.Entities.Contact", b =>
@@ -488,7 +488,7 @@ namespace Rampage.DAL.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Contacts");
+                    b.ToTable("Contacts", (string)null);
                 });
 
             modelBuilder.Entity("Rampage.Core.Entities.Identity.User", b =>
@@ -611,7 +611,7 @@ namespace Rampage.DAL.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("ProductColors");
+                    b.ToTable("ProductColors", (string)null);
                 });
 
             modelBuilder.Entity("Rampage.Core.Entities.ProductImage", b =>
@@ -650,7 +650,7 @@ namespace Rampage.DAL.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("ProductImages");
+                    b.ToTable("ProductImages", (string)null);
                 });
 
             modelBuilder.Entity("Rampage.Core.Entities.ProductSetting", b =>
@@ -696,7 +696,7 @@ namespace Rampage.DAL.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("ProductSettings");
+                    b.ToTable("ProductSettings", (string)null);
                 });
 
             modelBuilder.Entity("Rampage.Core.Entities.ProductTranslation", b =>
@@ -742,7 +742,7 @@ namespace Rampage.DAL.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("ProductTranslations");
+                    b.ToTable("ProductTranslations", (string)null);
                 });
 
             modelBuilder.Entity("Rampage.Core.Entities.Setting", b =>
@@ -820,7 +820,7 @@ namespace Rampage.DAL.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Settings");
+                    b.ToTable("Settings", (string)null);
                 });
 
             modelBuilder.Entity("Rampage.Core.Entities.Subscription", b =>
@@ -854,7 +854,7 @@ namespace Rampage.DAL.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Subscriptions");
+                    b.ToTable("Subscriptions", (string)null);
                 });
 
             modelBuilder.Entity("Rampage.Core.Entities.Transaction", b =>
@@ -926,7 +926,7 @@ namespace Rampage.DAL.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Transactions");
+                    b.ToTable("Transactions", (string)null);
                 });
 
             modelBuilder.Entity("Rampage.Core.Models.Category", b =>
@@ -965,7 +965,7 @@ namespace Rampage.DAL.Migrations
 
                     b.HasIndex("ParentCategoryId");
 
-                    b.ToTable("Categories");
+                    b.ToTable("Categories", (string)null);
                 });
 
             modelBuilder.Entity("Rampage.Core.Models.Product", b =>
@@ -1014,7 +1014,7 @@ namespace Rampage.DAL.Migrations
 
                     b.HasIndex("CategoryId");
 
-                    b.ToTable("Products");
+                    b.ToTable("Products", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

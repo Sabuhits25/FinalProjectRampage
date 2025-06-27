@@ -1,0 +1,162 @@
+﻿@using Rampage.BLL.DTO_s.SettingDTO_s
+@model SettingDTO
+
+<style>
+    .form-control {
+        color: #333;
+        background-color: #f8f9fc;
+        border: 1px solid #ddd;
+    }
+
+        .form-control::placeholder {
+            color: #666;
+        }
+
+    label {
+        color: #333;
+        font-weight: 500;
+    }
+
+    h1, h3 {
+        color: #333;
+    }
+
+    .btn-primary {
+        background-color: #4e73df;
+        border-color: #4e73df;
+    }
+
+    .btn-success {
+        background-color: #1cc88a;
+        border-color: #1cc88a;
+    }
+
+    .btn-warning {
+        background-color: #f6c23e;
+        border-color: #f6c23e;
+    }
+</style>
+
+<div class="container py-4">
+    <h1 class="h3 mb-4 text-gray-800">Update Settings</h1>
+
+    <div class="col-md-12 text-center">
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <div class="alert alert-danger">
+                @TempData["ErrorMessage"]
+            </div>
+        }
+
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div class="alert alert-success">
+                @TempData["SuccessMessage"]
+            </div>
+        }
+    </div>
+
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <form asp-action="Update" enctype="multipart/form-data" method="post">
+
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="Address" class="form-label">Address</label>
+                            <input type="text" class="form-control" asp-for="Address" placeholder="Enter address" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="Phone" class="form-label">Phone</label>
+                            <input type="text" class="form-control" asp-for="Phone" placeholder="Enter phone number" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="Email" class="form-label">Email</label>
+                            <input type="email" class="form-control" asp-for="Email" placeholder="Enter email" />
+                        </div>
+                    </div>
+                </div>
+
+                <h4 class="mt-4">Social Media Links</h4>
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="Facebook" class="form-label">Facebook</label>
+                            <input type="text" class="form-control" asp-for="Facebook" placeholder="Facebook URL" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="Twitter" class="form-label">Twitter</label>
+                            <input type="text" class="form-control" asp-for="Twitter" placeholder="Twitter URL" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="LinkedIn" class="form-label">LinkedIn</label>
+                            <input type="text" class="form-control" asp-for="LinkedIn" placeholder="LinkedIn URL" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="Instagram" class="form-label">Instagram</label>
+                            <input type="text" class="form-control" asp-for="Instagram" placeholder="Instagram URL" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="Youtube" class="form-label">YouTube</label>
+                            <input type="text" class="form-control" asp-for="Youtube" placeholder="YouTube URL" />
+                        </div>
+                    </div>
+                </div>
+
+                <h4 class="mt-4">Statistics</h4>
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="DailyUsers" class="form-label">Daily Users</label>
+                            <input type="number" class="form-control" asp-for="DailyUsers" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="DailyProducts" class="form-label">Daily Products</label>
+                            <input type="number" class="form-control" asp-for="DailyProducts" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="CompanyCount" class="form-label">Company Count</label>
+                            <input type="number" class="form-control" asp-for="CompanyCount" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="CustomerCount" class="form-label">Customer Count</label>
+                            <input type="number" class="form-control" asp-for="CustomerCount" />
+                        </div>
+                    </div>
+                </div>
+
+                <h4 class="mt-4">Logo</h4>
+                <div class="form-group">
+                    @if (!string.IsNullOrEmpty(Model.ImageUrl))
+                    {
+                        <img src="@Model.ImageUrl" alt="Current Logo" class="img-fluid mb-3" style="max-width: 200px; padding: 20px; border-radius: 5px; border: 3px solid #4e73df; background-color: black;" />
+                    }
+                    <label asp-for="Image" class="form-label">Upload New Logo</label>
+                    <input type="file" class="form-control" asp-for="Image" />
+                </div>
+
+                <div class="mt-4 text-center">
+                    <button type="submit" class="btn btn-success px-4">Update Settings</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,7 +1,6 @@
-﻿using Rampage.Core.Entities;
-using Rampage.Core.Entities.Commons;
+﻿using Rampage.Core.Entities.Commons;
 
-namespace Rampage.Core.Models
+namespace Rampage.Core.Entities
 {
     public class Category : BaseEntity, IAuditedEntity
     {

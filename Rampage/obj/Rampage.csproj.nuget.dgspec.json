@@ -29,9 +29,6 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Zenbook\\OneDrive\\İş masası\\Rampage\\Rampage.Core\\Rampage.Core.csproj": {
-                "projectPath": "C:\\Users\\Zenbook\\OneDrive\\İş masası\\Rampage\\Rampage.Core\\Rampage.Core.csproj"
-              },
               "C:\\Users\\Zenbook\\OneDrive\\İş masası\\Rampage\\Rampage.DAL\\Rampage.DAL.csproj": {
                 "projectPath": "C:\\Users\\Zenbook\\OneDrive\\İş masası\\Rampage\\Rampage.DAL\\Rampage.DAL.csproj"
               }
@@ -215,6 +212,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNet.Identity.Core": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.17, )"
@@ -275,9 +276,6 @@
             "projectReferences": {
               "C:\\Users\\Zenbook\\OneDrive\\İş masası\\Rampage\\Rampage.BLL\\Rampage.BLL.csproj": {
                 "projectPath": "C:\\Users\\Zenbook\\OneDrive\\İş masası\\Rampage\\Rampage.BLL\\Rampage.BLL.csproj"
-              },
-              "C:\\Users\\Zenbook\\OneDrive\\İş masası\\Rampage\\Rampage.DAL\\Rampage.DAL.csproj": {
-                "projectPath": "C:\\Users\\Zenbook\\OneDrive\\İş masası\\Rampage\\Rampage.DAL\\Rampage.DAL.csproj"
               }
             }
           }

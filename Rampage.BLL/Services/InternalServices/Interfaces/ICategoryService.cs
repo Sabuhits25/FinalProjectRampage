@@ -1,6 +1,6 @@
 ﻿using Rampage.BLL.DTO_s.CategoryDTO_s;
+using Rampage.Core.Entities;
 using Rampage.Core.Entities.Commons;
-using Rampage.Core.Models;
 
 namespace Rampage.BLL.Services.InternalServices.Interfaces
 {

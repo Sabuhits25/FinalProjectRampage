@@ -8,7 +8,6 @@ using Rampage.Core.Entities;
 using Rampage.Core.Entities.Commons;
 using Rampage.Core.Entities.Identity;
 using Rampage.Core.Enums;
-using Rampage.Core.Models;
 using Rampage.DAL.Repositories.Interfaces;
 
 namespace Rampage.BLL.Services.InternalServices.Abstraction

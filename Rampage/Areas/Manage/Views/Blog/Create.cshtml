@@ -1,0 +1,85 @@
+﻿@using Rampage.BLL.DTO_s.BlogDTO_s
+@model CreateBlogDTO
+
+<div class="container-fluid">
+    <h1 class="h3 mb-4 text-gray-800">Create Blog</h1>
+    <div class="col-md-12 text-center">
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <div class="alert alert-danger">
+                @TempData["ErrorMessage"]
+            </div>
+        }
+
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div class="alert alert-success">
+                @TempData["SuccessMessage"]
+            </div>
+        }
+    </div>
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Blog Details</h6>
+        </div>
+        <div style="color: black;" class="card-body">
+            <form asp-action="Create" asp-controller="Blog" enctype="multipart/form-data" method="POST">
+
+                <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="Author">Author</label>
+                                <input asp-for="Author" type="text" class="form-control" placeholder="Enter author name">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="Image">Image</label>
+                                <input asp-for="Image" type="file" class="form-control">
+                            </div>
+                        </div>
+                </div>
+
+                <div class="card-header mb-4" style="margin-left: -20px; width: 103.3%">
+                    <h6 class="m-0 font-weight-bold text-primary">Blog Translations</h6>
+                </div>
+
+                <div id="translations">
+                    <div class="translation-item">
+                        <h5>Translation 1 (Azerbaijani)</h5>
+                        <div class="form-group">
+                            <label for="Translations[0].Title">Title</label>
+                            <input type="text" class="form-control" name="Translations[0].Title" placeholder="Enter title in Azerbaijani">
+                        </div>
+                        <div class="form-group">
+                            <label for="Translations[0].Description">Description</label>
+                            <textarea class="form-control" name="Translations[0].Description" rows="4" placeholder="Enter description in Azerbaijani"></textarea>
+                        </div>
+                        <input type="hidden" name="Translations[0].Language" value="Az" />
+                        <hr />
+                    </div>
+
+                    <div class="translation-item">
+                        <h5>Translation 2 (English)</h5>
+                        <div class="form-group">
+                            <label for="Translations[1].Title">Title</label>
+                            <input type="text" class="form-control" name="Translations[1].Title" placeholder="Enter title in English">
+                        </div>
+                        <div class="form-group">
+                            <label for="Translations[1].Description">Description</label>
+                            <textarea class="form-control" name="Translations[1].Description" rows="4" placeholder="Enter description in English"></textarea>
+                        </div>
+                        <input type="hidden" name="Translations[1].Language" value="En" />
+                        <hr />
+                    </div>
+                </div>
+
+                <div class="mt-3">
+                    <button type="submit" class="btn btn-success">Create Blog</button>
+                    <a href="@Url.Action("Table", "Blog")" class="btn btn-warning">Back</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

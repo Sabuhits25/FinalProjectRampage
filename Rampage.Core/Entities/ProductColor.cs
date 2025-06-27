@@ -1,5 +1,4 @@
 ﻿using Rampage.Core.Entities.Commons;
-using Rampage.Core.Models;
 
 namespace Rampage.Core.Entities
 {

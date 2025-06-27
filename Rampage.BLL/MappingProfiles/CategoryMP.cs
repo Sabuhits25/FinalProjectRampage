@@ -2,7 +2,6 @@
 using Rampage.BLL.DTO_s.CategoryDTO_s;
 using Rampage.BLL.MappingProfiles.Commons;
 using Rampage.Core.Entities;
-using Rampage.Core.Models;
 
 namespace Rampage.BLL.MappingProfiles
 {

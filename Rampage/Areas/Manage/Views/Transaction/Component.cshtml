@@ -1,0 +1,112 @@
+﻿@using Rampage.BLL.DTO_s.TransactionDTO_s
+@model TransactionDTO
+
+@{
+    ViewBag.Title = "Transaction Details";
+}
+
+<div class="container py-4" style="color: black">
+    <h1 class="text-center mb-4">Transaction Details</h1>
+
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger text-center">
+            <strong>Error:</strong> @TempData["ErrorMessage"]
+        </div>
+    }
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success text-center">
+            <strong>Success:</strong> @TempData["SuccessMessage"]
+        </div>
+    }
+
+    <div class="row g-4">
+        <div class="col-md-6">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">User Information</h5>
+                    <p>
+                        <strong>Fullname/Username:</strong> @(Model.FullName ?? ($"{Model?.User?.FirstName} {Model?.User?.FirstName}"
+                        ?? Model?.User?.UserName))
+                    </p>
+                    <p><strong>Email:</strong> @(Model.User?.Email ?? Model.Email)</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Order Information</h5>
+                    <p><strong>Order ID:</strong> @Model.OrderId</p>
+                    <p><strong>Session ID:</strong> @Model.SessionId</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row g-4 mt-3">
+        <div class="col-md-6">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Transaction Details</h5>
+                    <p><strong>Last Updated:</strong> @Model.UpdatedOn.ToString("yyyy-MM-dd HH:mm:ss")</p>
+                    <p><strong>Amount:</strong> @Model.Amount.ToString("C")</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Status Information</h5>
+                    <p><strong>Token:</strong> @Model.CheckToken</p>
+                    <p><strong>Status:</strong> @Model.Status</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @if (!string.IsNullOrEmpty(Model.Phone) || !string.IsNullOrEmpty(Model.Email) || !string.IsNullOrEmpty(Model.City) || !string.IsNullOrEmpty(Model.Address))
+    {
+        <div class="row g-4 mt-3">
+            <div class="col-md-6">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Contact Details</h5>
+                        @if (!string.IsNullOrEmpty(Model.Phone))
+                        {
+                            <p><strong>Phone:</strong> @Model.Phone</p>
+                        }
+                        @if (!string.IsNullOrEmpty(Model.Email))
+                        {
+                            <p><strong>Email:</strong> @Model.Email</p>
+                        }
+                        @if (!string.IsNullOrEmpty(Model.City))
+                        {
+                            <p><strong>City:</strong> @Model.City</p>
+                        }
+                        @if (!string.IsNullOrEmpty(Model.Address))
+                        {
+                            <p><strong>Address:</strong> @Model.Address</p>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+
+    @if (!string.IsNullOrEmpty(Model.ResponseBody))
+    {
+        <div class="card shadow-sm mt-4">
+            <div class="card-body">
+                <h5 class="card-title">Response Body</h5>
+                <textarea class="form-control" rows="5" readonly>@Model.ResponseBody</textarea>
+            </div>
+        </div>
+    }
+
+    <div class="text-center mt-4">
+        <a href="@Url.Action("Table", new { pageIndex = Model.PageIndex })" class="btn btn-primary px-4">Back to List</a>
+    </div>
+</div>

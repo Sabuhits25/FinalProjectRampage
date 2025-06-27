@@ -277,3 +277,4 @@ C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage\bin\Debug\net8.0\FluentVa
 C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage\bin\Debug\net8.0\Rampage.BLL.dll
 C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage\bin\Debug\net8.0\Rampage.BLL.pdb
+C:\Users\Zenbook\OneDrive\İş masası\Rampage\Rampage\bin\Debug\net8.0\Microsoft.AspNet.Identity.Core.dll

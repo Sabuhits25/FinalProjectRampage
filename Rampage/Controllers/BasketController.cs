@@ -9,7 +9,6 @@ using Rampage.BLL.Services.InternalServices.Interfaces;
 using Rampage.Core.Entities;
 using Rampage.Core.Entities.Identity;
 using Rampage.Core.Enums;
-using Rampage.Core.Models;
 using Rampage.DAL.Repositories.Interfaces;
 using Rampage.DAL.Services.Interface;
 

@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Rampage.BLL.DTO_s.Commons;
-using Rampage.Core.Models;
+using Rampage.Core.Entities;
 
 namespace Rampage.BLL.DTO_s.CategoryDTO_s
 {

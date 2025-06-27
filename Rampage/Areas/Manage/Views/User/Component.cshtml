@@ -1,0 +1,142 @@
+﻿@using Rampage.BLL.DTO_s.UserDTO_s
+@model UserComponentDTO
+
+<style>
+    .form-control {
+        color: #333;
+        background-color: #f8f9fc;
+        border: 1px solid #ddd;
+    }
+
+        .form-control::placeholder {
+            color: #666;
+        }
+
+    label {
+        color: #333;
+        font-weight: 500;
+    }
+
+    h1, h3 {
+        color: #333;
+    }
+
+    .btn-primary {
+        background-color: #4e73df;
+        border-color: #4e73df;
+    }
+
+    .btn-success {
+        background-color: #1cc88a;
+        border-color: #1cc88a;
+    }
+
+    .btn-warning {
+        background-color: #f6c23e;
+        border-color: #f6c23e;
+    }
+</style>
+
+<div class="container py-4">
+    <h1 class="h3 mb-4 text-gray-800">Update User</h1>
+
+    <div class="col-md-12 text-center">
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <div class="alert alert-danger">
+                @TempData["ErrorMessage"]
+            </div>
+        }
+
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div class="alert alert-success">
+                @TempData["SuccessMessage"]
+            </div>
+        }
+    </div>
+
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <form asp-action="Component" enctype="multipart/form-data" method="post">
+                <input type="hidden" asp-for="UserId" />
+                <input type="hidden" asp-for="PageIndex" />
+                <h2 class="mt-4">User Details</h2>
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="Username" class="form-label">Username</label>
+                            <input type="text" class="form-control" asp-for="Username" placeholder="Enter username" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="Phone" class="form-label">Phone</label>
+                            <input type="text" class="form-control" asp-for="Phone" placeholder="Enter phone number" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="Email" class="form-label">Email</label>
+                            <input type="email" class="form-control" asp-for="Email" placeholder="Enter email" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="Email" class="form-label">Email</label>
+                            <div class="d-flex align-items-center">
+                                <input type="email" class="form-control
+                                @(Model.IsEmailConfirmed ? "border-success text-success" : "border-danger text-danger")"
+                                       asp-for="Email" readonly />
+                                @if (!Model.IsEmailConfirmed)
+                                {
+                                    <a href="@Url.Action("ConfirmEmail", "User", new { userId = Model.UserId })"
+                                       class="btn btn-danger mx-3" style="font-size: 16px;">
+                                        Confirm
+                                    </a>
+                                }
+                                else
+                                {
+                                    <span class="badge bg-success mx-3" style="font-size: 16px;">Confirmed</span>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h4 class="mt-4">Social Media Links</h4>
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="FirstName" class="form-label">First Name</label>
+                            <input type="text" class="form-control" asp-for="FirstName" placeholder="Enter first name" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="LastName" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" asp-for="LastName" placeholder="Enter last N\name" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="Address" class="form-label">Address</label>
+                            <input type="text" class="form-control" asp-for="Address" placeholder="Enter address" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="City" class="form-label">City</label>
+                            <input type="text" class="form-control" asp-for="City" placeholder="Enter city" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-4 text-center">
+                    <button type="submit" class="btn btn-success px-4">Update User</button>
+                    <a href="@Url.Action("Table", new { pageIndex = Model.PageIndex })" class="btn btn-primary px-4">Back to List</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

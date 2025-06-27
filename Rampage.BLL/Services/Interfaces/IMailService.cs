@@ -1,5 +1,5 @@
-﻿using Rampage.Core.Entities.Identity;
-using Rampage.Core.Models;
+﻿using Rampage.Core.Entities;
+using Rampage.Core.Entities.Identity;
 
 namespace Rampage.BLL.Services.Interfaces
 {
