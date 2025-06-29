@@ -241,31 +241,26 @@
         <div class="filter-left-all">
             <div class="filter-left">
                 <form method="post" asp-action="Index" asp-controller="Shop">
-
                     <label>@(lang == "az" ? "Kateqoriyalar" : "Categories")</label>
                     <select asp-for="CategoryId">
                         <option value="0">@(lang == "az" ? "Bütün Kateqoriyalar" : "All Categories")</option>
                         @foreach (var category in Model.Categories)
                         {
                             var checkCat = category.Id == Model.CategoryId;
-
                             @if (checkCat)
                             {
-                                <option value="@category.Id" selected>
-                                    @category.Name
-                                </option>
+                                <option value="@category.Id" selected>@category.Name</option>
                             }
                             else
                             {
-                                <option value="@category.Id">
-                                    @category.Name
-                                </option>
+                                <option value="@category.Id">@category.Name</option>
                             }
                         }
                     </select>
 
                     <label>@(lang == "az" ? "Minimum qiymət" : "Minimum price")</label>
                     <input asp-for="MinPrice" type="number" placeholder="Min Price" />
+
                     <label>@(lang == "az" ? "Maksimum qiymət" : "Maximum price")</label>
                     <input asp-for="MaxPrice" type="number" placeholder="Max Price" />
 
@@ -278,8 +273,12 @@
                     </select>
 
                     <button type="submit">@(lang == "az" ? "Filterları Tətbiq Et" : "Apply Filters")</button>
+                    <a asp-action="Index" asp-controller="Shop" class="btn btn-secondary" style="margin-left: 10px;">
+                        @(lang == "az" ? "Sıfırla" : "Reset")
+                    </a>
                 </form>
             </div>
+
         </div>
         <div class="none-filter-icon">
             <img src="~/assets/image/filterImage.png" alt="">
@@ -323,7 +322,7 @@
                                     <span>@product.Star</span>
                                 </div>
 
-                                <p class="product-price">@product.Price.ToString("N2") TL</p>
+                                <p class="product-price">@product.Price.ToString("N2") AZN</p>
 
                                 <a asp-action="AddProduct" asp-controller="Basket"
                                    asp-route-productId="@product.Id" asp-route-returnUrl="@Context.Request.Path" class="add-to-cart">@(lang == "az" ? "Səbətə Əlavə Et" : "Add To Basket")</a>

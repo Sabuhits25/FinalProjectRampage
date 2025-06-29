@@ -294,7 +294,7 @@ else
                 <h2>Güc, Təhlükəsizlik və Performans.</h2>
             </div>
         </div>
-        <div class="power-slider-boxs1 active">
+        <div class="power-slider-boxs1 active" style="display:flex;">
             <div class="power-slider-box1">
                 <img src="~/assets/image/for-youMouse.jpg" alt="Sıçan">
             </div>
@@ -303,43 +303,48 @@ else
                     <div class="swiper-wrapper">
                         @foreach (var product in Model)
                         {
-                            <div class="swiper-slide">
-                                <div class="product-box-swipper">
-                                    <div class="product-title">
-                                        <span>@product.Name</span>
-                                    </div>
-                                    <div class="product-image">
-                                        <img src="@product.ImageUrl" alt="@product.Name">
-                                    </div>
-                                    <div class="total-rating">
-                                        <div class="total-star">
-                                            @for (int i = 0; i < Math.Floor(product.Star); i++)
-                                            {
-                                                <i class="fa-solid fa-star"></i>
-                                            }
-                                            @if (product.Star % 1 != 0)
-                                            {
-                                                <i class="fa-solid fa-star-half-alt"></i>
-                                            }
-                                            @for (int i = (int)Math.Ceiling(product.Star); i < 5; i++)
-                                            {
-                                                <i class="fa-regular fa-star"></i>
-                                            }
+                            <a asp-action="Component" asp-controller="shop" asp-route-id="@product.Id">
+
+
+                                <div class="swiper-slide">
+                                    <div class="product-box-swipper">
+                                        <div class="product-title">
+                                            <span>@product.Name</span>
                                         </div>
-                                        <span>@product.Star.ToString("0.0")</span>
-                                    </div>
-                                    <div class="product-price">
-                                        <span>@product.Price AZN</span>
-                                    </div>
-                                    <div class="product-add-basket">
-                                        <div>
-                                            <a asp-action="AddProduct" asp-controller="Basket"
-                                               asp-route-productId="@product.Id">Səbətə Əlavə Et</a>
-                                            <span>+</span>
+                                        <div class="product-image">
+                                            <img src="@product.ImageUrl" alt="@product.Name">
+                                        </div>
+                                        <div class="total-rating">
+                                            <div class="total-star">
+                                                @for (int i = 0; i < Math.Floor(product.Star); i++)
+                                                {
+                                                    <i class="fa-solid fa-star"></i>
+                                                }
+                                                @if (product.Star % 1 != 0)
+                                                {
+                                                    <i class="fa-solid fa-star-half-alt"></i>
+                                                }
+                                                @for (int i = (int)Math.Ceiling(product.Star); i < 5; i++)
+                                                {
+                                                    <i class="fa-regular fa-star"></i>
+                                                }
+                                            </div>
+                                            <span>@product.Star.ToString("0.0")</span>
+                                        </div>
+                                        <div class="product-price">
+                                            <span>@product.Price AZN</span>
+                                        </div>
+                                        <div class="product-add-basket">
+                                            <div>
+                                                <a asp-action="AddProduct" asp-controller="Basket"
+                                                   asp-route-productId="@product.Id">Səbətə Əlavə Et</a>
+                                                <span>+</span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+
+                            </a>
                         }
 
                     </div>
@@ -357,7 +362,7 @@ else
                 <h2>Power, Security, and Performance.</h2>
             </div>
         </div>
-        <div class="power-slider-boxs1 active">
+        <div class="power-slider-boxs1 active" style="display:flex;">
             <div class="power-slider-box1">
                 <img src="~/assets/image/for-youMouse.jpg" alt="Mouse">
             </div>
@@ -366,43 +371,46 @@ else
                     <div class="swiper-wrapper">
                         @foreach (var product in Model)
                         {
-                            <div class="swiper-slide">
-                                <div class="product-box-swipper">
-                                    <div class="product-title">
-                                        <span>@product.Name</span>
-                                    </div>
-                                    <div class="product-image">
-                                        <img src="@product.ImageUrl" alt="@product.Name">
-                                    </div>
-                                    <div class="total-rating">
-                                        <div class="total-star">
-                                            @for (int i = 0; i < Math.Floor(product.Star); i++)
-                                            {
-                                                <i class="fa-solid fa-star"></i>
-                                            }
-                                            @if (product.Star % 1 != 0)
-                                            {
-                                                <i class="fa-solid fa-star-half-alt"></i>
-                                            }
-                                            @for (int i = (int)Math.Ceiling(product.Star); i < 5; i++)
-                                            {
-                                                <i class="fa-regular fa-star"></i>
-                                            }
+                            <a asp-action="Component" asp-controller="shop" asp-route-id="@product.Id">
+                                <div class="swiper-slide">
+                                    <div class="product-box-swipper">
+                                        <div class="product-title">
+                                            <span>@product.Name</span>
                                         </div>
-                                        <span>@product.Star.ToString("0.0")</span>
-                                    </div>
-                                    <div class="product-price">
-                                        <span>@product.Price AZN</span>
-                                    </div>
-                                    <div class="product-add-basket">
-                                        <div>
-                                            <a asp-action="AddProduct" asp-controller="Basket"
-                                               asp-route-productId="@product.Id">Add to Cart</a>
-                                            <span>+</span>
+                                        <div class="product-image">
+                                            <img src="@product.ImageUrl" alt="@product.Name">
+                                        </div>
+                                        <div class="total-rating">
+                                            <div class="total-star">
+                                                @for (int i = 0; i < Math.Floor(product.Star); i++)
+                                                {
+                                                    <i class="fa-solid fa-star"></i>
+                                                }
+                                                @if (product.Star % 1 != 0)
+                                                {
+                                                    <i class="fa-solid fa-star-half-alt"></i>
+                                                }
+                                                @for (int i = (int)Math.Ceiling(product.Star); i < 5; i++)
+                                                {
+                                                    <i class="fa-regular fa-star"></i>
+                                                }
+                                            </div>
+                                            <span>@product.Star.ToString("0.0")</span>
+                                        </div>
+                                        <div class="product-price">
+                                            <span>@product.Price AZN</span>
+                                        </div>
+                                        <div class="product-add-basket">
+                                            <div>
+                                                <a asp-action="AddProduct" asp-controller="Basket"
+                                                   asp-route-productId="@product.Id">Add to Cart</a>
+                                                <span>+</span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+
+                            </a>
                         }
                     </div>
                 </div>
@@ -430,13 +438,15 @@ else
         <div class="category-cards@(i / 4 + 1)">
             @for (int j = i; j < i + 4 && j < Model.Count; j++)
             {
+
                 var product = Model[j];
+                   <a asp-action="Component" asp-controller="shop" asp-route-id ="@product.Id" >
                 <div class="category-card" data-category="@product.CategoryId">
                     <h2>@product.Name</h2>
                     <div class="category-image">
                         <img src="@product.ImageUrl" alt="@product.Name">
                     </div>
-                    <p>@product.Price.ToString("N2") TL</p>
+                    <p>@product.Price.ToString("N2") AZN</p>
                     <div class="category-add-basket">
                         <a asp-action="AddProduct" asp-controller="Basket"
                            asp-route-productId="@product.Id">
@@ -446,6 +456,7 @@ else
 
                     </div>
                 </div>
+                </a>
             }
         </div>
     }
@@ -562,7 +573,7 @@ else
 }
 
 <script>
-        document.addEventListener('DOMContentLoaded', function () {
+    document.addEventListener('DOMContentLoaded', function () {
         const categoryMenus = document.querySelectorAll('.category-menu');
         const productContainers = document.querySelectorAll('[class^="category-cards"]');
         const allProducts = document.querySelectorAll('.category-card');

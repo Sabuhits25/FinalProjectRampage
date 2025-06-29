@@ -189,24 +189,64 @@
                 </div>
             </div>
         </nav>
+        @{
+             itemsPerGroup = 5;
+            // Əgər categories listində "All" varsa, onu çıxart
+            var filteredCategories = categories.Where(c => c.Name != "All").ToList();
+             totalGroups = (int)Math.Ceiling((double)filteredCategories.Count / itemsPerGroup);
+        }
+
         <div class="shop-item-container">
             <div class="all-boxes-item">
+
+                <!-- 1. Yalnız birinci All -->
+                <ul>
+                    <li>
+                        <a asp-action="Index" asp-controller="Shop">
+                            <img src="~/assets/image/menu-4-512.png" alt="all">
+                            <span>All</span>
+                        </a>
+                    </li>
+
+                    <!-- 2. İlk 4 category (All + 4 = 5 element) -->
+                    @foreach (var category in filteredCategories.Take(4))
+                    {
+                        <li>
+                            <a asp-action="Index" asp-controller="Shop" asp-route-categoryId="@category.Id">
+                                <img src="@category.ImageUrl" alt="@category.Name">
+                                <span>@category.Name</span>
+                            </a>
+                        </li>
+                    }
+                </ul>
+
+                <!-- 3. Qalan category-ləri 5-5 göstər -->
+                @{
+                    // Birinci 4 kateqoriyanı artıq göstərdik, qalanların sayını tapırıq
+                    var remainingCategories = filteredCategories.Skip(4).ToList();
+                    int groupSize = 5;
+                    totalGroups = (int)Math.Ceiling((double)remainingCategories.Count / groupSize);
+                }
+
                 @for (int i = 0; i < totalGroups; i++)
                 {
                     <ul>
-                        @foreach (var category in categories.Skip(i * itemsPerGroup).Take(itemsPerGroup))
+                        @foreach (var category in remainingCategories.Skip(i * groupSize).Take(groupSize))
                         {
                             <li>
                                 <a asp-action="Index" asp-controller="Shop" asp-route-categoryId="@category.Id">
-                                    <img src="@category.ImageUrl" alt="kulaklik">
+                                    <img src="@category.ImageUrl" alt="@category.Name">
                                     <span>@category.Name</span>
                                 </a>
                             </li>
                         }
                     </ul>
                 }
+
             </div>
         </div>
+
+
         <div class="shop-item-search-container">
             <div class="search-close-icon">
                 <i class="fa-solid fa-x"></i>
@@ -239,7 +279,7 @@
         <div class="footer-all">
             <div class="footer-top">
                 <div class="footer-logo">
-                    <img src="~/assets/image/rampage-logo (1).svg" alt="Rampage logo">
+                    <img src="@siteSettings.ImageUrl" alt="Rampage logo">
                 </div>
                 <div class="footer-email">
                     <a href="mailto:@siteSettings?.Email">@siteSettings?.Email</a>

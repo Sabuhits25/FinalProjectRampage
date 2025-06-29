@@ -57,14 +57,6 @@
       "PackagePath": "staticwebassets\\assets\\css\\blog.css"
     },
     {
-      "Id": "C:\\Users\\Zenbook\\OneDrive\\İş masası\\Rampage\\Rampage\\wwwroot\\assets\\css\\blog.css.map",
-      "PackagePath": "staticwebassets\\assets\\css\\blog.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Zenbook\\OneDrive\\İş masası\\Rampage\\Rampage\\wwwroot\\assets\\css\\blog.scss",
-      "PackagePath": "staticwebassets\\assets\\css\\blog.scss"
-    },
-    {
       "Id": "C:\\Users\\Zenbook\\OneDrive\\İş masası\\Rampage\\Rampage\\wwwroot\\assets\\css\\contact.css",
       "PackagePath": "staticwebassets\\assets\\css\\contact.css"
     },
@@ -319,6 +311,10 @@
     {
       "Id": "C:\\Users\\Zenbook\\OneDrive\\İş masası\\Rampage\\Rampage\\wwwroot\\assets\\image\\lisogutucu.svg",
       "PackagePath": "staticwebassets\\assets\\image\\lisogutucu.svg"
+    },
+    {
+      "Id": "C:\\Users\\Zenbook\\OneDrive\\İş masası\\Rampage\\Rampage\\wwwroot\\assets\\image\\menu-4-512.png",
+      "PackagePath": "staticwebassets\\assets\\image\\menu-4-512.png"
     },
     {
       "Id": "C:\\Users\\Zenbook\\OneDrive\\İş masası\\Rampage\\Rampage\\wwwroot\\assets\\image\\news-icon.png",

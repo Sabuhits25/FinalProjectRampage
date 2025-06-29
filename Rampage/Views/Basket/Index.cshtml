@@ -172,17 +172,10 @@
                             <span>Məhsulların Qiyməti</span>
                             <p id="subtotal">@Model.TotalPrice AZN</p>
                         </div>
-                        <div>
-                            <span>VAT</span>
-                            <p id="vat">100,00 AZN</p>
-                        </div>
-                        <div>
-                            <span>Transportasiya</span>
-                            <p id="shipping">200,00 AZN</p>
-                        </div>
+                      
                         <div>
                             <span>Ümumi Məbləğ</span>
-                            <p id="grand-total">@(Model.TotalPrice + 100 + 200) AZN</p>
+                            <p id="grand-total">@(Model.TotalPrice) AZN</p>
                         </div>
                     </div>
                     <div class="couppon">
@@ -352,17 +345,10 @@ else
                             <span>SUBTOTAL</span>
                             <p id="subtotal">@Model.TotalPrice AZN</p>
                         </div>
-                        <div>
-                            <span>VAT</span>
-                            <p id="vat">100,00 AZN</p>
-                        </div>
-                        <div>
-                            <span>SHIPPING</span>
-                            <p id="shipping">200,00 AZN</p>
-                        </div>
+                      
                         <div>
                             <span>TOTAL</span>
-                            <p id="grand-total">@(Model.TotalPrice + 100 + 200) AZN</p>
+                            <p id="grand-total">@(Model.TotalPrice) AZN</p>
                         </div>
                     </div>
                     <div class="couppon">

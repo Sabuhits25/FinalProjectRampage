@@ -89,7 +89,7 @@
             </div>
             <a asp-action="Index" asp-controller="Home">
                 <div class="logo">
-                    <img src="@siteSettings?.ImageUrl" alt="Rampage Logo">
+                    <img src="~/assets/image/rampage-logo (1).svg" alt="Rampage Logo">
                 </div>
             </a>
             <ul>
@@ -271,7 +271,7 @@
                         </div>
                         <div class="product-name" style="margin-top: 20px;">
                             <div class="brand">
-                                <img style="max-width: 100px;" src="@Model.Product.ImageUrl" alt="">
+                                <img style="max-width: 100px;" src="~/assets/image/rampage-white.svg" alt="">
                             </div>
                             <span>@Model.Product.Name</span>
                         </div>
@@ -345,9 +345,9 @@
                 <div class="tab-item1">@(lang == "az" ? "Ümumi Baxış" : "Total Review")</div>
                 <div class="tab-item2">@(lang == "az" ? "Texniki Özəlliklər" : "Technical Properities")</div>
             </div>
-            <div class="tabs-contents">
+            <div class="tabs-contents" style="width:100%;">
                 <div class="tab-content1">
-                    <img src="~/assets/image/productimageheight.jpg" alt="Rampage Image">
+                    <img src="~/assets/image/productimageheight.jpg" style="width:100%; height:auto;" alt="Rampage Image">
                 </div>
                 <div class="tab-content2">
                     <ul>
@@ -495,7 +495,7 @@
         <div class="footer-all">
             <div class="footer-top">
                 <div class="footer-logo">
-                    <img src="@siteSettings?.ImageUrl" alt="Rampage logo">
+                    <img src="~/assets/image/rampage-logo (1).svg" alt="Rampage logo">
                 </div>
                 <div class="footer-email">
                     <a href="mailto:@siteSettings?.Email">@siteSettings?.Email</a>

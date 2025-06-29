@@ -40,7 +40,7 @@ namespace Rampage.Areas.Manage.Controllers
                     Phone = settings.Phone,
                     Email = settings.Email,
                     Facebook = settings.Facebook,
-                    Twitter = settings.Twitter,
+
                     LinkedIn = settings.LinkedIn,
                     Instagram = settings.Instagram,
                     Youtube = settings.Youtube,
